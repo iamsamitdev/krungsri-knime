@@ -197,7 +197,7 @@
 
 ```
                 ┌──────────────────┐
-Input Port ────▶│   Node ชื่อ...   │────▶ Output Port
+Input Port ───▶│   Node ชื่อ...   │────▶ Output Port
 (สามเหลี่ยม ◀) │  (ฟังก์ชันการทำงาน)│     (สามเหลี่ยม ▶)
                 └──────────────────┘
 ```
@@ -219,7 +219,7 @@ Input Port ────▶│   Node ชื่อ...   │────▶ Output
 ```
   ข้อมูลดิบ                                         ผลลัพธ์
 ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────────┐
-│   CSV    │──▶│  Filter  │──▶│Normalizer│──▶│  Chart /     │
+│   CSV    │─▶│  Filter  │──▶│Normalizer│─▶│  Chart /     │
 │  Reader  │   │  (Row)   │   │          │   │  Model       │
 └──────────┘   └──────────┘   └──────────┘   └──────────────┘
   นำเข้า       คัดกรอง        ปรับสเกล         แสดงผล
@@ -240,6 +240,103 @@ Input Port ────▶│   Node ชื่อ...   │────▶ Output
 - ปัจจุบันทีมท่านวิเคราะห์ข้อมูลด้วยเครื่องมืออะไร?
 - ถ้าต้องวิเคราะห์ข้อมูล 1 ล้านรายการด้วย Excel จะเกิดอะไรขึ้น?
 - งาน Audit ที่ทำซ้ำทุกเดือน ทำอย่างไรให้ Reproducible?
+
+---
+### 🧪 Lab 0: Hello KNIME
+**วัตถุประสงค์:** ทำความรู้จักกับ KNIME และสร้าง workflow แรก
+**ขั้นตอนที่ 1:** เปิด KNIME แล้วสร้าง Workflow ใหม่
+```
+File → New KNIME Workflow → ตั้งชื่อ "Hello_KNIME" → Finish
+```
+
+**ขั้นตอนที่ 2:** เพิ่ม node แรก — CSV Reader
+```
+Node Repository → IO → Read → CSV Reader → ลากวางในพื้นที่ Workflow
+```
+
+**ขั้นตอนที่ 3:** ตั้งค่า CSV Reader
+```
+ดับเบิ้ลคลิกที่ node → เลือกไฟล์ sales_data_workshop.csv
+```
+** หมายเหตุ:** ดาวน์โหลดข้อมูลตัวอย่างได้ที่  github.com/iamsamitdev/krungsri-knime/blob/main/datasets/sales_data_workshop.csv
+
+
+
+**ขั้นตอนที่ 4:** Execute node และดูผลลัพธ์
+```
+คลิกขวาที่ Node → Execute
+คลิกขวาที่ Node → Data Table → ดูข้อมูลที่สร้างขึ้น
+```
+
+**ขั้นตอนที่ 5:** บันทึก Workflow
+```
+File → Save  (หรือ Ctrl+S)
+```
+
+### ตัวอย่างการทดสอบโหลดไฟล์ขนาดใหญ่ (มากกว่า 1 ล้านแถว)
+
+**ขั้นตอนที่ 1:** ลาก node python script เข้ามาใน workflow
+```
+Node Repository → Scripting → Python → Python Script (1⇒1) → ลากวางในพื้นที่ Workflow
+```
+
+**ขั้นตอนที่ 2:** คัดลอกโค้ด Python ด้านล่างนี้ไปวางใน Python Script node เพื่อสร้างไฟล์ CSV ขนาดใหญ่ (2 ล้านแถว) สำหรับทดสอบการโหลดข้อมูลใน KNIME
+```python
+import knime.scripting.io as knio
+import pandas as pd
+import numpy as np
+
+n = 2_000_000
+
+np.random.seed(42)
+
+df = pd.DataFrame({
+    'order_id':     range(1, n + 1),
+    'customer_id':  np.random.randint(1, 50000, n),
+    'product':      np.random.choice(['Laptop','Phone','Tablet','Monitor','Keyboard'], n),
+    'category':     np.random.choice(['Hardware','Software','Training','Consulting'], n),
+    'quantity':     np.random.randint(1, 20, n),
+    'unit_price':   np.random.randint(500, 80000, n),
+    'discount':     np.random.choice([0, 5, 10, 15, 20], n),
+    'order_date':   pd.date_range('2020-01-01', periods=n, freq='1min').strftime('%Y-%m-%d'),
+    'region':       np.random.choice(['North','South','East','West','Central'], n),
+    'salesperson':  np.random.choice(['Alice','Bob','Charlie','Diana','Eve'], n),
+})
+
+df['total_amount'] = (
+    df['quantity'] * df['unit_price'] * (1 - df['discount'] / 100)
+).astype(int)
+
+# บันทึกเป็น CSV
+output_path = r'C:\KNIME_MASTER\workspace\test_2million.csv'
+df.to_csv(output_path, index=False)
+
+# ส่งออกเป็น KNIME Table ด้วย (แค่ 5 แถวแรก เพื่อยืนยัน)
+knio.output_tables[0] = knio.Table.from_pandas(df.head(5))
+
+print(f"✅ สร้างไฟล์สำเร็จ: {n:,} แถว")
+print(f"📁 บันทึกที่: {output_path}")
+```
+
+**ขั้นตอนที่ 3:** รัน Python Script node เพื่อสร้างไฟล์ CSV ขนาดใหญ่
+```
+คลิกขวาที่ Python Script node → Execute
+```
+
+จะเห็นข้อความใน Console ว่าไฟล์ถูกสร้างสำเร็จ พร้อมกับที่อยู่ของไฟล์
+**ผลลัพธ์ที่ต้องได้:**
+```
+✅ สร้างไฟล์สำเร็จ: 2,000,000 แถว
+📁 บันทึกที่: C:\KNIME_MASTER\workspace\test_2million.csv
+```
+
+**ขั้นตอนที่ 4:** ใช้ CSV Reader node เพื่อนำเข้าไฟล์ CSV ขนาดใหญ่ที่สร้างขึ้น
+```
+Node Repository → IO → Read → CSV Reader → ลากวางในพื้นที่ Workflow
+ดับเบิ้ลคลิกที่ CSV Reader → เลือกไฟล์ test_2million.csv → OK
+คลิกขวาที่ CSV Reader → Execute
+คลิกขวาที่ CSV Reader → Data Table → ดูข้อมูลที่สร้างขึ้น
+```
 
 ---
 
