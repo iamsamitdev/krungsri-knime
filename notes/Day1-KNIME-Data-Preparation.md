@@ -486,13 +486,13 @@ Node Repository → IO → Read → CSV Reader → ลากวางใน work
 
 **ขั้นตอนที่ 4:** เพิ่ม Statistics node
 ```
-Node Repository → Statistics → Statistics → ลาก, เชื่อมกับ CSV Reader → Execute
+Node Repository → Analytics → Statistics → Statistics → ลาก, เชื่อมกับ CSV Reader → Execute
 คลิกขวา Statistics → Statistics View → ดู Min, Max, Mean ของแต่ละ column
 ```
 
 **ขั้นตอนที่ 5:** ตรวจสอบ Missing Values
 ```
-Node Repository → Manipulation → Row → Filter → Missing Value Filter
+Node Repository → Manipulation → Column → Filter → Missing Value Column Filter
 เชื่อมกับ CSV Reader → Execute
 ดูว่า column ไหนมีค่าว่าง
 ```
@@ -578,7 +578,7 @@ substr($transaction_id$, 0, 3) → "TXN"
 
 | กลยุทธ์ | วิธีใน KNIME | เหมาะกับ |
 | ------- | ------------ | -------- |
-| **ลบ row ที่มี Missing** | Row Filter → Missing Value | ข้อมูลน้อย missing |
+| **ลบ column ที่มี Missing** | Missing Value Column Filter | column ส่วนใหญ่ว่าง |
 | **แทนด้วยค่าเฉลี่ย (Mean)** | Missing Value node → Mean | ตัวเลขต่อเนื่อง |
 | **แทนด้วย Median** | Missing Value node → Median | ตัวเลขที่มี outlier |
 | **แทนด้วยค่าที่พบบ่อยสุด (Mode)** | Missing Value node → Most Frequent | categorical |
