@@ -1,0 +1,401 @@
+loan_id,customer_id,age,gender,marital_status,education,employment_type,years_employed,annual_income,monthly_income,loan_amount,loan_term_months,interest_rate,credit_score,existing_loans,collateral_type,loan_purpose,debt_to_income,missed_payments_6m,months_with_bank,num_bank_products,default
+LN000001,CUS00138,47,Male,Widowed,Secondary,Contract Employee,26,2575488,214624,1549902,48,13.97,554,1,Real Estate,Personal Loan,1.8054,5,151,2,0
+LN000002,CUS00184,45,Male,Widowed,Vocational,Freelance,25,2621784,218482,1833341,36,4.12,772,5,Vehicle,Medical,2.7971,4,143,1,1
+LN000003,CUS00056,49,Male,Widowed,Master,Self-Employed,11,1461972,121831,4532117,24,17.19,773,4,Vehicle,Education,18.6,3,170,2,0
+LN000004,CUS00159,24,Male,Widowed,Vocational,Permanent Employee,8,870744,72562,1486022,180,11.09,729,0,Fixed Deposit,Debt Consolidation,1.3653,0,52,1,1
+LN000005,CUS00034,62,Male,Widowed,Primary,Business Owner,6,1510224,125852,2210708,240,5.22,713,1,None,Debt Consolidation,0.8783,3,76,2,0
+LN000006,CUS00093,33,Male,Single,Master,Contract Employee,18,2758704,229892,1791301,240,3.66,626,3,Vehicle,Medical,0.3896,2,214,1,0
+LN000007,CUS00010,43,Female,Widowed,Bachelor,Business Owner,14,1540980,128415,3397900,84,8.02,708,3,Fixed Deposit,Medical,3.78,2,168,2,0
+LN000008,CUS00108,63,Female,Single,Master,Permanent Employee,18,2134476,177873,2683459,48,16.65,555,3,None,Business Expansion,3.7716,6,224,3,0
+LN000009,CUS00098,52,Female,Married,Bachelor,Contract Employee,21,3534876,294573,2204494,120,16.37,597,3,Guarantor,Medical,0.7484,4,89,1,0
+LN000010,CUS00181,64,Male,Widowed,Vocational,Freelance,25,2415276,201273,2528005,48,3.55,475,5,None,Debt Consolidation,3.14,3,129,5,1
+LN000011,CUS00144,34,Female,Married,Doctoral,Government Officer,1,188124,15677,2654954,36,17.99,823,3,Vehicle,Personal Loan,56.4511,5,207,3,0
+LN000012,CUS00076,26,Male,Single,Bachelor,Permanent Employee,25,3832248,319354,539158,120,14.94,606,2,Life Insurance,Debt Consolidation,0.1688,5,68,4,0
+LN000013,CUS00071,43,Female,Widowed,Secondary,Contract Employee,30,988248,82354,3795920,120,11.81,728,4,Guarantor,Auto Loan,4.6093,2,161,4,1
+LN000014,CUS00168,64,Male,Divorced,Doctoral,Permanent Employee,0,1246284,103857,4509917,48,11.95,770,4,Real Estate,Home Purchase,10.8561,2,106,3,0
+LN000015,CUS00075,32,Male,Widowed,Primary,Government Officer,26,1036596,86383,448361,120,6.83,337,0,None,Education,0.519,1,49,1,0
+LN000016,CUS00091,53,Male,Single,Doctoral,Self-Employed,8,1261104,105092,2360985,84,15.46,372,4,Vehicle,Medical,3.2094,4,39,5,1
+LN000017,CUS00088,27,Male,Divorced,Doctoral,Government Officer,27,388140,32345,3231338,36,6.23,662,5,Vehicle,Education,33.3007,4,46,6,0
+LN000018,CUS00146,29,Female,Single,Secondary,Business Owner,10,1102104,91842,4422489,12,14.72,536,3,Guarantor,Medical,48.1532,0,96,3,0
+LN000019,CUS00076,42,Female,Single,Bachelor,Permanent Employee,27,3887532,323961,4951832,120,15.12,320,2,Vehicle,Auto Loan,1.5285,0,11,3,0
+LN000020,CUS00178,32,Male,Divorced,Doctoral,Freelance,25,3995640,332970,2711922,84,9.58,634,0,Fixed Deposit,Medical,1.1635,2,184,2,0
+LN000021,CUS00145,33,Male,Married,Secondary,Business Owner,11,3477468,289789,507787,48,12.62,547,5,None,Auto Loan,0.4381,6,16,3,0
+LN000022,CUS00060,33,Female,Widowed,Secondary,Business Owner,30,3827496,318958,1298615,12,16.8,336,4,Fixed Deposit,Business Expansion,4.0714,0,24,3,1
+LN000023,CUS00045,54,Male,Widowed,Doctoral,Contract Employee,15,1185864,98822,4855681,180,6.0,513,5,Real Estate,Business Expansion,3.2757,4,176,3,1
+LN000024,CUS00108,32,Female,Single,Secondary,Freelance,16,3425292,285441,4282063,240,8.2,379,1,Vehicle,Education,0.7501,1,145,3,0
+LN000025,CUS00172,53,Female,Single,Master,Permanent Employee,33,1369632,114136,298304,12,7.78,747,0,None,Auto Loan,2.6136,0,186,3,0
+LN000026,CUS00007,29,Female,Married,Secondary,Self-Employed,5,1182192,98516,3315166,36,15.6,612,4,None,Auto Loan,11.217,3,98,1,1
+LN000027,CUS00088,44,Female,Single,Doctoral,Business Owner,0,2180520,181710,2104850,240,9.79,457,0,Real Estate,Home Purchase,0.5792,1,169,4,0
+LN000028,CUS00030,27,Female,Married,Primary,Business Owner,2,2506356,208863,3604667,240,6.69,684,4,Guarantor,Personal Loan,0.8629,2,84,5,0
+LN000029,CUS00199,28,Female,Single,Doctoral,Self-Employed,1,1884864,157072,2089305,48,7.59,752,5,Fixed Deposit,Education,3.3254,0,196,6,0
+LN000030,CUS00152,50,Female,Widowed,Doctoral,Self-Employed,31,2859012,238251,4325284,48,8.41,847,0,None,Business Expansion,4.5386,6,153,1,1
+LN000031,CUS00032,23,Female,Married,Secondary,Government Officer,6,479184,39932,751407,36,3.68,719,1,Fixed Deposit,Debt Consolidation,6.2724,5,111,3,1
+LN000032,CUS00025,33,Male,Divorced,Master,Freelance,19,1028304,85692,2456198,36,7.13,725,0,None,Medical,9.5544,1,187,2,0
+LN000033,CUS00198,39,Female,Widowed,Vocational,Permanent Employee,32,957876,79823,635848,60,7.17,784,3,Vehicle,Personal Loan,1.5931,4,48,4,0
+LN000034,CUS00143,40,Female,Married,Master,Contract Employee,0,1117524,93127,2810846,240,8.4,431,4,Vehicle,Education,1.5091,2,202,6,0
+LN000035,CUS00023,47,Male,Divorced,Secondary,Permanent Employee,7,3833568,319464,138448,120,5.63,390,3,Fixed Deposit,Home Purchase,0.0433,0,67,6,1
+LN000036,CUS00086,41,Male,Widowed,Doctoral,Government Officer,16,1269876,105823,1643473,24,10.45,414,2,Real Estate,Medical,7.7652,1,158,3,1
+LN000037,CUS00042,35,Female,Married,Doctoral,Contract Employee,33,2370096,197508,410849,84,15.75,537,1,Guarantor,Education,0.2972,4,137,3,0
+LN000038,CUS00173,23,Female,Divorced,Secondary,Government Officer,35,283272,23606,2936019,36,8.27,431,3,Real Estate,Home Purchase,41.4587,4,198,6,1
+LN000039,CUS00024,28,Female,Widowed,Bachelor,Self-Employed,34,3635244,302937,326181,84,11.4,733,1,Guarantor,Auto Loan,0.1538,0,96,5,0
+LN000040,CUS00002,63,Female,Widowed,Vocational,Self-Employed,15,2553948,212829,931548,48,12.11,660,1,Real Estate,Personal Loan,1.0942,5,155,6,1
+LN000041,CUS00007,40,Female,Married,Secondary,Business Owner,26,1917288,159774,1131577,36,11.09,432,2,Guarantor,Debt Consolidation,2.3608,6,33,3,1
+LN000042,CUS00078,41,Male,Single,Secondary,Freelance,29,2911824,242652,3270361,24,15.26,653,0,Fixed Deposit,Auto Loan,6.7388,3,18,3,0
+LN000043,CUS00116,57,Male,Widowed,Bachelor,Freelance,0,991356,82613,3030290,240,6.64,341,0,Real Estate,Medical,1.834,1,12,5,0
+LN000044,CUS00198,36,Male,Divorced,Primary,Freelance,2,1159344,96612,3669017,36,13.45,428,4,Fixed Deposit,Personal Loan,12.6589,6,146,4,1
+LN000045,CUS00148,45,Female,Married,Doctoral,Contract Employee,26,3314784,276232,2434332,300,17.36,656,5,Vehicle,Debt Consolidation,0.3525,0,68,2,0
+LN000046,CUS00143,54,Male,Single,Doctoral,Business Owner,16,1778412,148201,715799,120,6.86,722,5,None,Education,0.483,2,232,6,0
+LN000047,CUS00068,23,Female,Married,Primary,Government Officer,9,1182984,98582,1915521,60,11.43,561,2,Fixed Deposit,Personal Loan,3.8861,3,119,3,1
+LN000048,CUS00040,52,Female,Married,Master,Self-Employed,7,4142604,345217,1537667,84,15.0,444,5,Life Insurance,Home Purchase,0.6363,4,102,3,0
+LN000049,CUS00099,49,Male,Married,Doctoral,Self-Employed,26,3526860,293905,2805634,48,17.41,365,0,Vehicle,Debt Consolidation,2.3865,6,59,3,1
+LN000050,CUS00047,27,Female,Widowed,Vocational,Permanent Employee,17,1341072,111756,523978,24,14.18,782,3,Vehicle,Debt Consolidation,2.3443,2,44,5,0
+LN000051,CUS00153,31,Female,Widowed,Master,Government Officer,29,3207528,267294,3190537,36,14.8,795,3,Fixed Deposit,Auto Loan,3.9788,3,124,1,0
+LN000052,CUS00187,65,Male,Married,Primary,Contract Employee,35,3039576,253298,1067577,84,9.73,801,0,Fixed Deposit,Business Expansion,0.6021,2,139,1,0
+LN000053,CUS00197,29,Male,Single,Secondary,Government Officer,14,974808,81234,1633812,36,17.12,525,2,Real Estate,Personal Loan,6.7041,5,53,2,0
+LN000054,CUS00005,55,Female,Single,Secondary,Contract Employee,2,220596,18383,3919496,60,15.42,787,2,None,Personal Loan,42.6426,2,240,2,1
+LN000055,CUS00004,47,Female,Single,Vocational,Self-Employed,34,1956468,163039,2903357,36,12.27,782,2,Guarantor,Personal Loan,5.9359,6,85,1,0
+LN000056,CUS00070,23,Female,Divorced,Bachelor,Freelance,10,2852184,237682,3179693,12,12.24,479,2,None,Personal Loan,13.3779,4,60,6,1
+LN000057,CUS00083,41,Male,Married,Primary,Permanent Employee,8,3568068,297339,786484,180,11.52,373,0,Guarantor,Auto Loan,0.1763,0,206,5,0
+LN000058,CUS00046,47,Male,Single,Doctoral,Freelance,3,1236228,103019,110707,84,5.75,621,1,Fixed Deposit,Personal Loan,0.1535,3,79,3,0
+LN000059,CUS00065,52,Female,Single,Master,Permanent Employee,5,1092048,91004,1198321,60,15.2,662,4,None,Auto Loan,2.6336,2,46,1,0
+LN000060,CUS00199,62,Male,Married,Bachelor,Freelance,32,3902580,325215,1667754,84,10.08,801,3,None,Auto Loan,0.7326,4,107,2,0
+LN000061,CUS00142,50,Male,Married,Primary,Self-Employed,12,1606380,133865,4400172,12,7.44,523,2,Fixed Deposit,Medical,32.8702,5,218,4,1
+LN000062,CUS00186,22,Female,Divorced,Vocational,Permanent Employee,11,624684,52057,1475310,12,9.95,554,0,Real Estate,Home Purchase,28.3403,0,154,1,1
+LN000063,CUS00169,49,Female,Single,Doctoral,Business Owner,13,1310556,109213,1693674,240,13.24,774,2,Real Estate,Personal Loan,0.7754,1,12,5,0
+LN000064,CUS00055,57,Male,Single,Secondary,Freelance,30,2169276,180773,2024695,300,15.15,778,0,None,Medical,0.448,4,203,2,0
+LN000065,CUS00005,34,Female,Widowed,Master,Contract Employee,17,1000212,83351,3624617,24,14.29,571,0,Vehicle,Auto Loan,21.7431,6,65,5,0
+LN000066,CUS00035,50,Male,Single,Secondary,Government Officer,15,997308,83109,3947960,240,16.31,652,3,Vehicle,Medical,2.3752,4,136,2,0
+LN000067,CUS00019,55,Male,Divorced,Vocational,Business Owner,8,3864072,322006,2491804,12,17.26,588,3,Vehicle,Debt Consolidation,7.7384,2,162,4,0
+LN000068,CUS00057,44,Male,Widowed,Doctoral,Business Owner,8,3758424,313202,1462223,84,10.4,681,5,Vehicle,Auto Loan,0.6669,5,166,3,0
+LN000069,CUS00097,51,Male,Divorced,Master,Contract Employee,5,1268568,105714,2601938,12,5.52,834,3,None,Home Purchase,24.613,6,195,5,0
+LN000070,CUS00027,58,Female,Divorced,Doctoral,Contract Employee,32,3990756,332563,4555521,84,17.17,499,1,Real Estate,Medical,1.9569,4,103,5,1
+LN000071,CUS00007,55,Male,Married,Doctoral,Permanent Employee,15,3239796,269983,753259,180,13.74,677,1,None,Personal Loan,0.186,0,230,5,0
+LN000072,CUS00185,35,Male,Married,Secondary,Government Officer,5,1619520,134960,4052200,12,4.71,616,1,Fixed Deposit,Medical,30.0252,5,48,5,0
+LN000073,CUS00125,49,Male,Married,Master,Contract Employee,4,4103016,341918,1805673,300,4.5,737,2,Real Estate,Home Purchase,0.2112,0,64,5,0
+LN000074,CUS00035,40,Male,Married,Bachelor,Contract Employee,29,3157128,263094,4748377,84,10.49,742,4,Life Insurance,Personal Loan,2.5783,5,226,3,1
+LN000075,CUS00174,46,Female,Single,Doctoral,Permanent Employee,13,2386080,198840,4368750,12,17.07,518,3,Life Insurance,Debt Consolidation,21.9712,4,114,5,1
+LN000076,CUS00058,62,Female,Widowed,Doctoral,Business Owner,22,2761716,230143,204967,48,13.6,530,0,Vehicle,Education,0.2227,5,150,5,0
+LN000077,CUS00050,62,Female,Divorced,Primary,Permanent Employee,15,3195168,266264,1710296,120,10.35,713,5,Vehicle,Home Purchase,0.6423,2,118,3,0
+LN000078,CUS00075,61,Female,Single,Doctoral,Freelance,2,2638320,219860,1369384,12,10.35,375,4,Life Insurance,Home Purchase,6.2284,4,41,3,0
+LN000079,CUS00052,62,Male,Widowed,Master,Self-Employed,9,2549568,212464,356039,48,6.64,575,4,Fixed Deposit,Education,0.4189,4,184,4,0
+LN000080,CUS00136,43,Male,Widowed,Secondary,Business Owner,14,917832,76486,4245007,24,7.18,762,5,Life Insurance,Debt Consolidation,27.7502,4,235,6,0
+LN000081,CUS00025,30,Female,Single,Doctoral,Permanent Employee,23,1078560,89880,2209411,60,6.79,655,3,Vehicle,Business Expansion,4.9164,3,208,2,0
+LN000082,CUS00098,42,Female,Married,Doctoral,Permanent Employee,4,249264,20772,1163505,120,8.5,825,0,None,Education,5.6013,3,182,2,0
+LN000083,CUS00066,61,Male,Single,Secondary,Permanent Employee,3,1068600,89050,372285,240,7.65,660,3,Real Estate,Personal Loan,0.209,5,137,1,0
+LN000084,CUS00093,61,Male,Divorced,Master,Government Officer,16,2929500,244125,935983,60,16.31,816,0,Fixed Deposit,Auto Loan,0.7668,1,111,1,0
+LN000085,CUS00156,35,Male,Single,Secondary,Business Owner,22,3886500,323875,1618424,84,10.92,575,3,Guarantor,Home Purchase,0.7139,4,135,2,1
+LN000086,CUS00115,59,Male,Single,Master,Freelance,3,4189500,349125,3268414,180,8.42,480,1,Fixed Deposit,Education,0.6241,2,65,2,1
+LN000087,CUS00050,41,Male,Married,Doctoral,Freelance,27,2094636,174553,810157,36,17.32,352,0,None,Medical,1.5471,4,54,1,1
+LN000088,CUS00200,59,Female,Married,Doctoral,Freelance,17,470640,39220,76689,84,16.52,330,3,Fixed Deposit,Personal Loan,0.2793,5,60,1,0
+LN000089,CUS00153,43,Male,Divorced,Bachelor,Permanent Employee,26,519168,43264,738172,24,5.32,349,5,Fixed Deposit,Auto Loan,8.531,1,104,2,0
+LN000090,CUS00125,50,Male,Divorced,Secondary,Business Owner,35,2120424,176702,3882690,60,9.56,657,3,Life Insurance,Education,4.3946,4,170,3,1
+LN000091,CUS00013,50,Female,Widowed,Doctoral,Self-Employed,12,3463080,288590,2570988,60,14.6,666,1,None,Auto Loan,1.7818,2,223,1,1
+LN000092,CUS00140,47,Male,Single,Primary,Business Owner,3,1288032,107336,859418,180,8.08,771,1,Real Estate,Home Purchase,0.5338,4,134,2,0
+LN000093,CUS00053,59,Male,Single,Secondary,Contract Employee,35,2113656,176138,2223453,84,11.22,702,0,Real Estate,Home Purchase,1.8033,3,240,5,1
+LN000094,CUS00136,35,Female,Divorced,Bachelor,Contract Employee,12,2349552,195796,2532898,36,8.2,326,2,None,Personal Loan,4.3121,0,99,3,1
+LN000095,CUS00091,56,Male,Married,Bachelor,Government Officer,29,724080,60340,3433461,24,8.55,643,4,Real Estate,Business Expansion,28.451,6,103,2,0
+LN000096,CUS00031,52,Male,Widowed,Vocational,Business Owner,10,3153720,262810,2740460,180,15.08,747,1,Life Insurance,Business Expansion,0.6952,2,114,5,0
+LN000097,CUS00153,46,Female,Widowed,Primary,Permanent Employee,34,917916,76493,2643665,12,12.67,300,0,Life Insurance,Home Purchase,34.5609,0,113,1,0
+LN000098,CUS00045,49,Male,Widowed,Master,Contract Employee,4,3025500,252125,1152790,12,8.18,795,0,None,Home Purchase,4.5723,0,178,2,1
+LN000099,CUS00172,63,Male,Divorced,Doctoral,Freelance,0,2419284,201607,4339794,60,9.98,423,4,None,Debt Consolidation,4.3052,0,151,6,1
+LN000100,CUS00118,56,Female,Married,Doctoral,Business Owner,22,1321320,110110,864645,24,15.83,355,3,None,Medical,3.9263,1,7,2,0
+LN000101,CUS00163,41,Male,Single,Secondary,Government Officer,23,1742256,145188,3311697,12,7.88,358,4,Life Insurance,Debt Consolidation,22.8097,0,45,3,0
+LN000102,CUS00004,26,Male,Married,Bachelor,Contract Employee,19,815700,67975,3198320,60,13.74,504,5,Life Insurance,Auto Loan,9.4103,2,7,4,0
+LN000103,CUS00147,57,Male,Married,Vocational,Government Officer,25,1263384,105282,3209649,120,15.66,698,1,Real Estate,Auto Loan,3.0486,2,28,3,0
+LN000104,CUS00054,36,Male,Single,Doctoral,Government Officer,11,1680204,140017,3351482,300,4.0,790,4,Fixed Deposit,Home Purchase,0.9575,4,82,1,0
+LN000105,CUS00182,42,Male,Widowed,Vocational,Self-Employed,15,1477956,123163,3473594,48,12.81,767,1,Real Estate,Medical,7.0508,5,94,5,0
+LN000106,CUS00066,48,Male,Married,Doctoral,Freelance,16,1676100,139675,1315678,36,16.98,323,5,None,Business Expansion,3.1399,5,196,1,1
+LN000107,CUS00183,57,Female,Single,Bachelor,Business Owner,13,1682676,140223,2114537,24,11.69,770,1,Life Insurance,Business Expansion,7.5399,1,92,4,1
+LN000108,CUS00176,29,Female,Married,Bachelor,Contract Employee,26,727692,60641,2806727,84,9.05,323,5,Fixed Deposit,Business Expansion,6.612,2,71,5,1
+LN000109,CUS00016,26,Female,Single,Secondary,Permanent Employee,33,1014900,84575,602287,300,7.02,444,2,Guarantor,Personal Loan,0.2849,4,4,1,0
+LN000110,CUS00179,39,Female,Single,Primary,Government Officer,6,3202728,266894,3501535,36,6.59,733,5,Fixed Deposit,Medical,4.3732,4,114,4,1
+LN000111,CUS00011,58,Female,Widowed,Secondary,Freelance,16,3870432,322536,2700448,12,9.6,694,3,Real Estate,Personal Loan,8.3725,6,4,2,0
+LN000112,CUS00112,41,Female,Married,Master,Government Officer,22,2525832,210486,3405567,120,8.8,438,1,Fixed Deposit,Debt Consolidation,1.618,3,48,6,1
+LN000113,CUS00068,24,Male,Single,Vocational,Permanent Employee,9,1114200,92850,4806790,84,17.99,545,3,Real Estate,Medical,7.3956,2,69,5,1
+LN000114,CUS00179,38,Male,Divorced,Bachelor,Permanent Employee,10,3040056,253338,3808445,300,5.1,606,1,Fixed Deposit,Education,0.6013,0,14,4,0
+LN000115,CUS00182,22,Male,Divorced,Doctoral,Contract Employee,11,3431832,285986,4989701,60,14.86,395,0,Real Estate,Personal Loan,3.4895,2,152,1,0
+LN000116,CUS00177,38,Male,Married,Primary,Government Officer,26,3014796,251233,310862,48,3.92,813,0,Life Insurance,Auto Loan,0.3093,0,30,3,0
+LN000117,CUS00061,46,Male,Divorced,Secondary,Business Owner,9,339084,28257,754486,60,11.42,397,0,Fixed Deposit,Home Purchase,5.3402,6,3,3,1
+LN000118,CUS00090,55,Male,Married,Vocational,Contract Employee,26,1598832,133236,4102407,300,9.76,782,4,Guarantor,Home Purchase,1.2316,5,183,6,0
+LN000119,CUS00138,34,Female,Divorced,Doctoral,Permanent Employee,0,888312,74026,4373287,84,5.77,392,2,Vehicle,Debt Consolidation,8.4397,4,14,6,1
+LN000120,CUS00074,34,Female,Divorced,Bachelor,Freelance,16,3908280,325690,2941687,48,9.55,403,5,Vehicle,Business Expansion,2.258,6,113,5,1
+LN000121,CUS00113,43,Male,Married,Bachelor,Government Officer,14,1785948,148829,1841936,48,9.53,559,4,Guarantor,Business Expansion,3.094,0,60,6,0
+LN000122,CUS00038,53,Female,Widowed,Master,Self-Employed,33,3390096,282508,3129962,120,13.51,747,2,Guarantor,Personal Loan,1.1079,1,116,1,1
+LN000123,CUS00142,33,Female,Widowed,Primary,Business Owner,11,3685680,307140,2540357,24,7.43,362,3,Life Insurance,Business Expansion,4.1355,5,152,5,1
+LN000124,CUS00089,31,Female,Widowed,Master,Self-Employed,33,2235288,186274,2967560,48,6.21,323,5,Vehicle,Debt Consolidation,3.9828,1,32,1,0
+LN000125,CUS00051,48,Male,Divorced,Secondary,Self-Employed,33,2733096,227758,2456424,36,10.69,301,3,None,Auto Loan,3.5951,0,95,2,1
+LN000126,CUS00023,29,Female,Single,Secondary,Contract Employee,29,3316320,276360,4714818,36,11.05,416,3,Fixed Deposit,Medical,5.6868,0,68,5,1
+LN000127,CUS00193,40,Male,Married,Master,Government Officer,14,3437016,286418,4964583,120,8.62,745,2,Fixed Deposit,Auto Loan,1.7333,0,220,4,1
+LN000128,CUS00103,63,Male,Married,Bachelor,Self-Employed,6,1259592,104966,2005137,240,17.26,794,3,None,Home Purchase,0.9551,2,118,4,1
+LN000129,CUS00134,56,Male,Married,Vocational,Freelance,19,1805592,150466,349574,240,13.93,512,3,Real Estate,Medical,0.1162,1,84,1,0
+LN000130,CUS00070,52,Female,Single,Doctoral,Self-Employed,31,3689556,307463,2802380,180,12.64,458,5,Fixed Deposit,Debt Consolidation,0.6076,1,202,1,0
+LN000131,CUS00127,65,Male,Single,Master,Contract Employee,15,1124940,93745,4174789,60,4.18,836,4,None,Education,8.9067,1,3,1,0
+LN000132,CUS00114,28,Female,Divorced,Bachelor,Contract Employee,19,3027924,252327,3500240,300,15.66,757,5,Real Estate,Home Purchase,0.5549,0,86,4,0
+LN000133,CUS00105,57,Male,Widowed,Doctoral,Freelance,34,1783008,148584,3549759,180,12.21,619,0,Real Estate,Home Purchase,1.5927,4,53,6,1
+LN000134,CUS00092,22,Female,Widowed,Primary,Freelance,8,3600048,300004,651103,48,14.49,728,4,Real Estate,Education,0.5426,4,38,1,0
+LN000135,CUS00136,45,Male,Widowed,Doctoral,Government Officer,2,652764,54397,4941659,120,16.64,683,5,Guarantor,Medical,9.0844,4,77,2,0
+LN000136,CUS00128,26,Male,Married,Doctoral,Contract Employee,6,4158708,346559,1571707,12,13.61,720,0,Guarantor,Education,4.5352,0,180,5,1
+LN000137,CUS00077,46,Male,Widowed,Secondary,Self-Employed,8,3983376,331948,1622927,84,13.84,504,0,Life Insurance,Personal Loan,0.6984,5,143,6,0
+LN000138,CUS00168,25,Female,Divorced,Primary,Business Owner,27,1463412,121951,867928,12,5.98,640,2,Vehicle,Medical,7.117,2,25,2,0
+LN000139,CUS00103,58,Male,Widowed,Secondary,Government Officer,16,3823200,318600,195324,180,6.85,305,0,Real Estate,Personal Loan,0.0409,6,25,1,1
+LN000140,CUS00175,45,Female,Married,Primary,Freelance,30,4162188,346849,1185083,24,16.96,771,3,Fixed Deposit,Auto Loan,1.7084,2,207,6,0
+LN000141,CUS00102,65,Male,Divorced,Master,Freelance,13,533700,44475,391623,60,7.73,478,4,None,Education,1.7611,1,168,1,0
+LN000142,CUS00071,37,Female,Single,Vocational,Freelance,17,3093288,257774,4737000,180,5.58,307,0,Real Estate,Debt Consolidation,1.2251,6,45,6,1
+LN000143,CUS00068,55,Male,Single,Vocational,Business Owner,26,3900660,325055,4912745,36,14.45,763,1,Fixed Deposit,Auto Loan,5.0379,2,84,6,1
+LN000144,CUS00100,32,Female,Married,Primary,Permanent Employee,29,2582748,215229,3838534,36,14.5,797,4,Vehicle,Home Purchase,5.9449,6,58,2,1
+LN000145,CUS00050,62,Female,Single,Doctoral,Government Officer,4,2475348,206279,1541010,48,5.99,747,3,Life Insurance,Auto Loan,1.8676,0,239,4,0
+LN000146,CUS00077,54,Female,Single,Master,Permanent Employee,20,2776752,231396,4553330,24,10.79,818,5,None,Home Purchase,9.8388,4,219,6,1
+LN000147,CUS00018,23,Female,Single,Doctoral,Freelance,33,2350980,195915,4406501,180,6.65,622,5,Guarantor,Medical,1.4995,6,227,6,1
+LN000148,CUS00156,61,Female,Married,Primary,Self-Employed,23,3763488,313624,586528,12,8.02,331,4,Guarantor,Business Expansion,1.8702,0,167,4,0
+LN000149,CUS00006,48,Female,Married,Secondary,Permanent Employee,16,255480,21290,3447081,60,11.53,520,1,Real Estate,Medical,32.3822,2,44,4,0
+LN000150,CUS00135,55,Male,Widowed,Secondary,Contract Employee,29,1318944,109912,4874506,240,9.26,626,4,Life Insurance,Business Expansion,2.2175,3,12,6,0
+LN000151,CUS00059,56,Male,Married,Vocational,Permanent Employee,13,557976,46498,4203315,48,15.75,712,2,Real Estate,Education,22.5994,4,99,4,0
+LN000152,CUS00115,56,Female,Widowed,Bachelor,Freelance,21,2024592,168716,2645738,84,12.91,553,3,Life Insurance,Personal Loan,2.2402,2,222,1,1
+LN000153,CUS00078,46,Female,Divorced,Secondary,Government Officer,23,1933584,161132,2992131,12,5.26,697,4,Fixed Deposit,Personal Loan,18.5694,2,31,2,0
+LN000154,CUS00126,36,Female,Married,Secondary,Government Officer,0,543600,45300,3384401,120,12.39,799,3,Fixed Deposit,Business Expansion,7.4711,2,200,4,0
+LN000155,CUS00109,30,Male,Single,Primary,Government Officer,20,1303536,108628,4309978,24,11.73,506,5,Life Insurance,Medical,19.8382,4,236,5,0
+LN000156,CUS00136,34,Male,Single,Doctoral,Business Owner,27,2934948,244579,1766617,300,16.06,546,2,Fixed Deposit,Personal Loan,0.2889,0,40,5,0
+LN000157,CUS00105,46,Female,Widowed,Master,Self-Employed,9,1882728,156894,956039,24,11.44,647,5,Life Insurance,Home Purchase,3.0468,1,157,6,0
+LN000158,CUS00120,29,Female,Single,Secondary,Government Officer,23,1433184,119432,4399256,300,14.32,832,3,Vehicle,Personal Loan,1.4734,4,12,4,1
+LN000159,CUS00031,57,Male,Single,Primary,Business Owner,15,1278000,106500,4945947,48,17.38,640,5,Fixed Deposit,Debt Consolidation,11.6102,4,88,5,0
+LN000160,CUS00086,47,Male,Married,Master,Contract Employee,18,3810804,317567,2684653,24,13.28,373,4,Life Insurance,Auto Loan,4.2269,4,148,3,1
+LN000161,CUS00073,53,Male,Widowed,Primary,Business Owner,17,775500,64625,2173465,12,13.9,821,5,Vehicle,Business Expansion,33.632,5,76,2,0
+LN000162,CUS00146,50,Male,Married,Doctoral,Permanent Employee,18,2332488,194374,4530395,12,14.05,693,1,Real Estate,Medical,23.3076,5,49,1,0
+LN000163,CUS00045,41,Male,Widowed,Bachelor,Permanent Employee,16,2186688,182224,2344012,36,5.04,375,4,Guarantor,Debt Consolidation,4.2878,4,135,2,1
+LN000164,CUS00140,60,Male,Single,Doctoral,Government Officer,23,2406828,200569,1476042,300,8.64,685,3,Life Insurance,Personal Loan,0.2944,5,23,1,0
+LN000165,CUS00189,25,Female,Widowed,Primary,Freelance,22,2810820,234235,4346511,36,10.9,343,2,Vehicle,Home Purchase,6.1854,2,86,4,1
+LN000166,CUS00029,64,Male,Single,Primary,Freelance,28,4175064,347922,3735894,240,10.04,676,2,Fixed Deposit,Auto Loan,0.5369,5,79,6,0
+LN000167,CUS00094,58,Female,Divorced,Bachelor,Freelance,13,2522556,210213,456629,24,8.01,534,5,Vehicle,Auto Loan,1.0861,0,148,4,0
+LN000168,CUS00042,38,Female,Widowed,Vocational,Business Owner,3,2351124,195927,1886742,240,7.28,713,1,Life Insurance,Business Expansion,0.4815,6,54,6,0
+LN000169,CUS00163,41,Male,Widowed,Bachelor,Contract Employee,33,3201876,266823,4539211,120,14.42,330,1,Fixed Deposit,Home Purchase,1.7012,0,111,4,1
+LN000170,CUS00035,43,Female,Single,Vocational,Business Owner,15,1797204,149767,229324,120,4.3,349,3,Guarantor,Medical,0.1531,3,100,4,1
+LN000171,CUS00117,35,Female,Divorced,Master,Government Officer,32,1526760,127230,2214523,36,5.27,360,2,Guarantor,Auto Loan,5.8019,0,167,1,1
+LN000172,CUS00131,49,Male,Married,Primary,Freelance,19,3396816,283068,1046011,24,4.59,365,1,Real Estate,Debt Consolidation,1.8476,5,134,4,1
+LN000173,CUS00165,62,Male,Divorced,Vocational,Permanent Employee,26,667236,55603,4839223,12,4.22,581,1,None,Personal Loan,87.0317,4,11,4,1
+LN000174,CUS00072,52,Female,Widowed,Primary,Business Owner,6,4184556,348713,2953352,60,9.96,566,0,Vehicle,Education,1.6939,5,156,2,0
+LN000175,CUS00028,32,Female,Widowed,Doctoral,Freelance,26,3000624,250052,1446100,240,12.99,670,4,Real Estate,Auto Loan,0.2892,4,193,6,0
+LN000176,CUS00189,52,Male,Married,Secondary,Government Officer,31,2514264,209522,569647,240,4.3,802,5,Vehicle,Debt Consolidation,0.1359,3,189,3,0
+LN000177,CUS00149,34,Male,Divorced,Bachelor,Self-Employed,9,3308568,275714,4412882,24,17.41,520,3,Guarantor,Medical,8.0026,5,184,2,0
+LN000178,CUS00117,32,Female,Widowed,Vocational,Freelance,13,534936,44578,3098962,36,9.28,620,5,None,Personal Loan,23.1726,6,68,1,1
+LN000179,CUS00096,60,Female,Divorced,Bachelor,Contract Employee,6,361584,30132,808548,120,8.6,354,2,Life Insurance,Personal Loan,2.6834,4,56,1,1
+LN000180,CUS00081,33,Female,Divorced,Bachelor,Self-Employed,14,1792104,149342,4900166,84,12.57,782,1,None,Medical,4.6874,2,150,4,0
+LN000181,CUS00145,40,Female,Married,Bachelor,Self-Employed,16,2010264,167522,740695,60,7.82,776,1,Fixed Deposit,Home Purchase,0.8843,3,124,1,0
+LN000182,CUS00095,59,Male,Divorced,Bachelor,Contract Employee,9,1410972,117581,3988708,12,5.48,826,3,None,Home Purchase,33.9231,4,123,2,0
+LN000183,CUS00133,23,Female,Widowed,Vocational,Permanent Employee,28,3476712,289726,4078072,24,16.55,414,0,None,Business Expansion,7.0378,4,56,6,1
+LN000184,CUS00136,50,Female,Widowed,Secondary,Business Owner,29,4016928,334744,1034931,120,3.7,313,5,Real Estate,Business Expansion,0.3092,5,239,4,1
+LN000185,CUS00195,38,Female,Married,Master,Contract Employee,0,353316,29443,102553,60,10.45,673,1,Vehicle,Debt Consolidation,0.6966,6,221,6,0
+LN000186,CUS00046,29,Female,Married,Doctoral,Contract Employee,0,3499776,291648,1888053,240,5.99,599,5,None,Medical,0.3237,1,133,5,0
+LN000187,CUS00192,43,Male,Single,Secondary,Freelance,14,2819952,234996,2594262,60,11.29,352,4,Real Estate,Education,2.2079,1,171,6,0
+LN000188,CUS00108,31,Female,Married,Vocational,Business Owner,15,1592172,132681,2356738,12,16.52,826,2,None,Personal Loan,17.7624,2,54,1,1
+LN000189,CUS00120,64,Female,Divorced,Vocational,Freelance,14,1953804,162817,2823577,12,16.28,814,2,Life Insurance,Debt Consolidation,17.342,1,96,1,0
+LN000190,CUS00137,62,Male,Divorced,Doctoral,Contract Employee,26,3753432,312786,3932646,180,5.9,807,3,Vehicle,Debt Consolidation,0.8382,3,152,1,0
+LN000191,CUS00115,36,Male,Divorced,Primary,Government Officer,9,3870564,322547,4513071,120,11.28,571,2,Vehicle,Education,1.3992,0,103,4,0
+LN000192,CUS00039,31,Female,Divorced,Master,Freelance,22,1050948,87579,4926398,36,15.18,640,2,None,Debt Consolidation,18.7503,1,79,5,0
+LN000193,CUS00007,30,Female,Married,Doctoral,Freelance,19,3667308,305609,3232691,12,5.99,326,0,Guarantor,Business Expansion,10.5779,6,165,5,1
+LN000194,CUS00019,60,Female,Widowed,Master,Contract Employee,0,3157548,263129,4165886,24,3.7,593,3,None,Personal Loan,7.9161,3,189,1,0
+LN000195,CUS00130,41,Male,Married,Bachelor,Permanent Employee,23,2726232,227186,2095524,48,16.89,493,0,Real Estate,Business Expansion,2.306,0,177,3,0
+LN000196,CUS00183,26,Male,Married,Secondary,Contract Employee,5,2457972,204831,2520828,60,8.8,550,2,Fixed Deposit,Medical,2.4614,3,96,5,1
+LN000197,CUS00174,56,Female,Married,Primary,Government Officer,16,2699184,224932,1939656,180,10.33,586,1,Fixed Deposit,Debt Consolidation,0.5749,0,166,1,0
+LN000198,CUS00137,62,Female,Divorced,Bachelor,Contract Employee,1,2974044,247837,2642011,60,4.53,711,5,Life Insurance,Home Purchase,2.1321,6,152,6,1
+LN000199,CUS00158,53,Female,Single,Primary,Self-Employed,8,3111288,259274,4063923,48,17.98,701,5,Real Estate,Auto Loan,3.9186,3,225,6,0
+LN000200,CUS00031,47,Male,Married,Vocational,Business Owner,24,3527940,293995,2067052,24,14.01,307,2,None,Debt Consolidation,3.5155,6,236,3,1
+LN000201,CUS00146,45,Male,Widowed,Vocational,Self-Employed,1,3824472,318706,3903492,36,17.04,847,3,Real Estate,Business Expansion,4.0826,2,101,5,1
+LN000202,CUS00117,45,Male,Widowed,Primary,Business Owner,10,1704480,142040,1916340,60,6.59,748,1,Vehicle,Home Purchase,2.6983,0,185,1,1
+LN000203,CUS00061,32,Female,Single,Master,Freelance,32,1064160,88680,3003487,36,11.04,510,4,Guarantor,Business Expansion,11.2896,1,75,6,0
+LN000204,CUS00170,45,Female,Widowed,Bachelor,Contract Employee,10,3610284,300857,2056958,60,9.2,654,1,Guarantor,Home Purchase,1.3674,1,176,4,0
+LN000205,CUS00011,63,Male,Single,Vocational,Contract Employee,18,3128820,260735,4045843,48,5.17,332,3,Vehicle,Auto Loan,3.8793,2,158,6,0
+LN000206,CUS00076,63,Male,Widowed,Secondary,Contract Employee,30,4034568,336214,4102761,180,11.55,752,1,Real Estate,Medical,0.8135,4,189,6,0
+LN000207,CUS00134,53,Female,Married,Vocational,Freelance,22,3532452,294371,2183638,84,16.07,633,2,Fixed Deposit,Education,1.0597,1,32,1,1
+LN000208,CUS00123,40,Female,Widowed,Secondary,Business Owner,12,2791956,232663,3965618,12,14.36,719,1,Real Estate,Auto Loan,17.0445,5,63,1,1
+LN000209,CUS00162,65,Male,Divorced,Vocational,Permanent Employee,21,2410476,200873,1846107,180,17.93,627,5,Real Estate,Debt Consolidation,0.6127,2,95,5,0
+LN000210,CUS00115,41,Male,Single,Bachelor,Business Owner,31,657588,54799,860660,240,10.92,631,5,Life Insurance,Personal Loan,0.7853,3,78,5,0
+LN000211,CUS00061,50,Male,Widowed,Bachelor,Business Owner,19,1863456,155288,2895329,180,5.33,672,5,None,Debt Consolidation,1.243,1,202,5,0
+LN000212,CUS00199,59,Female,Single,Master,Business Owner,8,1952532,162711,2391562,36,6.82,305,0,None,Debt Consolidation,4.8994,0,193,1,0
+LN000213,CUS00194,31,Male,Married,Secondary,Business Owner,24,1618404,134867,660051,24,16.91,689,5,Real Estate,Personal Loan,2.447,6,7,2,0
+LN000214,CUS00112,24,Male,Widowed,Doctoral,Contract Employee,28,2032896,169408,2220404,180,17.47,747,3,Life Insurance,Education,0.8738,0,215,2,0
+LN000215,CUS00101,44,Male,Single,Vocational,Self-Employed,1,1326288,110524,2590116,60,7.6,638,1,Life Insurance,Education,4.687,6,57,3,0
+LN000216,CUS00091,53,Male,Divorced,Primary,Government Officer,10,1750500,145875,4492202,48,6.39,507,2,Vehicle,Debt Consolidation,7.6987,5,106,6,0
+LN000217,CUS00073,32,Male,Divorced,Vocational,Self-Employed,29,4037484,336457,1715873,36,9.45,590,1,None,Education,1.6999,6,111,1,0
+LN000218,CUS00173,39,Male,Divorced,Secondary,Business Owner,5,637056,53088,3229243,48,13.6,623,5,Guarantor,Auto Loan,15.207,0,203,3,0
+LN000219,CUS00071,38,Male,Divorced,Master,Business Owner,8,1507596,125633,1548631,84,6.43,729,4,Life Insurance,Auto Loan,1.7609,3,157,1,1
+LN000220,CUS00152,35,Female,Single,Doctoral,Contract Employee,16,1146072,95506,2200390,24,16.08,742,2,Guarantor,Business Expansion,11.5196,0,25,3,0
+LN000221,CUS00080,34,Male,Married,Secondary,Contract Employee,4,1012536,84378,893152,84,13.86,809,0,None,Auto Loan,1.5122,1,202,6,0
+LN000222,CUS00197,29,Male,Single,Primary,Self-Employed,8,1779480,148290,1604767,240,14.9,648,2,Vehicle,Medical,0.5411,0,167,4,0
+LN000223,CUS00042,34,Female,Divorced,Primary,Permanent Employee,7,1853952,154496,3112513,84,6.55,642,0,None,Personal Loan,2.878,2,33,3,1
+LN000224,CUS00161,53,Female,Single,Doctoral,Contract Employee,10,277860,23155,1195212,240,17.8,645,1,Life Insurance,Personal Loan,2.5809,6,141,6,1
+LN000225,CUS00104,54,Male,Widowed,Master,Business Owner,20,3738300,311525,2467386,240,9.2,522,3,Vehicle,Personal Loan,0.396,2,119,5,0
+LN000226,CUS00051,25,Female,Divorced,Bachelor,Self-Employed,14,239640,19970,1375950,180,11.11,596,5,None,Home Purchase,4.5934,1,202,6,1
+LN000227,CUS00114,56,Female,Married,Master,Contract Employee,10,1229628,102469,830586,60,5.43,326,1,Guarantor,Debt Consolidation,1.6211,1,71,3,0
+LN000228,CUS00194,58,Female,Single,Bachelor,Permanent Employee,28,1373328,114444,1768692,60,4.3,840,3,Life Insurance,Medical,3.0909,6,150,6,1
+LN000229,CUS00083,42,Female,Widowed,Secondary,Freelance,10,4024884,335407,2031046,12,4.59,755,3,Life Insurance,Auto Loan,6.0555,1,205,3,0
+LN000230,CUS00007,40,Male,Widowed,Secondary,Self-Employed,22,855648,71304,3512840,36,13.02,381,1,Fixed Deposit,Home Purchase,16.4219,3,96,5,1
+LN000231,CUS00017,30,Female,Single,Vocational,Government Officer,22,1130640,94220,3673953,84,13.62,701,2,Guarantor,Education,5.5705,3,140,2,0
+LN000232,CUS00142,43,Female,Single,Master,Contract Employee,13,3591048,299254,2165390,84,3.94,413,3,Guarantor,Personal Loan,1.0337,0,239,5,0
+LN000233,CUS00136,40,Female,Divorced,Master,Freelance,34,2382036,198503,1710913,12,4.99,777,2,Fixed Deposit,Medical,8.6191,6,66,1,0
+LN000234,CUS00053,39,Female,Single,Bachelor,Business Owner,22,987600,82300,2188824,36,11.37,503,1,None,Medical,8.8652,3,188,5,0
+LN000235,CUS00014,26,Female,Married,Vocational,Self-Employed,16,975108,81259,1823494,60,3.96,663,4,Life Insurance,Business Expansion,4.4881,4,214,2,1
+LN000236,CUS00099,64,Female,Divorced,Secondary,Self-Employed,31,4193832,349486,67909,36,5.31,323,0,Real Estate,Personal Loan,0.0648,6,116,1,0
+LN000237,CUS00058,55,Male,Single,Secondary,Freelance,5,2306364,192197,1365432,24,8.05,420,2,None,Business Expansion,3.5522,2,113,4,0
+LN000238,CUS00116,39,Female,Single,Doctoral,Contract Employee,19,2195724,182977,1249279,180,6.46,378,4,Life Insurance,Debt Consolidation,0.4552,1,182,5,0
+LN000239,CUS00190,24,Female,Married,Vocational,Freelance,11,1526436,127203,3522008,120,6.28,484,0,Real Estate,Personal Loan,2.7688,1,156,3,0
+LN000240,CUS00183,27,Male,Single,Primary,Government Officer,21,363756,30313,4116772,180,16.0,443,5,None,Auto Loan,9.0539,1,119,3,0
+LN000241,CUS00084,28,Male,Married,Secondary,Business Owner,9,723960,60330,4497514,120,7.57,713,0,Vehicle,Personal Loan,7.4549,0,158,3,1
+LN000242,CUS00014,56,Male,Widowed,Secondary,Government Officer,31,807852,67321,183177,240,17.43,389,2,Vehicle,Personal Loan,0.136,1,189,6,0
+LN000243,CUS00081,29,Male,Widowed,Secondary,Permanent Employee,11,4095024,341252,3837897,240,3.8,545,4,None,Medical,0.5623,3,48,5,1
+LN000244,CUS00130,22,Male,Married,Vocational,Government Officer,3,1775604,147967,845222,300,7.16,304,2,Real Estate,Medical,0.2285,5,101,6,0
+LN000245,CUS00086,59,Male,Widowed,Vocational,Government Officer,4,3885732,323811,250726,240,10.65,672,4,Fixed Deposit,Personal Loan,0.0387,4,235,3,0
+LN000246,CUS00072,42,Female,Married,Primary,Government Officer,30,1394220,116185,1820479,84,15.77,833,1,Vehicle,Debt Consolidation,2.2384,1,28,2,1
+LN000247,CUS00049,54,Female,Divorced,Vocational,Government Officer,21,1452168,121014,3967173,84,17.43,546,1,Life Insurance,Education,4.6833,2,47,6,0
+LN000248,CUS00053,63,Female,Married,Vocational,Self-Employed,27,3983268,331939,4419080,36,8.57,443,3,Guarantor,Business Expansion,4.4376,1,44,1,1
+LN000249,CUS00074,44,Male,Widowed,Secondary,Permanent Employee,23,819900,68325,1901712,48,6.79,538,3,Real Estate,Personal Loan,6.9583,0,30,5,1
+LN000250,CUS00071,44,Male,Married,Doctoral,Permanent Employee,22,2080548,173379,4703591,240,17.19,416,2,Real Estate,Debt Consolidation,1.3564,2,26,6,0
+LN000251,CUS00154,60,Female,Single,Secondary,Contract Employee,29,3499020,291585,4947963,180,16.97,648,3,Fixed Deposit,Business Expansion,1.1313,2,26,4,0
+LN000252,CUS00085,42,Male,Divorced,Primary,Self-Employed,27,993672,82806,1834565,240,6.47,789,1,None,Business Expansion,1.1077,0,105,3,1
+LN000253,CUS00122,44,Female,Widowed,Secondary,Contract Employee,23,2817396,234783,2751805,180,3.8,660,2,Vehicle,Debt Consolidation,0.7814,5,29,2,0
+LN000254,CUS00079,63,Female,Single,Master,Government Officer,4,2189328,182444,2468104,240,7.75,510,2,Fixed Deposit,Education,0.6764,0,103,5,0
+LN000255,CUS00086,27,Male,Single,Doctoral,Self-Employed,35,2907936,242328,957510,84,3.56,584,1,None,Business Expansion,0.5645,2,46,3,0
+LN000256,CUS00132,44,Female,Single,Secondary,Permanent Employee,21,1399308,116609,4103366,180,7.2,457,1,Life Insurance,Education,2.3459,1,203,6,0
+LN000257,CUS00163,44,Female,Single,Primary,Government Officer,18,2426904,202242,2945246,24,4.88,612,2,Vehicle,Education,7.2815,1,208,3,1
+LN000258,CUS00121,33,Female,Widowed,Primary,Freelance,24,3646632,303886,3075276,180,14.5,770,3,None,Personal Loan,0.6747,2,201,3,0
+LN000259,CUS00064,45,Male,Married,Bachelor,Permanent Employee,27,309468,25789,850876,300,8.5,727,5,Real Estate,Auto Loan,1.3198,2,75,4,0
+LN000260,CUS00134,65,Male,Married,Vocational,Freelance,16,1933092,161091,2167199,120,13.42,644,0,Guarantor,Business Expansion,1.3453,2,171,1,0
+LN000261,CUS00066,59,Female,Married,Vocational,Freelance,12,653088,54424,2503523,12,17.35,329,1,Guarantor,Education,46.0003,2,132,1,0
+LN000262,CUS00038,46,Female,Single,Master,Business Owner,21,4150092,345841,1112815,120,6.79,737,3,Vehicle,Auto Loan,0.3218,1,38,5,0
+LN000263,CUS00163,24,Male,Divorced,Bachelor,Self-Employed,20,2920752,243396,369032,60,10.25,613,3,Real Estate,Auto Loan,0.3032,3,155,5,0
+LN000264,CUS00162,22,Female,Married,Primary,Freelance,14,1153884,96157,686330,60,13.05,757,4,None,Home Purchase,1.4275,4,238,2,0
+LN000265,CUS00182,63,Female,Married,Secondary,Contract Employee,26,1555716,129643,3626563,240,12.88,519,4,Guarantor,Debt Consolidation,1.3987,0,40,6,0
+LN000266,CUS00010,33,Male,Married,Vocational,Government Officer,25,1854360,154530,1811768,48,15.01,640,2,Fixed Deposit,Business Expansion,2.9311,0,229,1,0
+LN000267,CUS00032,42,Male,Married,Master,Contract Employee,2,3383856,281988,2988114,48,9.49,329,3,Fixed Deposit,Personal Loan,2.6491,0,187,1,1
+LN000268,CUS00120,32,Female,Divorced,Secondary,Contract Employee,28,531240,44270,2381152,240,17.73,781,5,Guarantor,Personal Loan,2.6894,3,134,3,0
+LN000269,CUS00083,40,Male,Single,Secondary,Self-Employed,11,1697424,141452,4163065,24,5.68,672,4,None,Personal Loan,14.7155,2,178,3,0
+LN000270,CUS00007,55,Female,Divorced,Primary,Contract Employee,24,980676,81723,2102740,300,12.75,789,2,Guarantor,Auto Loan,1.0292,5,83,1,0
+LN000271,CUS00038,44,Male,Widowed,Bachelor,Freelance,15,2167092,180591,800534,120,7.8,326,4,Real Estate,Education,0.4433,5,108,2,1
+LN000272,CUS00134,49,Female,Single,Vocational,Business Owner,27,1554900,129575,1514491,240,12.46,394,0,Real Estate,Home Purchase,0.5844,5,178,6,0
+LN000273,CUS00067,63,Male,Widowed,Secondary,Self-Employed,4,3102660,258555,1639871,36,4.6,320,5,Real Estate,Personal Loan,2.1141,0,85,3,0
+LN000274,CUS00175,46,Female,Married,Vocational,Permanent Employee,33,4168164,347347,1378881,120,10.05,486,2,None,Education,0.397,3,136,5,0
+LN000275,CUS00069,59,Female,Married,Primary,Contract Employee,22,1135500,94625,4565876,180,16.06,539,3,Vehicle,Education,3.2168,3,177,2,1
+LN000276,CUS00053,58,Female,Divorced,Secondary,Self-Employed,16,3832320,319360,1726705,60,6.87,428,1,Fixed Deposit,Debt Consolidation,1.0814,4,134,1,1
+LN000277,CUS00179,40,Male,Divorced,Doctoral,Permanent Employee,25,873468,72789,3913046,240,16.71,591,1,Fixed Deposit,Debt Consolidation,2.6879,1,164,1,0
+LN000278,CUS00146,59,Female,Single,Vocational,Contract Employee,13,571788,47649,130239,300,5.4,698,4,Vehicle,Business Expansion,0.1093,5,30,6,0
+LN000279,CUS00197,23,Male,Divorced,Vocational,Self-Employed,34,2234880,186240,4523452,36,14.28,673,0,Fixed Deposit,Personal Loan,8.0961,4,169,4,0
+LN000280,CUS00171,34,Female,Single,Vocational,Permanent Employee,13,3159768,263314,242261,36,5.1,366,1,None,Education,0.3067,6,196,5,0
+LN000281,CUS00150,57,Female,Married,Master,Government Officer,8,4022124,335177,4117351,60,8.8,541,2,Life Insurance,Personal Loan,2.4568,6,13,1,0
+LN000282,CUS00035,47,Male,Widowed,Primary,Contract Employee,25,758556,63213,1347397,120,15.19,594,3,Real Estate,Home Purchase,2.1315,4,231,5,0
+LN000283,CUS00193,40,Male,Divorced,Vocational,Permanent Employee,12,2518416,209868,1896616,48,4.85,744,5,Vehicle,Personal Loan,2.2593,6,96,4,0
+LN000284,CUS00187,24,Female,Divorced,Primary,Self-Employed,19,1906656,158888,3736566,48,14.03,481,3,Real Estate,Home Purchase,5.8792,3,61,5,1
+LN000285,CUS00096,41,Female,Married,Secondary,Contract Employee,18,1521996,126833,1148216,24,3.76,566,3,Fixed Deposit,Medical,4.5265,0,128,3,1
+LN000286,CUS00040,65,Female,Married,Master,Business Owner,33,1691040,140920,558140,36,8.3,651,2,Guarantor,Education,1.3202,5,157,6,0
+LN000287,CUS00161,53,Female,Married,Doctoral,Self-Employed,32,2758452,229871,2928569,120,16.16,307,2,Fixed Deposit,Personal Loan,1.274,6,207,5,1
+LN000288,CUS00143,47,Male,Divorced,Vocational,Freelance,15,1374084,114507,1932957,48,16.59,717,0,Real Estate,Medical,4.2202,2,165,2,0
+LN000289,CUS00107,22,Male,Divorced,Secondary,Contract Employee,24,2922420,243535,1331339,60,9.72,765,4,Life Insurance,Business Expansion,1.0933,1,118,1,1
+LN000290,CUS00066,56,Female,Widowed,Vocational,Permanent Employee,2,364332,30361,148461,240,4.4,701,4,Real Estate,Debt Consolidation,0.2445,3,3,3,0
+LN000291,CUS00173,27,Female,Widowed,Secondary,Business Owner,28,193308,16109,2926338,120,5.58,802,1,Fixed Deposit,Personal Loan,18.1659,4,54,2,0
+LN000292,CUS00040,46,Male,Single,Primary,Freelance,9,260316,21693,2468460,240,10.41,747,2,Real Estate,Home Purchase,5.6895,4,33,2,0
+LN000293,CUS00119,57,Female,Widowed,Secondary,Business Owner,2,2920992,243416,3372704,84,9.14,580,0,Fixed Deposit,Debt Consolidation,1.9794,4,170,6,0
+LN000294,CUS00098,28,Male,Married,Primary,Contract Employee,17,2163192,180266,4219185,48,5.02,627,0,Real Estate,Education,5.8513,4,133,5,1
+LN000295,CUS00097,39,Female,Divorced,Doctoral,Permanent Employee,29,3955116,329593,2554923,36,13.36,458,3,None,Personal Loan,2.5839,4,202,6,1
+LN000296,CUS00118,41,Female,Divorced,Bachelor,Government Officer,28,662364,55197,3572713,240,11.73,303,3,None,Home Purchase,3.2363,0,128,2,1
+LN000297,CUS00173,61,Male,Married,Doctoral,Business Owner,20,451176,37598,2948949,24,12.83,327,2,Life Insurance,Medical,39.2168,1,50,4,1
+LN000298,CUS00171,51,Female,Divorced,Vocational,Business Owner,3,3951096,329258,3085692,300,17.16,722,1,Life Insurance,Auto Loan,0.3749,3,185,5,0
+LN000299,CUS00058,39,Female,Married,Master,Permanent Employee,30,4023876,335323,3264436,48,12.88,480,5,Fixed Deposit,Home Purchase,2.4338,5,153,4,0
+LN000300,CUS00066,65,Male,Divorced,Master,Freelance,6,3903108,325259,2373801,24,6.5,676,1,Real Estate,Education,3.6491,2,123,3,0
+LN000301,CUS00187,38,Female,Married,Bachelor,Business Owner,33,4042908,336909,4327593,84,15.36,585,2,None,Debt Consolidation,1.835,0,53,4,1
+LN000302,CUS00044,28,Male,Married,Secondary,Contract Employee,30,2177208,181434,290801,48,14.11,565,5,Guarantor,Debt Consolidation,0.4007,1,159,6,0
+LN000303,CUS00126,34,Female,Widowed,Secondary,Freelance,1,786300,65525,3835913,24,14.73,415,4,Fixed Deposit,Auto Loan,29.2706,5,192,6,1
+LN000304,CUS00180,57,Female,Divorced,Master,Contract Employee,12,3490884,290907,3455475,60,4.62,453,4,Real Estate,Auto Loan,2.3757,6,33,5,1
+LN000305,CUS00144,43,Male,Single,Master,Self-Employed,22,2296656,191388,992468,36,8.07,485,5,Life Insurance,Home Purchase,1.7285,0,234,5,0
+LN000306,CUS00170,52,Female,Married,Primary,Contract Employee,13,3634812,302901,2698214,12,6.58,647,1,Life Insurance,Debt Consolidation,8.9079,4,155,2,0
+LN000307,CUS00149,43,Male,Single,Doctoral,Business Owner,28,2099532,174961,2626170,48,6.8,598,2,Life Insurance,Education,3.7525,0,105,5,1
+LN000308,CUS00148,46,Male,Widowed,Vocational,Freelance,17,3854460,321205,3359998,84,10.84,800,3,Fixed Deposit,Business Expansion,1.4944,2,100,4,0
+LN000309,CUS00174,35,Male,Married,Secondary,Contract Employee,5,2089104,174092,4919439,24,11.33,301,4,Fixed Deposit,Business Expansion,14.1288,5,97,4,1
+LN000310,CUS00048,53,Male,Married,Primary,Freelance,28,1996800,166400,2750584,60,8.13,415,3,Life Insurance,Debt Consolidation,3.306,6,52,5,1
+LN000311,CUS00124,43,Male,Single,Doctoral,Contract Employee,34,3081768,256814,3655648,24,11.61,526,3,Fixed Deposit,Medical,7.1173,3,203,5,0
+LN000312,CUS00005,27,Male,Married,Vocational,Government Officer,8,2599104,216592,2372968,240,12.36,373,2,Vehicle,Personal Loan,0.5478,3,81,4,0
+LN000313,CUS00144,26,Female,Widowed,Master,Freelance,26,3751632,312636,4494764,60,17.36,627,3,Life Insurance,Education,2.8754,4,194,4,0
+LN000314,CUS00113,49,Male,Widowed,Primary,Government Officer,18,1125024,93752,892078,36,9.46,464,4,Vehicle,Medical,3.1718,3,24,3,1
+LN000315,CUS00153,29,Female,Married,Vocational,Business Owner,9,3033336,252778,2418276,120,8.35,672,1,Vehicle,Business Expansion,0.9567,5,76,1,0
+LN000316,CUS00175,42,Female,Divorced,Master,Self-Employed,5,1912704,159392,2666361,120,12.68,639,5,Vehicle,Auto Loan,1.6728,5,90,1,0
+LN000317,CUS00107,34,Female,Single,Bachelor,Business Owner,23,1210008,100834,2106945,180,5.86,319,5,Guarantor,Home Purchase,1.393,4,194,3,0
+LN000318,CUS00054,55,Male,Divorced,Master,Self-Employed,6,3419076,284923,3854611,120,14.94,480,2,Vehicle,Auto Loan,1.3529,5,18,4,1
+LN000319,CUS00064,30,Female,Divorced,Doctoral,Business Owner,8,3715536,309628,107442,180,4.88,439,4,Guarantor,Personal Loan,0.0231,4,223,1,1
+LN000320,CUS00062,61,Female,Single,Secondary,Freelance,7,321456,26788,3046366,300,13.44,638,2,None,Education,4.5489,2,48,6,1
+LN000321,CUS00087,55,Male,Widowed,Bachelor,Government Officer,0,923688,76974,4043153,60,10.07,370,2,None,Medical,10.5052,3,5,3,1
+LN000322,CUS00137,55,Male,Widowed,Bachelor,Permanent Employee,30,1943196,161933,4668275,24,6.46,842,2,Life Insurance,Auto Loan,14.4142,6,141,3,1
+LN000323,CUS00115,53,Female,Married,Vocational,Contract Employee,21,405336,33778,2360603,240,14.84,647,0,None,Medical,3.4943,4,186,2,1
+LN000324,CUS00079,51,Male,Widowed,Secondary,Business Owner,35,651036,54253,1467799,120,5.98,576,4,Life Insurance,Education,2.7055,4,16,6,0
+LN000325,CUS00153,63,Female,Married,Master,Permanent Employee,27,3916080,326340,173854,24,4.97,824,5,Real Estate,Auto Loan,0.2664,6,192,2,0
+LN000326,CUS00122,53,Female,Single,Vocational,Self-Employed,4,1516608,126384,3691744,36,4.37,744,2,Vehicle,Auto Loan,9.7368,2,114,6,0
+LN000327,CUS00021,58,Male,Single,Bachelor,Self-Employed,24,1035624,86302,2410744,120,12.02,656,3,Life Insurance,Debt Consolidation,2.7934,6,77,6,0
+LN000328,CUS00112,53,Male,Divorced,Bachelor,Freelance,4,3594324,299527,2075828,48,9.61,477,2,None,Medical,1.7326,4,195,3,1
+LN000329,CUS00017,56,Female,Widowed,Bachelor,Government Officer,6,2863884,238657,385280,48,12.22,337,3,Real Estate,Debt Consolidation,0.4036,5,84,1,0
+LN000330,CUS00129,25,Male,Divorced,Bachelor,Business Owner,32,3561708,296809,480811,48,11.22,378,0,Guarantor,Education,0.405,5,176,3,0
+LN000331,CUS00109,38,Female,Divorced,Master,Government Officer,16,626580,52215,2783163,84,12.83,483,3,Life Insurance,Business Expansion,7.6146,1,37,1,0
+LN000332,CUS00146,62,Male,Single,Secondary,Business Owner,18,2040696,170058,3117174,36,13.74,409,3,Fixed Deposit,Auto Loan,6.11,5,55,5,1
+LN000333,CUS00089,41,Male,Divorced,Master,Self-Employed,6,198552,16546,1605504,180,17.37,614,4,Fixed Deposit,Debt Consolidation,6.4689,0,91,4,0
+LN000334,CUS00030,49,Male,Married,Vocational,Contract Employee,25,3718380,309865,4680096,48,11.53,314,0,Real Estate,Auto Loan,3.7759,1,197,2,1
+LN000335,CUS00134,32,Female,Widowed,Master,Freelance,6,2617044,218087,3400033,120,9.51,513,2,None,Business Expansion,1.559,3,170,3,0
+LN000336,CUS00053,52,Female,Widowed,Doctoral,Business Owner,22,3872580,322715,151298,180,4.24,736,2,Life Insurance,Personal Loan,0.0313,4,162,1,0
+LN000337,CUS00083,46,Male,Married,Doctoral,Freelance,23,3591696,299308,2368131,36,13.18,503,3,None,Auto Loan,2.6373,0,169,1,0
+LN000338,CUS00163,26,Male,Divorced,Master,Government Officer,33,3324516,277043,2214575,60,14.91,823,0,Real Estate,Debt Consolidation,1.5987,0,167,4,1
+LN000339,CUS00102,44,Male,Widowed,Doctoral,Business Owner,21,2330400,194200,4913423,300,6.61,319,3,Real Estate,Business Expansion,1.012,1,209,2,1
+LN000340,CUS00034,26,Male,Single,Secondary,Government Officer,2,2572548,214379,3511554,120,4.96,715,5,Life Insurance,Education,1.638,4,85,1,0
+LN000341,CUS00121,63,Female,Widowed,Primary,Freelance,15,2091384,174282,1975386,120,15.14,695,5,None,Auto Loan,1.1334,3,86,4,1
+LN000342,CUS00093,54,Female,Divorced,Secondary,Contract Employee,15,1887840,157320,818410,60,13.41,812,5,Life Insurance,Education,1.0404,5,19,3,0
+LN000343,CUS00017,63,Male,Divorced,Secondary,Government Officer,33,1971828,164319,162531,12,6.14,838,0,Fixed Deposit,Home Purchase,0.9891,1,228,5,0
+LN000344,CUS00183,63,Male,Single,Vocational,Contract Employee,13,2877024,239752,1547882,12,4.51,417,5,Real Estate,Business Expansion,6.4562,2,219,2,0
+LN000345,CUS00149,30,Male,Married,Secondary,Contract Employee,17,187764,15647,4632188,36,6.52,356,4,Guarantor,Personal Loan,98.6811,6,195,2,1
+LN000346,CUS00142,60,Male,Divorced,Bachelor,Permanent Employee,0,1976868,164739,1964990,300,4.49,308,1,Real Estate,Home Purchase,0.4771,0,62,2,0
+LN000347,CUS00037,42,Male,Married,Primary,Self-Employed,9,3375912,281326,3317512,36,13.29,455,1,Vehicle,Personal Loan,3.9308,3,183,3,1
+LN000348,CUS00108,29,Male,Widowed,Master,Business Owner,31,3905460,325455,1266436,12,7.31,346,1,None,Business Expansion,3.8913,5,124,2,1
+LN000349,CUS00145,53,Male,Married,Primary,Self-Employed,26,3598572,299881,3283155,24,12.24,814,0,Life Insurance,Auto Loan,5.4741,6,106,6,0
+LN000350,CUS00120,59,Female,Divorced,Doctoral,Government Officer,14,3964536,330378,4387334,180,7.34,378,0,None,Auto Loan,0.8853,1,2,3,0
+LN000351,CUS00069,23,Female,Divorced,Primary,Permanent Employee,21,306420,25535,4758211,240,14.73,599,5,Real Estate,Debt Consolidation,9.317,4,149,6,0
+LN000352,CUS00081,63,Female,Married,Primary,Permanent Employee,1,3269244,272437,716333,120,14.38,340,1,Life Insurance,Business Expansion,0.2629,2,32,1,0
+LN000353,CUS00125,38,Female,Married,Secondary,Freelance,26,1728324,144027,2142868,300,16.6,492,3,Vehicle,Business Expansion,0.5951,2,113,6,1
+LN000354,CUS00048,33,Female,Widowed,Primary,Self-Employed,1,2185140,182095,2660924,180,16.47,415,3,Life Insurance,Debt Consolidation,0.9742,6,178,5,1
+LN000355,CUS00109,25,Male,Divorced,Bachelor,Government Officer,15,1998492,166541,4548475,12,8.24,513,5,None,Debt Consolidation,27.3114,2,78,1,0
+LN000356,CUS00142,27,Female,Single,Bachelor,Self-Employed,22,2902872,241906,1540467,12,5.01,813,4,Guarantor,Debt Consolidation,6.368,0,190,4,0
+LN000357,CUS00030,52,Female,Widowed,Primary,Contract Employee,12,3708036,309003,1952371,36,6.02,425,3,Real Estate,Business Expansion,2.1061,4,95,4,1
+LN000358,CUS00015,37,Male,Single,Doctoral,Self-Employed,7,1252512,104376,2837678,300,15.79,779,0,Real Estate,Home Purchase,1.0875,4,54,3,1
+LN000359,CUS00036,31,Male,Married,Vocational,Permanent Employee,29,2674776,222898,1844095,84,9.26,618,0,None,Debt Consolidation,1.1819,1,216,2,0
+LN000360,CUS00098,25,Male,Single,Doctoral,Permanent Employee,34,1581312,131776,4487236,240,4.95,323,3,Real Estate,Medical,1.7026,3,76,2,1
+LN000361,CUS00152,23,Female,Married,Master,Self-Employed,15,3692004,307667,4947500,120,6.98,500,1,Vehicle,Medical,1.6081,0,140,4,1
+LN000362,CUS00166,61,Female,Single,Secondary,Contract Employee,6,283068,23589,2145438,36,6.18,434,0,Fixed Deposit,Business Expansion,30.3169,4,30,5,1
+LN000363,CUS00013,45,Female,Single,Primary,Permanent Employee,18,4021620,335135,4657497,48,13.87,655,5,Real Estate,Home Purchase,3.4743,6,1,6,0
+LN000364,CUS00110,30,Female,Married,Vocational,Contract Employee,30,2026308,168859,3844570,12,7.21,382,1,Guarantor,Business Expansion,22.7679,4,175,3,1
+LN000365,CUS00110,57,Female,Divorced,Vocational,Contract Employee,10,3032532,252711,4564517,84,12.95,614,2,Real Estate,Education,2.5803,4,169,5,0
+LN000366,CUS00180,30,Female,Single,Secondary,Self-Employed,4,3458880,288240,2837157,24,5.17,395,1,Vehicle,Home Purchase,4.9215,3,219,3,1
+LN000367,CUS00065,44,Male,Single,Secondary,Business Owner,15,2693532,224461,1271444,240,6.38,716,2,Guarantor,Auto Loan,0.2832,0,231,1,0
+LN000368,CUS00181,37,Female,Married,Master,Government Officer,8,2446188,203849,343480,300,3.58,658,5,Real Estate,Home Purchase,0.0674,1,235,5,0
+LN000369,CUS00067,56,Male,Single,Primary,Freelance,7,2598660,216555,1466891,240,8.5,393,2,Life Insurance,Auto Loan,0.3387,5,144,6,0
+LN000370,CUS00079,42,Male,Single,Doctoral,Permanent Employee,1,1728036,144003,647820,48,6.92,552,4,Life Insurance,Education,1.1247,3,224,4,1
+LN000371,CUS00038,33,Female,Divorced,Vocational,Contract Employee,8,2520120,210010,3204518,84,15.26,460,4,Life Insurance,Debt Consolidation,2.1798,3,219,2,1
+LN000372,CUS00130,44,Female,Widowed,Master,Government Officer,2,1052472,87706,2657798,180,7.43,731,0,None,Home Purchase,2.0202,1,125,5,0
+LN000373,CUS00167,62,Male,Divorced,Master,Contract Employee,26,2581248,215104,1199720,36,3.97,823,2,Fixed Deposit,Personal Loan,1.8591,1,210,1,1
+LN000374,CUS00067,61,Male,Single,Primary,Contract Employee,33,2468436,205703,1999998,180,17.97,733,0,Real Estate,Education,0.6482,4,89,5,0
+LN000375,CUS00037,43,Male,Married,Master,Freelance,25,3628020,302335,485737,120,4.3,496,3,Fixed Deposit,Education,0.1607,6,51,4,0
+LN000376,CUS00102,54,Male,Single,Vocational,Self-Employed,24,563364,46947,1155626,12,11.65,803,2,None,Business Expansion,24.6155,5,142,6,1
+LN000377,CUS00200,37,Male,Divorced,Secondary,Freelance,34,932844,77737,3937051,240,12.36,466,0,Vehicle,Debt Consolidation,2.5323,2,111,2,1
+LN000378,CUS00172,32,Male,Widowed,Secondary,Freelance,23,2148912,179076,4711346,300,17.31,804,3,Life Insurance,Auto Loan,1.0524,3,109,2,1
+LN000379,CUS00034,43,Female,Married,Secondary,Freelance,31,3259812,271651,554896,180,6.71,770,3,None,Medical,0.1362,4,34,6,0
+LN000380,CUS00169,60,Female,Divorced,Vocational,Self-Employed,17,2267004,188917,3258022,48,5.75,785,0,Real Estate,Education,4.3114,4,83,1,0
+LN000381,CUS00150,29,Female,Divorced,Bachelor,Freelance,4,1155828,96319,3371244,24,12.37,599,0,Fixed Deposit,Education,17.5004,1,112,5,1
+LN000382,CUS00142,58,Female,Divorced,Master,Permanent Employee,16,1680792,140066,441414,240,17.52,527,3,Life Insurance,Education,0.1576,5,156,4,0
+LN000383,CUS00147,25,Female,Divorced,Primary,Freelance,4,1398696,116558,138399,84,13.01,700,5,Fixed Deposit,Debt Consolidation,0.1696,1,34,3,0
+LN000384,CUS00197,41,Male,Divorced,Master,Government Officer,10,3592476,299373,397548,84,14.21,569,4,Fixed Deposit,Personal Loan,0.1897,6,143,2,0
+LN000385,CUS00195,28,Female,Widowed,Secondary,Business Owner,11,266136,22178,3128623,84,15.45,448,1,Fixed Deposit,Home Purchase,20.1527,1,59,5,0
+LN000386,CUS00118,35,Female,Married,Bachelor,Permanent Employee,12,1062432,88536,1823833,48,15.04,820,1,Real Estate,Debt Consolidation,5.15,4,153,5,1
+LN000387,CUS00143,62,Male,Married,Bachelor,Freelance,24,2088024,174002,2533200,180,7.45,672,4,None,Education,0.9706,6,177,6,1
+LN000388,CUS00089,42,Female,Widowed,Vocational,Freelance,6,2996472,249706,1871594,120,3.77,790,3,Real Estate,Personal Loan,0.7495,1,31,4,0
+LN000389,CUS00147,41,Female,Married,Bachelor,Freelance,20,1238040,103170,4927253,60,14.49,356,5,Real Estate,Business Expansion,9.5517,5,182,1,1
+LN000390,CUS00005,58,Male,Divorced,Secondary,Freelance,1,4116012,343001,1182735,240,12.46,760,0,Real Estate,Business Expansion,0.1724,4,145,4,0
+LN000391,CUS00027,36,Male,Widowed,Bachelor,Permanent Employee,35,1211844,100987,4783357,180,6.59,790,1,Vehicle,Business Expansion,3.1577,6,35,3,1
+LN000392,CUS00173,42,Male,Single,Master,Freelance,1,3846552,320546,4721766,36,10.46,552,0,Guarantor,Debt Consolidation,4.9101,1,227,5,0
+LN000393,CUS00156,60,Female,Married,Master,Freelance,17,2529300,210775,118392,180,8.75,489,1,Guarantor,Debt Consolidation,0.0374,2,45,1,0
+LN000394,CUS00062,59,Male,Married,Bachelor,Government Officer,30,1467528,122294,532255,48,6.48,476,4,None,Education,1.0881,4,107,3,0
+LN000395,CUS00039,55,Female,Divorced,Secondary,Government Officer,12,402744,33562,1248700,36,6.38,809,3,None,Debt Consolidation,12.4019,6,8,3,1
+LN000396,CUS00108,39,Female,Divorced,Secondary,Permanent Employee,33,1273716,106143,4359816,36,8.06,713,2,None,Debt Consolidation,13.6916,6,39,5,0
+LN000397,CUS00009,64,Male,Single,Secondary,Business Owner,1,3296688,274724,1805141,36,5.95,383,1,Vehicle,Education,2.1902,2,102,4,0
+LN000398,CUS00051,27,Female,Single,Vocational,Freelance,18,301008,25084,2202550,84,8.27,363,5,Vehicle,Auto Loan,12.5439,0,58,3,1
+LN000399,CUS00030,52,Male,Single,Vocational,Self-Employed,14,930468,77539,1042071,84,17.52,502,1,Life Insurance,Auto Loan,1.9199,6,156,2,0
+LN000400,CUS00141,39,Female,Single,Bachelor,Contract Employee,27,3129516,260793,1620003,48,7.38,569,3,None,Personal Loan,1.553,2,76,5,0

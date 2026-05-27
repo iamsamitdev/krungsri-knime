@@ -219,7 +219,7 @@ KNIME DL4J / TensorFlow Extensions:
 │  ┌──────────────┐  ┌──────────────┐                  │
 │  │ DL Network   │  │  Keras       │                  │
 │  │ Creator      │  │  Network     │                  │
-│  │ (สร้าง model)│  │  Reader      │                  │
+│  │ (สร้าง model) │  │  Reader      │                  │
 │  └──────────────┘  └──────────────┘                  │
 │                                                      │
 │  ┌──────────────┐  ┌──────────────┐                  │
@@ -236,28 +236,26 @@ KNIME DL4J / TensorFlow Extensions:
 
 ---
 
-### 2.2 Extensions ที่ติดตั้งใน KNIME 5.11
+### 2.2 Extensions ที่ติดตั้งใน KNIME 5.3.x
 
-Extensions ทั้งหมดติดตั้งผ่าน **Help → Install KNIME Extensions** (ต้องการอินเทอร์เน็ตเฉพาะเครื่องวิทยากร)
+Extensions ทั้งหมดติดตั้งผ่าน **Help → Install KNIME Extensions** (ต้องการอินเทอร์เน็ตสำหรับดาวน์โหลด)
 
 | Extension | Version | ใช้ใน |
 | :--- | :--- | :--- |
 | KNIME AI Extension | 5.11.0.v202602202108 | GenAI, LLM nodes |
 | KNIME Deep Learning - Keras Integration | 5.11.0.v202602010958 | Keras Learner/Predictor |
 | KNIME Deep Learning - TensorFlow 2 Integration | 5.11.0.v202602010958 | TF2 backend |
+| KNIME Python Integration | 5.11.0.v202602211520 | Python Script Node |
 | KNIME Image Processing | 1.8.3.v202512031239 | Image Loader, Resizer |
 | KNIME Image Processing - Deep Learning Extension | 1.0.2.v202601161305 | Image to DL Tensor |
-| KNIME Network Mining | 5.11.0.v202602211508 | Graph Analytics |
-| KNIME Python Integration | 5.11.0.v202602211520 | Python Script Node |
-| KNIME Textprocessing | 5.10.0.v202511281046 | NLP nodes |
 
 **ตรวจสอบหลังติดตั้ง:**
 ```
 Node Repository → Deep Learning → มี nodes ต่อไปนี้:
 • Keras Network Learner
-• Keras Network Predictor
-• Keras Simple Regression Learner
+• Keras Network Executor
 • DL Python Network Creator
+• DL Python Network Executor
 ```
 
 **Python Environment สำหรับ Deep Learning:**
@@ -434,7 +432,7 @@ Keras Network Learner
   ├──▶ (Loss Plot) → ดู Overfitting
   │
   ▼
-Keras Network Predictor
+Keras Network Executor
 • Input: Test data
   │
   ▼
@@ -473,7 +471,7 @@ Execute → สังเกต Loss ลดลงทุก Epoch
 
 **ขั้นตอนที่ 3:** ประเมินผล
 ```
-Keras Network Predictor → DL to Table → Scorer
+Keras Network Executor → DL to Table → Scorer
 เปรียบเทียบผลกับ ML algorithms จาก Day 2:
 • Accuracy, Recall, F1, AUC
 ```
@@ -628,7 +626,7 @@ Keras Network Learner (CNN Architecture)
 • Flatten → Dense(128) → Dropout → Dense(3, softmax)
       │
       ▼
-Keras Network Predictor
+Keras Network Executor
       │
       ▼
 Class Label (ประเภทเอกสาร)
@@ -797,7 +795,7 @@ Keras Network Learner
 • Loss: MSE, Optimizer: Adam
   │
   ▼
-Keras Network Predictor
+Keras Network Executor
   │
   ▼
 Denormalizer (คืนค่าเป็น THB จริง)

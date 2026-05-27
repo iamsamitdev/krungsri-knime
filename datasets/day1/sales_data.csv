@@ -1,0 +1,251 @@
+order_id,customer_id,product_id,product_name,category,quantity,unit_price,discount_pct,total_amount,order_date,delivery_date,region,sales_rep,channel,payment_method,status
+ORD00001,CUS00007,TR002,Data Analytics,Training,7,18000,15,107100.0,2024-02-07,2024-10-02,Bangkok,อรนุช พานิช,Tender,Bank Transfer,Cancelled
+ORD00002,CUS00054,HW001,Laptop i7,Hardware,2,35000,5,66500.0,2024-02-05,2024-05-04,Bangkok,สุนิสา แก้วมณี,Referral,Bank Transfer,Cancelled
+ORD00003,CUS00074,SW002,Power BI Pro,Software,10,8500,0,85000.0,2024-10-26,2024-07-23,Bangkok,นิรมล ศรีสุข,Direct Sales,E-Wallet,Completed
+ORD00004,CUS00016,TR004,SQL Workshop,Training,3,9000,10,24300.0,2024-10-19,2024-06-07,South,วิชัย มนัสพร,Direct Sales,E-Wallet,Cancelled
+ORD00005,CUS00009,HW003,Mechanical Keyboard,Hardware,2,3200,10,5760.0,2024-10-15,2024-02-01,South,นิรมล ศรีสุข,Referral,E-Wallet,Pending
+ORD00006,CUS00047,TR004,SQL Workshop,Training,10,9000,5,85500.0,2024-06-02,2024-05-08,West,วิชัย มนัสพร,Online,Bank Transfer,Cancelled
+ORD00007,CUS00058,TR005,BI Dashboard,Training,8,12000,0,96000.0,2024-05-27,2024-11-08,Bangkok,กานดา รักไทย,Tender,Cash,Completed
+ORD00008,CUS00006,TR002,Data Analytics,Training,8,18000,5,136800.0,2024-12-08,2024-02-10,West,สุนิสา แก้วมณี,Tender,Cheque,Completed
+ORD00009,CUS00059,TR005,BI Dashboard,Training,8,12000,10,86400.0,2024-02-05,2024-02-18,North,วัลลภ เพ็ชรดี,Direct Sales,Bank Transfer,Completed
+ORD00010,CUS00050,SB004,CRM Platform,Subscription,5,7200,15,30600.0,2024-12-08,2024-06-27,Bangkok,วัลลภ เพ็ชรดี,Partner,Credit Card,Cancelled
+ORD00011,CUS00037,SW004,Excel Advanced,Software,1,3500,0,3500.0,2024-03-07,2024-05-07,Northeast,ธนกร ใจดี,Referral,Bank Transfer,Completed
+ORD00012,CUS00018,CS004,Risk Analysis,Consulting,9,60000,0,540000.0,2024-08-08,2024-10-09,North,ธนกร ใจดี,Partner,Cash,Completed
+ORD00013,CUS00030,HW001,Laptop i7,Hardware,3,35000,0,105000.0,2024-12-03,2024-04-30,Bangkok,วัลลภ เพ็ชรดี,Tender,Credit Card,Completed
+ORD00014,CUS00069,TR001,ML Bootcamp,Training,3,25000,5,71250.0,2024-07-08,2024-11-09,South,อรนุช พานิช,Online,E-Wallet,Cancelled
+ORD00015,CUS00051,SW004,Excel Advanced,Software,9,3500,5,29925.0,2024-07-23,2024-07-21,Bangkok,วัลลภ เพ็ชรดี,Referral,Bank Transfer,Completed
+ORD00016,CUS00015,SW002,Power BI Pro,Software,8,8500,0,68000.0,2024-06-23,2024-11-04,Bangkok,กานดา รักไทย,Direct Sales,E-Wallet,Completed
+ORD00017,CUS00004,SB001,Cloud Storage,Subscription,6,1200,10,6480.0,2024-02-06,2024-04-17,South,ธนกร ใจดี,Online,Cheque,Completed
+ORD00018,CUS00015,SB003,BI SaaS,Subscription,8,5400,0,43200.0,2024-09-06,2024-08-27,Northeast,วัลลภ เพ็ชรดี,Partner,Bank Transfer,Completed
+ORD00019,CUS00021,SW003,Tableau Desktop,Software,5,15000,5,71250.0,2024-09-21,2024-01-13,Central,สุนิสา แก้วมณี,Partner,Credit Card,Cancelled
+ORD00020,CUS00012,SW005,Python Training,Software,5,5000,15,21250.0,2024-12-22,2024-05-14,South,อรนุช พานิช,Online,Cheque,Completed
+ORD00021,CUS00029,SB005,HR System,Subscription,9,9600,0,86400.0,2024-11-09,2024-04-10,West,นิรมล ศรีสุข,Referral,Credit Card,Completed
+ORD00022,CUS00004,SB004,CRM Platform,Subscription,6,7200,15,36720.0,2024-01-15,2024-05-24,Northeast,ประเสริฐ ทองดี,Online,E-Wallet,Completed
+ORD00023,CUS00029,CS003,Process Audit,Consulting,6,45000,0,270000.0,2024-02-22,2024-04-27,Northeast,นิรมล ศรีสุข,Partner,Credit Card,Pending
+ORD00024,CUS00045,SB005,HR System,Subscription,1,9600,5,9120.0,2024-11-25,2024-02-14,West,กานดา รักไทย,Referral,Credit Card,Pending
+ORD00025,CUS00051,HW004,USB-C Hub,Hardware,6,1500,0,9000.0,2024-08-25,2024-07-25,East,กานดา รักไทย,Online,Credit Card,Completed
+ORD00026,CUS00019,SW002,Power BI Pro,Software,10,8500,5,80750.0,2024-11-09,2024-11-02,Northeast,อรนุช พานิช,Online,E-Wallet,Cancelled
+ORD00027,CUS00014,HW001,Laptop i7,Hardware,1,35000,20,28000.0,2024-09-26,2024-03-13,Northeast,นิรมล ศรีสุข,Online,Bank Transfer,Completed
+ORD00028,CUS00076,HW003,Mechanical Keyboard,Hardware,9,3200,0,28800.0,2024-06-15,2024-05-13,South,ธนกร ใจดี,Online,Bank Transfer,Completed
+ORD00029,CUS00065,CS005,Dashboard Design,Consulting,9,35000,5,299250.0,2024-03-07,2024-09-30,Central,สุนิสา แก้วมณี,Tender,Bank Transfer,Pending
+ORD00030,CUS00020,HW005,Webcam HD,Hardware,1,2200,20,1760.0,2024-03-29,2024-03-14,Northeast,พิชัย สมาน,Direct Sales,E-Wallet,Completed
+ORD00031,CUS00062,TR005,BI Dashboard,Training,9,12000,10,97200.0,2024-02-24,2024-10-14,Bangkok,นิรมล ศรีสุข,Online,Cheque,Completed
+ORD00032,CUS00004,SW005,Python Training,Software,8,5000,10,36000.0,2024-02-02,2024-08-15,North,พิชัย สมาน,Tender,E-Wallet,Cancelled
+ORD00033,CUS00069,HW003,Mechanical Keyboard,Hardware,8,3200,10,23040.0,2024-09-01,2024-09-17,Central,สุนิสา แก้วมณี,Partner,E-Wallet,Completed
+ORD00034,CUS00051,CS002,AI Roadmap,Consulting,7,120000,0,840000.0,2024-08-14,2024-06-11,Bangkok,นิรมล ศรีสุข,Referral,Bank Transfer,Completed
+ORD00035,CUS00047,TR001,ML Bootcamp,Training,3,25000,15,63750.0,2024-03-14,2024-05-10,Central,วัลลภ เพ็ชรดี,Online,Bank Transfer,Pending
+ORD00036,CUS00056,CS002,AI Roadmap,Consulting,4,120000,0,480000.0,2024-09-20,2024-07-26,North,ธนกร ใจดี,Online,Cheque,Completed
+ORD00037,CUS00071,SW003,Tableau Desktop,Software,1,15000,0,15000.0,2024-08-22,2024-08-14,East,สมชาย วงศ์ดี,Referral,Cheque,Cancelled
+ORD00038,CUS00015,SB003,BI SaaS,Subscription,9,5400,0,48600.0,2024-04-27,2024-02-24,Bangkok,ประเสริฐ ทองดี,Partner,Bank Transfer,Completed
+ORD00039,CUS00034,TR002,Data Analytics,Training,7,18000,20,100800.0,2024-07-26,2024-03-18,South,สุนิสา แก้วมณี,Tender,Cash,Completed
+ORD00040,CUS00024,SW003,Tableau Desktop,Software,1,15000,20,12000.0,2024-08-05,2024-02-08,North,สมชาย วงศ์ดี,Direct Sales,Cheque,Completed
+ORD00041,CUS00016,SB002,Analytics API,Subscription,2,3600,0,7200.0,2024-08-20,2024-01-07,North,สุนิสา แก้วมณี,Referral,Cheque,Cancelled
+ORD00042,CUS00031,HW001,Laptop i7,Hardware,9,35000,15,267750.0,2024-02-26,2024-03-24,North,สมชาย วงศ์ดี,Online,Credit Card,Completed
+ORD00043,CUS00058,TR005,BI Dashboard,Training,4,12000,0,48000.0,2024-09-13,2024-12-11,Central,ประเสริฐ ทองดี,Partner,Bank Transfer,Completed
+ORD00044,CUS00065,SW001,KNIME License,Software,1,12000,15,10200.0,2024-10-09,2024-04-08,South,วัลลภ เพ็ชรดี,Online,Cash,Completed
+ORD00045,CUS00051,CS004,Risk Analysis,Consulting,9,60000,20,432000.0,2024-09-16,2024-06-07,East,นิรมล ศรีสุข,Online,Cheque,Completed
+ORD00046,CUS00017,HW004,USB-C Hub,Hardware,6,1500,0,9000.0,2024-01-08,2024-02-07,East,ประเสริฐ ทองดี,Referral,Credit Card,Completed
+ORD00047,CUS00037,SW004,Excel Advanced,Software,9,3500,15,26775.0,2024-11-02,2024-05-05,East,ประเสริฐ ทองดี,Direct Sales,Cash,Completed
+ORD00048,CUS00034,HW003,Mechanical Keyboard,Hardware,8,3200,0,25600.0,2024-07-05,2024-06-18,South,อรนุช พานิช,Online,Bank Transfer,Completed
+ORD00049,CUS00043,HW003,Mechanical Keyboard,Hardware,3,3200,0,9600.0,2024-07-14,2024-02-13,Northeast,ประเสริฐ ทองดี,Tender,Credit Card,Completed
+ORD00050,CUS00012,SB001,Cloud Storage,Subscription,2,1200,0,2400.0,2024-03-14,2024-07-24,South,สมชาย วงศ์ดี,Referral,Bank Transfer,Completed
+ORD00051,CUS00068,TR002,Data Analytics,Training,2,18000,10,32400.0,2024-03-20,2024-12-03,East,พิชัย สมาน,Referral,Cheque,Pending
+ORD00052,CUS00019,HW003,Mechanical Keyboard,Hardware,10,3200,15,27200.0,2024-01-23,2025-01-02,South,ธนกร ใจดี,Tender,Credit Card,Cancelled
+ORD00053,CUS00075,SB005,HR System,Subscription,1,9600,20,7680.0,2024-12-30,2024-12-16,East,นิรมล ศรีสุข,Direct Sales,Bank Transfer,Completed
+ORD00054,CUS00058,HW003,Mechanical Keyboard,Hardware,2,3200,5,6080.0,2024-10-12,2024-01-27,East,สมชาย วงศ์ดี,Tender,Credit Card,Pending
+ORD00055,CUS00009,TR001,ML Bootcamp,Training,8,25000,20,160000.0,2024-09-14,2024-10-02,Bangkok,สุนิสา แก้วมณี,Direct Sales,Cash,Completed
+ORD00056,CUS00027,SW003,Tableau Desktop,Software,4,15000,15,51000.0,2024-04-28,2024-11-29,Northeast,วัลลภ เพ็ชรดี,Referral,Bank Transfer,Pending
+ORD00057,CUS00026,TR001,ML Bootcamp,Training,10,25000,15,212500.0,2024-02-09,2024-11-04,Central,อรนุช พานิช,Partner,Cheque,Cancelled
+ORD00058,CUS00008,SB002,Analytics API,Subscription,1,3600,5,3420.0,2024-09-05,2024-05-18,East,กานดา รักไทย,Online,Cash,Completed
+ORD00059,CUS00060,SB003,BI SaaS,Subscription,8,5400,5,41040.0,2024-03-01,2024-10-09,Central,ประเสริฐ ทองดี,Direct Sales,Cash,Completed
+ORD00060,CUS00065,TR004,SQL Workshop,Training,2,9000,20,14400.0,2024-08-18,2024-05-18,Northeast,นิรมล ศรีสุข,Online,Bank Transfer,Cancelled
+ORD00061,CUS00047,SW002,Power BI Pro,Software,9,8500,0,76500.0,2024-03-08,2024-11-05,West,สุนิสา แก้วมณี,Partner,Bank Transfer,Completed
+ORD00062,CUS00004,HW004,USB-C Hub,Hardware,8,1500,5,11400.0,2024-03-22,2024-01-03,Northeast,วัลลภ เพ็ชรดี,Referral,Cheque,Completed
+ORD00063,CUS00016,CS003,Process Audit,Consulting,7,45000,0,315000.0,2024-06-18,2024-01-02,North,อรนุช พานิช,Referral,Bank Transfer,Completed
+ORD00064,CUS00009,SW003,Tableau Desktop,Software,5,15000,0,75000.0,2024-07-20,2024-07-19,West,พิชัย สมาน,Direct Sales,Cheque,Pending
+ORD00065,CUS00007,TR001,ML Bootcamp,Training,5,25000,0,125000.0,2024-12-04,2024-05-27,East,วิชัย มนัสพร,Online,Cheque,Pending
+ORD00066,CUS00048,SB003,BI SaaS,Subscription,4,5400,20,17280.0,2024-08-07,2024-01-16,West,ธนกร ใจดี,Tender,E-Wallet,Completed
+ORD00067,CUS00079,SW001,KNIME License,Software,7,12000,5,79800.0,2024-03-11,2024-11-26,West,ประเสริฐ ทองดี,Referral,Bank Transfer,Cancelled
+ORD00068,CUS00044,HW002,Monitor 27in,Hardware,8,8900,5,67640.0,2024-05-24,2024-06-02,North,ประเสริฐ ทองดี,Referral,Credit Card,Completed
+ORD00069,CUS00022,CS005,Dashboard Design,Consulting,7,35000,0,245000.0,2024-11-25,2024-03-24,Bangkok,นิรมล ศรีสุข,Tender,Cash,Cancelled
+ORD00070,CUS00058,HW004,USB-C Hub,Hardware,6,1500,20,7200.0,2024-08-06,2024-03-13,South,นิรมล ศรีสุข,Online,Bank Transfer,Completed
+ORD00071,CUS00031,TR005,BI Dashboard,Training,2,12000,0,24000.0,2024-07-07,2024-05-13,West,พิชัย สมาน,Online,Bank Transfer,Pending
+ORD00072,CUS00049,CS004,Risk Analysis,Consulting,9,60000,0,540000.0,2024-05-18,2024-06-23,West,สมชาย วงศ์ดี,Referral,Cheque,Cancelled
+ORD00073,CUS00028,TR002,Data Analytics,Training,9,18000,10,145800.0,2024-02-17,2024-05-19,Central,ธนกร ใจดี,Referral,Cash,Pending
+ORD00074,CUS00055,TR001,ML Bootcamp,Training,3,25000,0,75000.0,2024-12-29,2024-08-31,South,วัลลภ เพ็ชรดี,Direct Sales,Bank Transfer,Pending
+ORD00075,CUS00014,SB004,CRM Platform,Subscription,8,7200,0,57600.0,2024-04-24,2024-03-21,Central,สุนิสา แก้วมณี,Direct Sales,Cash,Completed
+ORD00076,CUS00017,SB001,Cloud Storage,Subscription,1,1200,20,960.0,2024-04-29,2024-10-19,Bangkok,ประเสริฐ ทองดี,Online,Cheque,Cancelled
+ORD00077,CUS00039,CS001,Data Strategy,Consulting,2,80000,0,160000.0,2024-09-25,2024-10-26,Central,ธนกร ใจดี,Partner,Credit Card,Cancelled
+ORD00078,CUS00059,SW001,KNIME License,Software,9,12000,0,108000.0,2024-05-22,2024-06-11,East,นิรมล ศรีสุข,Referral,E-Wallet,Completed
+ORD00079,CUS00040,SB002,Analytics API,Subscription,1,3600,5,3420.0,2024-01-29,2024-01-13,Central,วัลลภ เพ็ชรดี,Referral,Bank Transfer,Completed
+ORD00080,CUS00064,HW004,USB-C Hub,Hardware,6,1500,0,9000.0,2024-01-18,2024-12-23,North,ธนกร ใจดี,Partner,Cash,Completed
+ORD00081,CUS00027,SW003,Tableau Desktop,Software,9,15000,0,135000.0,2024-09-10,2024-04-13,North,นิรมล ศรีสุข,Online,Cash,Completed
+ORD00082,CUS00064,TR003,Deep Learning,Training,2,22000,10,39600.0,2024-11-08,2024-04-06,Central,วัลลภ เพ็ชรดี,Referral,Bank Transfer,Cancelled
+ORD00083,CUS00004,HW004,USB-C Hub,Hardware,1,1500,0,1500.0,2024-11-01,2024-03-14,Northeast,สมชาย วงศ์ดี,Direct Sales,Credit Card,Pending
+ORD00084,CUS00022,CS003,Process Audit,Consulting,2,45000,0,90000.0,2024-06-17,2024-04-08,Central,สุนิสา แก้วมณี,Referral,Bank Transfer,Completed
+ORD00085,CUS00022,CS003,Process Audit,Consulting,6,45000,5,256500.0,2024-02-25,2024-01-03,Bangkok,ประเสริฐ ทองดี,Direct Sales,Cheque,Pending
+ORD00086,CUS00046,SW005,Python Training,Software,4,5000,5,19000.0,2024-06-07,2024-08-10,Bangkok,สมชาย วงศ์ดี,Referral,Credit Card,Completed
+ORD00087,CUS00047,SB004,CRM Platform,Subscription,4,7200,0,28800.0,2024-08-30,2024-01-17,East,ธนกร ใจดี,Online,Cash,Completed
+ORD00088,CUS00008,CS001,Data Strategy,Consulting,8,80000,0,640000.0,2024-05-11,2024-04-10,East,กานดา รักไทย,Tender,Cheque,Completed
+ORD00089,CUS00034,TR003,Deep Learning,Training,10,22000,0,220000.0,2024-12-19,2024-06-12,North,ประเสริฐ ทองดี,Direct Sales,E-Wallet,Completed
+ORD00090,CUS00060,SW002,Power BI Pro,Software,2,8500,5,16150.0,2024-07-16,2024-05-09,Northeast,วัลลภ เพ็ชรดี,Online,Cash,Completed
+ORD00091,CUS00031,SW003,Tableau Desktop,Software,3,15000,10,40500.0,2024-06-16,2024-06-13,Northeast,อรนุช พานิช,Tender,Bank Transfer,Cancelled
+ORD00092,CUS00053,HW004,USB-C Hub,Hardware,3,1500,0,4500.0,2024-02-03,2024-11-29,Bangkok,วัลลภ เพ็ชรดี,Tender,E-Wallet,Completed
+ORD00093,CUS00034,HW004,USB-C Hub,Hardware,2,1500,0,3000.0,2024-11-15,2024-02-14,Central,กานดา รักไทย,Referral,Cash,Pending
+ORD00094,CUS00059,HW002,Monitor 27in,Hardware,3,8900,5,25365.0,2024-11-13,2024-12-12,Central,สุนิสา แก้วมณี,Direct Sales,Cheque,Completed
+ORD00095,CUS00033,TR005,BI Dashboard,Training,5,12000,0,60000.0,2024-05-13,2024-04-12,Northeast,นิรมล ศรีสุข,Online,Credit Card,Completed
+ORD00096,CUS00042,HW003,Mechanical Keyboard,Hardware,10,3200,0,32000.0,2024-02-03,2024-07-22,North,นิรมล ศรีสุข,Tender,E-Wallet,Completed
+ORD00097,CUS00001,SW004,Excel Advanced,Software,1,3500,0,3500.0,2024-08-31,2024-04-29,West,วัลลภ เพ็ชรดี,Partner,Bank Transfer,Completed
+ORD00098,CUS00077,HW001,Laptop i7,Hardware,1,35000,0,35000.0,2024-10-25,2024-04-10,Bangkok,อรนุช พานิช,Tender,Credit Card,Pending
+ORD00099,CUS00077,SB003,BI SaaS,Subscription,1,5400,0,5400.0,2024-12-29,2024-11-14,North,นิรมล ศรีสุข,Direct Sales,Cheque,Completed
+ORD00100,CUS00005,HW001,Laptop i7,Hardware,4,35000,0,140000.0,2024-11-02,2024-11-30,Central,สมชาย วงศ์ดี,Partner,Cash,Completed
+ORD00101,CUS00027,HW005,Webcam HD,Hardware,5,2200,0,11000.0,2024-01-17,2024-09-11,South,วัลลภ เพ็ชรดี,Direct Sales,Cash,Completed
+ORD00102,CUS00069,CS005,Dashboard Design,Consulting,3,35000,15,89250.0,2024-02-16,2024-12-01,Central,ธนกร ใจดี,Partner,Cash,Completed
+ORD00103,CUS00073,TR004,SQL Workshop,Training,1,9000,0,9000.0,2024-07-01,2024-08-01,Northeast,สมชาย วงศ์ดี,Partner,Credit Card,Pending
+ORD00104,CUS00021,CS002,AI Roadmap,Consulting,1,120000,5,114000.0,2024-08-04,2024-02-29,West,กานดา รักไทย,Referral,E-Wallet,Completed
+ORD00105,CUS00007,CS002,AI Roadmap,Consulting,3,120000,0,360000.0,2024-10-09,2024-03-14,East,ธนกร ใจดี,Direct Sales,E-Wallet,Cancelled
+ORD00106,CUS00045,TR005,BI Dashboard,Training,3,12000,0,36000.0,2024-05-25,2024-03-24,South,วิชัย มนัสพร,Direct Sales,Bank Transfer,Pending
+ORD00107,CUS00006,CS002,AI Roadmap,Consulting,5,120000,0,600000.0,2024-09-04,2024-06-11,Bangkok,พิชัย สมาน,Referral,Bank Transfer,Cancelled
+ORD00108,CUS00079,HW002,Monitor 27in,Hardware,10,8900,5,84550.0,2024-04-10,2024-08-31,Central,พิชัย สมาน,Online,Bank Transfer,Pending
+ORD00109,CUS00016,SB002,Analytics API,Subscription,7,3600,0,25200.0,2024-03-17,2024-05-07,East,นิรมล ศรีสุข,Direct Sales,E-Wallet,Completed
+ORD00110,CUS00059,TR001,ML Bootcamp,Training,7,25000,10,157500.0,2024-10-08,2024-11-18,West,ประเสริฐ ทองดี,Referral,Cheque,Cancelled
+ORD00111,CUS00048,HW004,USB-C Hub,Hardware,7,1500,15,8925.0,2024-08-16,2024-09-15,Northeast,วิชัย มนัสพร,Direct Sales,Bank Transfer,Cancelled
+ORD00112,CUS00080,CS004,Risk Analysis,Consulting,4,60000,5,228000.0,2024-08-22,2024-04-02,West,วัลลภ เพ็ชรดี,Referral,Bank Transfer,Completed
+ORD00113,CUS00012,HW003,Mechanical Keyboard,Hardware,7,3200,0,22400.0,2024-08-14,2024-09-16,South,สมชาย วงศ์ดี,Direct Sales,Credit Card,Completed
+ORD00114,CUS00065,TR005,BI Dashboard,Training,2,12000,0,24000.0,2024-07-12,2024-12-01,West,วิชัย มนัสพร,Direct Sales,Bank Transfer,Cancelled
+ORD00115,CUS00037,SW002,Power BI Pro,Software,3,8500,5,24225.0,2024-03-25,2024-12-18,West,นิรมล ศรีสุข,Direct Sales,Cheque,Cancelled
+ORD00116,CUS00036,TR002,Data Analytics,Training,6,18000,10,97200.0,2024-08-21,2024-03-15,North,สุนิสา แก้วมณี,Referral,Credit Card,Cancelled
+ORD00117,CUS00041,TR005,BI Dashboard,Training,9,12000,0,108000.0,2024-07-09,2024-01-20,Central,วิชัย มนัสพร,Referral,Credit Card,Completed
+ORD00118,CUS00034,TR004,SQL Workshop,Training,3,9000,20,21600.0,2024-02-28,2024-09-29,Bangkok,อรนุช พานิช,Referral,E-Wallet,Cancelled
+ORD00119,CUS00051,SB001,Cloud Storage,Subscription,5,1200,10,5400.0,2024-07-09,2024-05-16,Northeast,อรนุช พานิช,Tender,Credit Card,Completed
+ORD00120,CUS00023,TR001,ML Bootcamp,Training,8,25000,0,200000.0,2024-11-11,2024-01-26,North,สุนิสา แก้วมณี,Partner,Cheque,Cancelled
+ORD00121,CUS00020,TR001,ML Bootcamp,Training,1,25000,0,25000.0,2024-05-28,2024-11-12,East,ธนกร ใจดี,Referral,E-Wallet,Completed
+ORD00122,CUS00079,SW002,Power BI Pro,Software,8,8500,0,68000.0,2024-11-30,2024-01-25,Bangkok,สมชาย วงศ์ดี,Direct Sales,E-Wallet,Completed
+ORD00123,CUS00069,TR001,ML Bootcamp,Training,9,25000,0,225000.0,2024-04-24,2024-07-31,South,ประเสริฐ ทองดี,Tender,Credit Card,Completed
+ORD00124,CUS00018,TR005,BI Dashboard,Training,8,12000,0,96000.0,2024-01-08,2024-05-05,East,วิชัย มนัสพร,Referral,Bank Transfer,Completed
+ORD00125,CUS00034,HW003,Mechanical Keyboard,Hardware,7,3200,20,17920.0,2024-01-06,2024-01-30,East,สุนิสา แก้วมณี,Partner,E-Wallet,Cancelled
+ORD00126,CUS00064,CS005,Dashboard Design,Consulting,9,35000,15,267750.0,2024-05-07,2024-03-26,Bangkok,สมชาย วงศ์ดี,Direct Sales,E-Wallet,Completed
+ORD00127,CUS00008,CS002,AI Roadmap,Consulting,4,120000,0,480000.0,2024-02-23,2024-01-08,South,สุนิสา แก้วมณี,Online,Credit Card,Pending
+ORD00128,CUS00065,HW005,Webcam HD,Hardware,10,2200,15,18700.0,2024-11-27,2024-11-25,Northeast,พิชัย สมาน,Online,E-Wallet,Completed
+ORD00129,CUS00062,SW003,Tableau Desktop,Software,1,15000,15,12750.0,2024-10-02,2024-01-05,Northeast,ธนกร ใจดี,Referral,Bank Transfer,Pending
+ORD00130,CUS00030,HW002,Monitor 27in,Hardware,2,8900,0,17800.0,2024-11-25,2024-01-21,Bangkok,อรนุช พานิช,Partner,Bank Transfer,Completed
+ORD00131,CUS00038,SB004,CRM Platform,Subscription,9,7200,0,64800.0,2024-11-24,2024-04-22,Bangkok,สุนิสา แก้วมณี,Direct Sales,Credit Card,Completed
+ORD00132,CUS00042,HW002,Monitor 27in,Hardware,3,8900,15,22695.0,2024-04-08,2024-07-19,North,พิชัย สมาน,Online,Cash,Cancelled
+ORD00133,CUS00001,CS004,Risk Analysis,Consulting,9,60000,15,459000.0,2024-01-14,2024-08-12,East,นิรมล ศรีสุข,Tender,Cheque,Completed
+ORD00134,CUS00073,CS005,Dashboard Design,Consulting,10,35000,0,350000.0,2024-03-28,2024-03-16,Bangkok,สมชาย วงศ์ดี,Direct Sales,Bank Transfer,Cancelled
+ORD00135,CUS00004,HW003,Mechanical Keyboard,Hardware,3,3200,15,8160.0,2024-01-16,2024-01-23,Central,สมชาย วงศ์ดี,Direct Sales,Bank Transfer,Completed
+ORD00136,CUS00069,SB003,BI SaaS,Subscription,4,5400,20,17280.0,2024-12-06,2024-02-04,West,ธนกร ใจดี,Direct Sales,Credit Card,Completed
+ORD00137,CUS00012,HW001,Laptop i7,Hardware,1,35000,0,35000.0,2024-11-19,2024-11-20,North,วัลลภ เพ็ชรดี,Direct Sales,Credit Card,Completed
+ORD00138,CUS00055,HW003,Mechanical Keyboard,Hardware,6,3200,0,19200.0,2024-05-13,2024-01-12,North,ประเสริฐ ทองดี,Partner,Bank Transfer,Completed
+ORD00139,CUS00037,TR005,BI Dashboard,Training,9,12000,5,102600.0,2024-11-12,2024-01-17,West,ธนกร ใจดี,Direct Sales,Cash,Cancelled
+ORD00140,CUS00007,SW003,Tableau Desktop,Software,8,15000,15,102000.0,2024-10-02,2024-10-17,Central,กานดา รักไทย,Tender,Cheque,Completed
+ORD00141,CUS00037,CS001,Data Strategy,Consulting,9,80000,0,720000.0,2024-01-28,2024-01-04,North,วัลลภ เพ็ชรดี,Direct Sales,Cash,Completed
+ORD00142,CUS00066,CS005,Dashboard Design,Consulting,6,35000,20,168000.0,2024-05-13,2024-10-23,Central,ประเสริฐ ทองดี,Online,Credit Card,Pending
+ORD00143,CUS00072,HW001,Laptop i7,Hardware,2,35000,5,66500.0,2024-02-23,2024-11-18,North,อรนุช พานิช,Direct Sales,Cash,Pending
+ORD00144,CUS00027,SW004,Excel Advanced,Software,1,3500,0,3500.0,2024-06-04,2024-05-15,Northeast,สุนิสา แก้วมณี,Tender,Credit Card,Pending
+ORD00145,CUS00077,HW004,USB-C Hub,Hardware,3,1500,10,4050.0,2024-12-18,2024-11-06,East,สมชาย วงศ์ดี,Partner,E-Wallet,Completed
+ORD00146,CUS00071,SB002,Analytics API,Subscription,8,3600,15,24480.0,2024-06-14,2024-03-28,Northeast,วัลลภ เพ็ชรดี,Partner,E-Wallet,Completed
+ORD00147,CUS00031,HW003,Mechanical Keyboard,Hardware,8,3200,15,21760.0,2024-09-16,2024-04-09,North,ประเสริฐ ทองดี,Tender,Credit Card,Completed
+ORD00148,CUS00045,HW003,Mechanical Keyboard,Hardware,10,3200,10,28800.0,2024-03-23,2024-05-01,North,นิรมล ศรีสุข,Partner,Bank Transfer,Completed
+ORD00149,CUS00019,SW002,Power BI Pro,Software,7,8500,0,59500.0,2024-06-03,2024-06-02,Northeast,ประเสริฐ ทองดี,Online,Bank Transfer,Completed
+ORD00150,CUS00005,TR002,Data Analytics,Training,7,18000,5,119700.0,2024-01-07,2024-07-24,West,ธนกร ใจดี,Online,E-Wallet,Completed
+ORD00151,CUS00078,CS001,Data Strategy,Consulting,3,80000,0,240000.0,2024-07-26,2024-01-04,East,นิรมล ศรีสุข,Referral,E-Wallet,Cancelled
+ORD00152,CUS00030,CS002,AI Roadmap,Consulting,10,120000,20,960000.0,2024-12-13,2024-04-03,East,กานดา รักไทย,Referral,Cash,Completed
+ORD00153,CUS00052,TR001,ML Bootcamp,Training,7,25000,0,175000.0,2024-12-30,2024-11-19,Central,ประเสริฐ ทองดี,Referral,Cash,Pending
+ORD00154,CUS00024,SW005,Python Training,Software,7,5000,10,31500.0,2024-12-01,2024-06-17,West,สมชาย วงศ์ดี,Referral,Cash,Completed
+ORD00155,CUS00021,SW003,Tableau Desktop,Software,9,15000,0,135000.0,2024-04-12,2024-09-23,North,กานดา รักไทย,Tender,Cash,Cancelled
+ORD00156,CUS00048,HW004,USB-C Hub,Hardware,9,1500,0,13500.0,2024-09-24,2024-06-25,Northeast,วัลลภ เพ็ชรดี,Online,Credit Card,Pending
+ORD00157,CUS00008,SB001,Cloud Storage,Subscription,10,1200,0,12000.0,2024-05-09,2024-05-21,Northeast,ธนกร ใจดี,Direct Sales,Bank Transfer,Completed
+ORD00158,CUS00034,CS004,Risk Analysis,Consulting,6,60000,10,324000.0,2024-02-25,2024-04-25,North,ธนกร ใจดี,Tender,Credit Card,Pending
+ORD00159,CUS00009,CS002,AI Roadmap,Consulting,3,120000,0,360000.0,2024-11-20,2024-04-09,Northeast,สุนิสา แก้วมณี,Online,Credit Card,Completed
+ORD00160,CUS00071,CS004,Risk Analysis,Consulting,5,60000,20,240000.0,2024-11-28,2024-03-06,West,วัลลภ เพ็ชรดี,Partner,Credit Card,Completed
+ORD00161,CUS00024,CS003,Process Audit,Consulting,7,45000,15,267750.0,2024-09-03,2024-01-03,West,ประเสริฐ ทองดี,Partner,Credit Card,Completed
+ORD00162,CUS00080,TR004,SQL Workshop,Training,8,9000,5,68400.0,2024-11-22,2024-02-14,East,อรนุช พานิช,Online,Cheque,Pending
+ORD00163,CUS00018,SW001,KNIME License,Software,10,12000,0,120000.0,2024-09-28,2024-06-26,East,พิชัย สมาน,Direct Sales,Bank Transfer,Completed
+ORD00164,CUS00013,SW003,Tableau Desktop,Software,5,15000,10,67500.0,2024-10-23,2024-03-15,West,นิรมล ศรีสุข,Online,Cash,Completed
+ORD00165,CUS00069,HW002,Monitor 27in,Hardware,7,8900,20,49840.0,2024-03-26,2024-11-09,East,พิชัย สมาน,Direct Sales,E-Wallet,Completed
+ORD00166,CUS00011,HW004,USB-C Hub,Hardware,4,1500,10,5400.0,2024-08-12,2024-12-10,Bangkok,สุนิสา แก้วมณี,Direct Sales,Cheque,Pending
+ORD00167,CUS00072,HW002,Monitor 27in,Hardware,8,8900,5,67640.0,2024-01-30,2024-09-05,Northeast,วิชัย มนัสพร,Referral,Credit Card,Pending
+ORD00168,CUS00001,HW005,Webcam HD,Hardware,10,2200,20,17600.0,2024-03-23,2024-06-14,Northeast,พิชัย สมาน,Referral,Cheque,Pending
+ORD00169,CUS00010,TR004,SQL Workshop,Training,7,9000,15,53550.0,2024-04-02,2024-11-23,North,สมชาย วงศ์ดี,Direct Sales,E-Wallet,Completed
+ORD00170,CUS00063,TR001,ML Bootcamp,Training,9,25000,5,213750.0,2024-03-14,2024-01-19,Central,ธนกร ใจดี,Online,Cheque,Completed
+ORD00171,CUS00068,TR003,Deep Learning,Training,8,22000,20,140800.0,2024-10-10,2024-04-18,North,ธนกร ใจดี,Partner,Cash,Completed
+ORD00172,CUS00046,SB001,Cloud Storage,Subscription,5,1200,0,6000.0,2024-09-09,2024-07-26,North,สุนิสา แก้วมณี,Partner,E-Wallet,Completed
+ORD00173,CUS00025,HW004,USB-C Hub,Hardware,2,1500,0,3000.0,2024-06-11,2025-01-01,North,วิชัย มนัสพร,Tender,Bank Transfer,Completed
+ORD00174,CUS00074,CS005,Dashboard Design,Consulting,7,35000,10,220500.0,2024-01-26,2024-07-24,North,กานดา รักไทย,Direct Sales,Bank Transfer,Completed
+ORD00175,CUS00065,CS005,Dashboard Design,Consulting,1,35000,20,28000.0,2024-10-05,2024-11-10,Northeast,พิชัย สมาน,Online,E-Wallet,Completed
+ORD00176,CUS00023,HW001,Laptop i7,Hardware,8,35000,15,238000.0,2024-02-21,2024-12-06,Central,สมชาย วงศ์ดี,Referral,Bank Transfer,Completed
+ORD00177,CUS00034,TR002,Data Analytics,Training,5,18000,10,81000.0,2024-06-03,2024-04-05,Northeast,สมชาย วงศ์ดี,Partner,Bank Transfer,Pending
+ORD00178,CUS00073,SB005,HR System,Subscription,1,9600,5,9120.0,2024-09-24,2024-01-22,West,กานดา รักไทย,Referral,E-Wallet,Pending
+ORD00179,CUS00050,CS001,Data Strategy,Consulting,1,80000,15,68000.0,2024-10-31,2024-10-31,East,วิชัย มนัสพร,Referral,Cash,Cancelled
+ORD00180,CUS00020,SW001,KNIME License,Software,8,12000,0,96000.0,2024-11-16,2024-01-09,Northeast,สมชาย วงศ์ดี,Direct Sales,Bank Transfer,Completed
+ORD00181,CUS00003,HW001,Laptop i7,Hardware,3,35000,5,99750.0,2024-05-21,2025-01-04,South,นิรมล ศรีสุข,Referral,Credit Card,Completed
+ORD00182,CUS00072,TR002,Data Analytics,Training,2,18000,0,36000.0,2024-12-29,2024-09-13,Northeast,ประเสริฐ ทองดี,Direct Sales,Bank Transfer,Completed
+ORD00183,CUS00050,SW001,KNIME License,Software,10,12000,0,120000.0,2024-06-08,2024-06-09,East,พิชัย สมาน,Online,Cash,Cancelled
+ORD00184,CUS00057,SW003,Tableau Desktop,Software,6,15000,10,81000.0,2024-08-28,2024-12-13,Central,วิชัย มนัสพร,Direct Sales,Cheque,Completed
+ORD00185,CUS00058,CS004,Risk Analysis,Consulting,7,60000,20,336000.0,2024-05-19,2024-10-18,North,ประเสริฐ ทองดี,Partner,Bank Transfer,Cancelled
+ORD00186,CUS00002,SB003,BI SaaS,Subscription,10,5400,15,45900.0,2024-03-18,2024-11-04,West,ประเสริฐ ทองดี,Tender,Cash,Completed
+ORD00187,CUS00030,CS004,Risk Analysis,Consulting,7,60000,10,378000.0,2024-08-19,2024-05-26,East,สมชาย วงศ์ดี,Partner,Cheque,Completed
+ORD00188,CUS00006,CS002,AI Roadmap,Consulting,10,120000,20,960000.0,2024-05-27,2024-03-14,West,พิชัย สมาน,Online,Cheque,Cancelled
+ORD00189,CUS00070,CS003,Process Audit,Consulting,9,45000,0,405000.0,2024-10-10,2024-09-06,West,ธนกร ใจดี,Online,Credit Card,Completed
+ORD00190,CUS00027,SB001,Cloud Storage,Subscription,7,1200,5,7980.0,2024-05-10,2024-10-28,West,สมชาย วงศ์ดี,Referral,Cash,Cancelled
+ORD00191,CUS00009,SW005,Python Training,Software,6,5000,20,24000.0,2024-04-29,2024-07-23,South,สุนิสา แก้วมณี,Partner,E-Wallet,Completed
+ORD00192,CUS00025,CS005,Dashboard Design,Consulting,10,35000,0,350000.0,2024-04-18,2024-04-09,Bangkok,วิชัย มนัสพร,Partner,Cheque,Cancelled
+ORD00193,CUS00067,SB003,BI SaaS,Subscription,7,5400,20,30240.0,2024-03-17,2024-05-07,Bangkok,วัลลภ เพ็ชรดี,Partner,Bank Transfer,Completed
+ORD00194,CUS00077,CS001,Data Strategy,Consulting,3,80000,0,240000.0,2024-01-16,2024-06-26,North,สุนิสา แก้วมณี,Tender,Bank Transfer,Completed
+ORD00195,CUS00076,SW002,Power BI Pro,Software,10,8500,5,80750.0,2024-10-17,2024-04-20,North,ประเสริฐ ทองดี,Referral,Bank Transfer,Pending
+ORD00196,CUS00005,SB005,HR System,Subscription,3,9600,0,28800.0,2024-06-22,2024-04-13,Central,ธนกร ใจดี,Direct Sales,Bank Transfer,Completed
+ORD00197,CUS00059,SW005,Python Training,Software,6,5000,20,24000.0,2024-09-06,2024-02-03,West,พิชัย สมาน,Referral,Bank Transfer,Completed
+ORD00198,CUS00012,TR003,Deep Learning,Training,10,22000,0,220000.0,2024-12-08,2024-09-17,Northeast,วิชัย มนัสพร,Referral,Credit Card,Completed
+ORD00199,CUS00033,HW002,Monitor 27in,Hardware,3,8900,0,26700.0,2024-06-29,2024-02-01,South,สมชาย วงศ์ดี,Direct Sales,Cheque,Cancelled
+ORD00200,CUS00041,CS001,Data Strategy,Consulting,2,80000,0,160000.0,2024-01-03,2024-04-12,East,ประเสริฐ ทองดี,Tender,E-Wallet,Pending
+ORD00201,CUS00033,SW004,Excel Advanced,Software,6,3500,0,21000.0,2024-07-18,2024-03-05,North,วัลลภ เพ็ชรดี,Referral,Credit Card,Pending
+ORD00202,CUS00025,HW002,Monitor 27in,Hardware,1,8900,5,8455.0,2024-01-19,2024-03-22,West,นิรมล ศรีสุข,Direct Sales,E-Wallet,Completed
+ORD00203,CUS00003,HW004,USB-C Hub,Hardware,2,1500,5,2850.0,2024-11-17,2024-02-09,Northeast,อรนุช พานิช,Partner,Credit Card,Pending
+ORD00204,CUS00029,SW003,Tableau Desktop,Software,3,15000,0,45000.0,2024-01-30,2024-04-03,East,วัลลภ เพ็ชรดี,Tender,Credit Card,Pending
+ORD00205,CUS00032,HW003,Mechanical Keyboard,Hardware,7,3200,5,21280.0,2024-03-20,2024-01-15,North,พิชัย สมาน,Partner,Cheque,Completed
+ORD00206,CUS00059,TR004,SQL Workshop,Training,2,9000,0,18000.0,2024-09-04,2024-02-29,Central,สุนิสา แก้วมณี,Direct Sales,Credit Card,Cancelled
+ORD00207,CUS00026,CS003,Process Audit,Consulting,2,45000,0,90000.0,2024-07-05,2024-08-10,North,นิรมล ศรีสุข,Online,Bank Transfer,Pending
+ORD00208,CUS00038,TR004,SQL Workshop,Training,3,9000,0,27000.0,2024-03-14,2024-11-24,Bangkok,วัลลภ เพ็ชรดี,Tender,Cheque,Cancelled
+ORD00209,CUS00068,HW004,USB-C Hub,Hardware,1,1500,20,1200.0,2024-05-26,2024-04-06,North,ธนกร ใจดี,Direct Sales,Cash,Completed
+ORD00210,CUS00024,TR005,BI Dashboard,Training,3,12000,0,36000.0,2024-09-24,2024-04-28,East,วิชัย มนัสพร,Online,E-Wallet,Completed
+ORD00211,CUS00036,SW005,Python Training,Software,8,5000,20,32000.0,2024-03-30,2024-04-16,Central,พิชัย สมาน,Online,E-Wallet,Completed
+ORD00212,CUS00067,HW001,Laptop i7,Hardware,2,35000,15,59500.0,2024-07-27,2025-01-05,Bangkok,สุนิสา แก้วมณี,Partner,Cheque,Completed
+ORD00213,CUS00062,CS001,Data Strategy,Consulting,1,80000,5,76000.0,2024-03-09,2024-12-07,North,นิรมล ศรีสุข,Online,E-Wallet,Completed
+ORD00214,CUS00077,SW002,Power BI Pro,Software,6,8500,10,45900.0,2024-01-03,2024-07-02,South,วัลลภ เพ็ชรดี,Tender,Bank Transfer,Completed
+ORD00215,CUS00049,TR002,Data Analytics,Training,6,18000,20,86400.0,2024-10-22,2024-02-02,North,กานดา รักไทย,Referral,Cash,Cancelled
+ORD00216,CUS00003,SW005,Python Training,Software,9,5000,0,45000.0,2024-05-04,2024-02-16,Central,พิชัย สมาน,Online,Credit Card,Completed
+ORD00217,CUS00004,TR003,Deep Learning,Training,9,22000,20,158400.0,2024-01-10,2024-02-20,East,นิรมล ศรีสุข,Partner,Bank Transfer,Cancelled
+ORD00218,CUS00057,SB004,CRM Platform,Subscription,9,7200,0,64800.0,2024-02-22,2024-06-29,West,กานดา รักไทย,Online,Bank Transfer,Completed
+ORD00219,CUS00065,SW004,Excel Advanced,Software,8,3500,10,25200.0,2024-05-23,2024-02-27,Bangkok,กานดา รักไทย,Referral,Credit Card,Cancelled
+ORD00220,CUS00074,SB002,Analytics API,Subscription,4,3600,0,14400.0,2024-08-24,2024-07-23,Central,สมชาย วงศ์ดี,Referral,Cash,Cancelled
+ORD00221,CUS00007,SB005,HR System,Subscription,1,9600,5,9120.0,2024-07-04,2024-06-23,Northeast,นิรมล ศรีสุข,Partner,Cash,Cancelled
+ORD00222,CUS00042,TR004,SQL Workshop,Training,9,9000,0,81000.0,2024-09-21,2024-03-17,East,อรนุช พานิช,Online,Cash,Completed
+ORD00223,CUS00009,TR001,ML Bootcamp,Training,9,25000,0,225000.0,2024-06-15,2024-08-10,Central,สุนิสา แก้วมณี,Direct Sales,Credit Card,Completed
+ORD00224,CUS00006,CS004,Risk Analysis,Consulting,8,60000,15,408000.0,2024-01-21,2024-01-19,West,พิชัย สมาน,Partner,E-Wallet,Completed
+ORD00225,CUS00033,SB001,Cloud Storage,Subscription,10,1200,0,12000.0,2024-03-03,2024-09-24,Bangkok,ธนกร ใจดี,Online,Bank Transfer,Completed
+ORD00226,CUS00022,SW003,Tableau Desktop,Software,6,15000,15,76500.0,2024-03-02,2024-02-01,South,สุนิสา แก้วมณี,Partner,Bank Transfer,Pending
+ORD00227,CUS00016,SB005,HR System,Subscription,3,9600,5,27360.0,2024-09-18,2024-03-09,North,ธนกร ใจดี,Tender,Cheque,Completed
+ORD00228,CUS00059,HW001,Laptop i7,Hardware,9,35000,0,315000.0,2024-11-08,2024-12-22,South,นิรมล ศรีสุข,Referral,Credit Card,Cancelled
+ORD00229,CUS00079,TR004,SQL Workshop,Training,9,9000,0,81000.0,2024-09-01,2024-08-29,West,ประเสริฐ ทองดี,Direct Sales,Credit Card,Completed
+ORD00230,CUS00050,HW002,Monitor 27in,Hardware,9,8900,10,72090.0,2024-10-26,2024-07-22,Bangkok,อรนุช พานิช,Online,Credit Card,Completed
+ORD00231,CUS00037,SB003,BI SaaS,Subscription,8,5400,0,43200.0,2024-04-20,2024-06-01,Bangkok,สมชาย วงศ์ดี,Online,E-Wallet,Completed
+ORD00232,CUS00008,SB003,BI SaaS,Subscription,8,5400,15,36720.0,2024-09-21,2024-07-18,West,วัลลภ เพ็ชรดี,Partner,Bank Transfer,Cancelled
+ORD00233,CUS00046,HW002,Monitor 27in,Hardware,7,8900,0,62300.0,2024-03-12,2024-12-12,Central,พิชัย สมาน,Tender,Cheque,Cancelled
+ORD00234,CUS00017,SW004,Excel Advanced,Software,5,3500,20,14000.0,2024-07-30,2024-02-23,Bangkok,ธนกร ใจดี,Tender,E-Wallet,Completed
+ORD00235,CUS00054,CS004,Risk Analysis,Consulting,10,60000,0,600000.0,2024-05-23,2024-11-15,South,กานดา รักไทย,Referral,Cash,Pending
+ORD00236,CUS00051,TR003,Deep Learning,Training,5,22000,0,110000.0,2024-09-26,2024-10-12,South,ธนกร ใจดี,Partner,Bank Transfer,Pending
+ORD00237,CUS00069,CS004,Risk Analysis,Consulting,5,60000,0,300000.0,2024-06-04,2024-03-16,Northeast,พิชัย สมาน,Referral,E-Wallet,Completed
+ORD00238,CUS00078,SW003,Tableau Desktop,Software,6,15000,20,72000.0,2024-05-04,2024-06-16,Central,ธนกร ใจดี,Direct Sales,Bank Transfer,Completed
+ORD00239,CUS00069,TR005,BI Dashboard,Training,8,12000,0,96000.0,2024-06-08,2024-10-03,South,ธนกร ใจดี,Tender,E-Wallet,Pending
+ORD00240,CUS00077,CS004,Risk Analysis,Consulting,6,60000,0,360000.0,2024-12-12,2024-06-29,Northeast,สมชาย วงศ์ดี,Direct Sales,E-Wallet,Completed
+ORD00241,CUS00052,SW004,Excel Advanced,Software,6,3500,10,18900.0,2024-11-28,2024-10-15,South,วิชัย มนัสพร,Online,Cash,Pending
+ORD00242,CUS00044,CS004,Risk Analysis,Consulting,10,60000,10,540000.0,2024-12-20,2024-09-29,East,กานดา รักไทย,Online,Cheque,Completed
+ORD00243,CUS00023,TR001,ML Bootcamp,Training,5,25000,10,112500.0,2024-02-26,2024-12-02,North,อรนุช พานิช,Tender,Cash,Completed
+ORD00244,CUS00065,SB003,BI SaaS,Subscription,9,5400,0,48600.0,2024-04-06,2024-07-31,Central,สมชาย วงศ์ดี,Tender,E-Wallet,Completed
+ORD00245,CUS00053,TR005,BI Dashboard,Training,1,12000,15,10200.0,2024-01-06,2024-01-03,North,สุนิสา แก้วมณี,Direct Sales,Cheque,Pending
+ORD00246,CUS00004,SW005,Python Training,Software,1,5000,15,4250.0,2024-04-10,2024-03-31,Northeast,สุนิสา แก้วมณี,Tender,Cheque,Cancelled
+ORD00247,CUS00053,SB002,Analytics API,Subscription,10,3600,0,36000.0,2024-11-04,2024-03-04,Central,วิชัย มนัสพร,Tender,E-Wallet,Completed
+ORD00248,CUS00067,SW001,KNIME License,Software,2,12000,0,24000.0,2024-09-08,2024-08-28,South,ธนกร ใจดี,Direct Sales,Bank Transfer,Cancelled
+ORD00249,CUS00036,TR002,Data Analytics,Training,4,18000,0,72000.0,2024-03-27,2024-01-18,North,กานดา รักไทย,Tender,Bank Transfer,Completed
+ORD00250,CUS00003,HW004,USB-C Hub,Hardware,10,1500,5,14250.0,2024-01-28,2024-04-23,Northeast,พิชัย สมาน,Direct Sales,Cash,Completed

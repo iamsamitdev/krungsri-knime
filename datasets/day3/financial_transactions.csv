@@ -1,0 +1,351 @@
+transaction_id,customer_id,transaction_date,transaction_time,transaction_type,amount,currency,merchant_category,merchant_name,account_type,branch_code,status,balance_after,channel,is_fraud
+TXN000001,CUS00015,2024-03-12,23:06:43,Top-up,1299.29,THB,Food & Beverage,KFC Thailand,Savings,SKT001,Failed,16859.56,Mobile Banking,0
+TXN000002,CUS00036,2024-04-11,22:41:44,Bill Payment,11671.41,THB,Healthcare,Pahon Polpayat Hospital,Current,NBI001,Completed,404905.8,Mobile Banking,0
+TXN000003,CUS00010,2024-04-20,10:06:05,Online Payment,34922.06,THB,Fuel,PTT Station,Fixed Deposit,KKN001,Completed,403757.01,Branch,0
+TXN000004,CUS00006,2024-10-09,09:53:40,Bill Payment,6285.07,THB,Insurance,Krungthai-AXA,Current,BKK002,Completed,330970.4,ATM,0
+TXN000005,CUS00030,2024-11-21,11:10:23,ATM Withdrawal,42773.12,THB,Food & Beverage,Starbucks TH,Fixed Deposit,BKK002,Completed,267535.8,Internet Banking,0
+TXN000006,CUS00041,2024-12-18,17:14:43,ATM Withdrawal,23139.9,THB,Fuel,PTT Station,Current,BKK001,Pending,201181.23,Mobile Banking,0
+TXN000007,CUS00014,2024-12-01,15:25:56,Top-up,45661.15,THB,Healthcare,Pahon Polpayat Hospital,Current,CNX001,Completed,124067.13,POS,0
+TXN000008,CUS00038,2024-07-23,11:14:08,Bill Payment,13173.94,THB,Insurance,Bangkok Life,Savings,BKK001,Completed,77267.82,Internet Banking,0
+TXN000009,CUS00039,2024-08-27,16:16:35,Refund,29840.63,THB,Utilities,PEA Thailand,Savings,PTN001,Completed,384530.77,ATM,0
+TXN000010,CUS00001,2024-05-14,16:48:11,Bill Payment,14710.33,THB,Food & Beverage,McDonald's TH,Fixed Deposit,PTN001,Completed,77266.8,Internet Banking,0
+TXN000011,CUS00039,2024-06-14,15:01:07,ATM Withdrawal,47677.31,THB,Insurance,Krungthai-AXA,Current,BKK001,Completed,439126.79,Mobile Banking,0
+TXN000012,CUS00049,2024-09-29,04:08:42,Online Payment,36608.78,THB,Food & Beverage,KFC Thailand,Current,CNX001,Failed,482217.09,POS,0
+TXN000013,CUS00043,2024-11-28,11:28:57,Bill Payment,35661.8,THB,Healthcare,Pahon Polpayat Hospital,Savings,CMI001,Completed,32948.92,Mobile Banking,0
+TXN000014,CUS00001,2024-02-06,22:40:03,Transfer,27718.38,THB,E-commerce,Lazada TH,Savings,KKN001,Completed,257563.9,ATM,0
+TXN000015,CUS00037,2024-10-22,15:15:50,Online Payment,10751.13,THB,Education,Chula Extension,Current,BKK002,Completed,329832.39,ATM,0
+TXN000016,CUS00004,2024-12-10,20:41:06,Purchase,20584.56,THB,Utilities,AIS,Fixed Deposit,BKK002,Completed,96603.45,POS,0
+TXN000017,CUS00030,2024-05-07,02:28:51,Refund,7052.11,THB,Education,ABAC,Savings,BKK001,Completed,484529.13,Internet Banking,0
+TXN000018,CUS00026,2024-01-31,05:24:00,Online Payment,20350.38,THB,Fuel,Caltex TH,Credit,CNX001,Failed,348599.16,POS,0
+TXN000019,CUS00004,2024-10-23,23:34:03,Top-up,7782.1,THB,Education,NSTDA,Savings,BKK001,Reversed,251922.34,POS,0
+TXN000020,CUS00012,2024-02-05,19:04:43,Refund,2891.14,THB,Fuel,Shell Thailand,Credit,BKK002,Completed,289880.61,Mobile Banking,0
+TXN000021,CUS00037,2024-09-24,10:59:16,Transfer,4145.07,THB,E-commerce,JD Central,Current,CNX001,Failed,66308.26,ATM,0
+TXN000022,CUS00005,2024-01-05,14:39:36,Purchase,15843.05,THB,Education,Coursera,Current,PTN001,Completed,67095.83,ATM,0
+TXN000023,CUS00011,2024-08-12,17:45:19,Bill Payment,43969.55,THB,Food & Beverage,KFC Thailand,Savings,PTN001,Completed,465946.26,Mobile Banking,1
+TXN000024,CUS00048,2024-10-10,04:17:18,Bill Payment,13260.07,THB,Fuel,Shell Thailand,Fixed Deposit,CMI001,Completed,253199.12,ATM,0
+TXN000025,CUS00018,2024-01-23,00:21:49,Transfer,4660.31,THB,Retail,Robinson,Current,NBI001,Failed,280892.53,Mobile Banking,0
+TXN000026,CUS00003,2024-07-08,18:35:09,Online Payment,47255.29,THB,Food & Beverage,Starbucks TH,Savings,CNX001,Pending,449591.76,Mobile Banking,0
+TXN000027,CUS00007,2024-06-30,17:56:55,Online Payment,10543.32,THB,Entertainment,Netflix TH,Current,CMI001,Completed,488126.81,Internet Banking,0
+TXN000028,CUS00022,2024-07-29,21:55:47,Refund,1288.08,THB,Utilities,MEA Bangkok,Fixed Deposit,BKK003,Completed,191888.32,Mobile Banking,0
+TXN000029,CUS00030,2024-06-28,09:52:50,Refund,11160.56,THB,Education,Udemy,Current,BKK001,Completed,199834.52,ATM,0
+TXN000030,CUS00042,2024-09-17,12:43:53,Bill Payment,48346.11,THB,Food & Beverage,MK Restaurant,Savings,BKK002,Completed,90105.34,ATM,1
+TXN000031,CUS00047,2024-06-09,13:38:32,Purchase,5464.71,THB,Retail,HomePro,Current,CNX001,Completed,354683.86,Mobile Banking,0
+TXN000032,CUS00048,2024-12-09,06:23:27,Purchase,46282.48,THB,Insurance,Krungthai-AXA,Fixed Deposit,BKK002,Completed,254054.13,Branch,0
+TXN000033,CUS00009,2024-04-08,13:42:24,Top-up,20149.9,THB,Entertainment,Major Cineplex,Fixed Deposit,HYI001,Completed,152633.6,Internet Banking,0
+TXN000034,CUS00021,2024-08-26,14:28:43,Transfer,39298.65,THB,Utilities,DTAC,Credit,BKK003,Completed,142609.42,POS,0
+TXN000035,CUS00016,2024-12-10,09:14:51,Transfer,4714.69,THB,Entertainment,Major Cineplex,Savings,BKK001,Completed,491984.08,POS,0
+TXN000036,CUS00037,2024-04-09,22:44:24,Online Payment,22798.04,THB,Food & Beverage,Oishi,Current,BKK003,Completed,446437.25,Mobile Banking,0
+TXN000037,CUS00045,2024-09-22,14:03:35,Transfer,10981.11,THB,Utilities,PEA Thailand,Credit,BKK003,Reversed,334121.29,POS,0
+TXN000038,CUS00029,2024-11-09,23:57:32,Online Payment,15899.03,THB,E-commerce,Pantip Market,Credit,BKK003,Reversed,225584.81,Internet Banking,0
+TXN000039,CUS00041,2024-05-02,08:28:04,Top-up,38302.39,THB,Travel,Grab Thailand,Current,CNX001,Pending,160535.07,POS,0
+TXN000040,CUS00045,2024-03-19,22:13:04,Online Payment,6961.78,THB,Food & Beverage,Oishi,Fixed Deposit,PTN001,Reversed,208471.34,Internet Banking,0
+TXN000041,CUS00045,2024-01-11,18:24:30,Purchase,19504.37,THB,Utilities,True Move H,Fixed Deposit,HYI001,Failed,269572.06,POS,0
+TXN000042,CUS00032,2024-01-15,12:21:42,Top-up,44895.68,THB,E-commerce,Kaidee,Current,NBI001,Completed,490380.27,POS,0
+TXN000043,CUS00006,2024-11-25,13:08:55,Online Payment,45351.1,THB,Retail,The Mall,Savings,CNX001,Failed,164348.98,Branch,0
+TXN000044,CUS00018,2024-08-03,08:53:05,Online Payment,16908.15,THB,Entertainment,SF Cinema,Savings,KKN001,Completed,325421.9,Mobile Banking,0
+TXN000045,CUS00002,2024-11-14,04:15:08,Online Payment,47483.11,THB,Retail,Central Department,Current,NBI001,Completed,383682.15,Internet Banking,1
+TXN000046,CUS00008,2024-03-24,09:06:37,Purchase,30382.01,THB,E-commerce,JD Central,Credit,HYI001,Completed,38922.24,Internet Banking,0
+TXN000047,CUS00044,2024-11-03,03:50:36,Refund,34874.79,THB,Food & Beverage,McDonald's TH,Fixed Deposit,PTN001,Failed,331099.15,Mobile Banking,0
+TXN000048,CUS00027,2024-09-07,03:27:23,Top-up,32394.79,THB,Insurance,Bangkok Life,Current,HYI001,Completed,367163.86,ATM,1
+TXN000049,CUS00028,2024-10-30,08:20:54,Transfer,40419.55,THB,E-commerce,Lazada TH,Fixed Deposit,NBI001,Completed,375487.66,POS,0
+TXN000050,CUS00032,2024-06-15,05:31:13,ATM Withdrawal,33426.01,THB,E-commerce,JD Central,Fixed Deposit,CNX001,Completed,278339.72,POS,0
+TXN000051,CUS00032,2024-10-11,07:44:30,Top-up,4326.37,THB,Healthcare,Pahon Polpayat Hospital,Credit,BKK001,Completed,147823.56,Branch,0
+TXN000052,CUS00031,2024-10-10,16:22:27,Top-up,15344.99,THB,Healthcare,Paolo Hospital,Fixed Deposit,KKN001,Reversed,136187.3,ATM,0
+TXN000053,CUS00008,2024-10-01,22:11:12,Transfer,6076.76,THB,Healthcare,Pahon Polpayat Hospital,Fixed Deposit,SKT001,Completed,490274.8,Internet Banking,0
+TXN000054,CUS00001,2024-12-28,17:08:17,Purchase,11412.78,THB,Travel,Thai Airways,Fixed Deposit,BKK003,Reversed,52191.24,Mobile Banking,0
+TXN000055,CUS00022,2024-04-04,01:16:55,Online Payment,14252.75,THB,E-commerce,Lazada TH,Savings,HYI001,Reversed,37967.0,Mobile Banking,0
+TXN000056,CUS00020,2024-02-13,07:07:35,Refund,7502.42,THB,Fuel,Esso Thailand,Current,PTN001,Failed,225806.72,Branch,0
+TXN000057,CUS00040,2024-01-31,19:47:06,Refund,43015.32,THB,Travel,AirAsia TH,Current,CNX001,Completed,79371.49,Internet Banking,0
+TXN000058,CUS00029,2024-12-18,19:30:18,Purchase,3799.49,THB,Insurance,Muang Thai Life,Fixed Deposit,CNX001,Reversed,36518.7,Internet Banking,1
+TXN000059,CUS00043,2024-04-11,13:07:34,Transfer,39402.01,THB,Travel,AirAsia TH,Fixed Deposit,BKK003,Completed,30759.38,ATM,0
+TXN000060,CUS00019,2024-08-12,03:29:44,ATM Withdrawal,37460.44,THB,E-commerce,Kaidee,Fixed Deposit,PTN001,Reversed,219441.67,POS,0
+TXN000061,CUS00002,2024-02-16,07:43:53,Refund,44476.67,THB,Retail,IKEA Thailand,Savings,CNX001,Completed,381791.39,Internet Banking,0
+TXN000062,CUS00018,2024-04-02,18:27:40,Refund,25972.24,THB,Education,Chula Extension,Savings,NBI001,Pending,204765.7,ATM,0
+TXN000063,CUS00045,2024-09-10,09:42:25,Refund,42893.77,THB,Food & Beverage,KFC Thailand,Savings,NBI001,Completed,157944.06,ATM,1
+TXN000064,CUS00001,2024-12-02,17:29:26,Purchase,48510.73,THB,Food & Beverage,Starbucks TH,Fixed Deposit,SKT001,Reversed,313078.96,Mobile Banking,0
+TXN000065,CUS00019,2024-08-12,22:31:07,Purchase,13389.46,THB,Healthcare,Paolo Hospital,Current,BKK003,Completed,275868.66,POS,0
+TXN000066,CUS00008,2024-08-24,03:41:53,Transfer,4705.8,THB,Utilities,AIS,Fixed Deposit,PTN001,Completed,208329.68,Branch,0
+TXN000067,CUS00025,2024-04-07,19:32:47,Transfer,12224.36,THB,Education,Coursera,Fixed Deposit,HYI001,Pending,467189.95,POS,0
+TXN000068,CUS00020,2024-10-27,18:42:31,Refund,41036.45,THB,Travel,AirAsia TH,Credit,PTN001,Reversed,173216.85,POS,1
+TXN000069,CUS00013,2024-12-23,07:36:24,Transfer,18891.64,THB,Insurance,Bangkok Life,Savings,KKN001,Reversed,352908.71,Branch,0
+TXN000070,CUS00010,2024-09-10,01:08:32,Bill Payment,49421.28,THB,Utilities,True Move H,Savings,NBI001,Completed,263449.59,Branch,0
+TXN000071,CUS00042,2024-03-20,02:30:50,ATM Withdrawal,36136.07,THB,Retail,Robinson,Credit,BKK002,Pending,426318.33,POS,0
+TXN000072,CUS00032,2024-10-04,01:39:04,Transfer,47709.27,THB,Utilities,True Move H,Current,BKK002,Failed,489190.53,Mobile Banking,0
+TXN000073,CUS00002,2024-01-24,10:50:03,ATM Withdrawal,8359.92,THB,Education,NSTDA,Fixed Deposit,HYI001,Completed,122854.52,Branch,0
+TXN000074,CUS00012,2024-02-10,19:55:24,Bill Payment,34105.93,THB,E-commerce,Shopee TH,Credit,SKT001,Completed,116862.03,ATM,0
+TXN000075,CUS00030,2024-05-27,21:34:10,Purchase,12803.57,THB,Education,Chula Extension,Fixed Deposit,SKT001,Completed,319830.41,Branch,1
+TXN000076,CUS00025,2024-09-04,03:15:24,Bill Payment,22868.95,THB,Travel,Grab Thailand,Fixed Deposit,CNX001,Completed,488994.3,Branch,0
+TXN000077,CUS00050,2024-01-26,19:47:31,Refund,454.49,THB,Travel,Grab Thailand,Current,SKT001,Pending,110283.26,Internet Banking,0
+TXN000078,CUS00050,2024-12-03,21:53:08,Top-up,12568.81,THB,E-commerce,Lazada TH,Savings,CNX001,Reversed,17648.9,ATM,0
+TXN000079,CUS00048,2024-07-31,05:12:08,Refund,4552.16,THB,Fuel,Bangchak,Fixed Deposit,PTN001,Completed,415405.84,ATM,0
+TXN000080,CUS00022,2024-02-28,14:04:09,Refund,48370.83,THB,Education,Udemy,Credit,PTN001,Pending,46061.13,Branch,1
+TXN000081,CUS00024,2024-12-10,23:43:16,Bill Payment,13259.71,THB,Retail,HomePro,Fixed Deposit,BKK002,Completed,236266.96,POS,0
+TXN000082,CUS00042,2024-02-02,20:52:29,Top-up,16433.91,THB,Insurance,Krungthai-AXA,Credit,BKK002,Completed,23628.06,Mobile Banking,0
+TXN000083,CUS00016,2024-10-02,04:24:29,ATM Withdrawal,49796.57,THB,Travel,12Go Asia,Credit,SKT001,Completed,442821.48,Mobile Banking,1
+TXN000084,CUS00018,2024-01-17,22:23:13,Online Payment,30801.83,THB,Education,Chula Extension,Current,KKN001,Completed,490482.93,ATM,0
+TXN000085,CUS00018,2024-04-07,03:54:52,Online Payment,45089.73,THB,Insurance,AIA Thailand,Current,SKT001,Completed,26238.68,ATM,0
+TXN000086,CUS00049,2024-10-10,06:37:13,Refund,49441.6,THB,Healthcare,Bumrungrad,Fixed Deposit,BKK003,Completed,139360.15,Internet Banking,0
+TXN000087,CUS00008,2024-12-04,00:08:00,ATM Withdrawal,27033.76,THB,Fuel,Shell Thailand,Fixed Deposit,BKK001,Completed,133418.39,Internet Banking,0
+TXN000088,CUS00031,2024-08-17,11:32:37,Purchase,26327.97,THB,Utilities,AIS,Current,SKT001,Completed,363894.26,POS,0
+TXN000089,CUS00004,2024-09-02,12:27:43,Purchase,22929.22,THB,Travel,Bolt Thailand,Credit,BKK002,Completed,161733.8,Internet Banking,0
+TXN000090,CUS00038,2024-10-07,22:20:24,Bill Payment,6353.27,THB,Food & Beverage,KFC Thailand,Fixed Deposit,NBI001,Failed,50490.05,Mobile Banking,0
+TXN000091,CUS00029,2024-04-26,13:21:52,Online Payment,36055.95,THB,Insurance,Bangkok Life,Credit,BKK002,Pending,213955.24,ATM,0
+TXN000092,CUS00006,2024-02-13,02:27:06,Top-up,47681.95,THB,Entertainment,True Visions,Current,PTN001,Completed,293646.08,POS,0
+TXN000093,CUS00023,2024-12-06,13:55:58,Top-up,16515.82,THB,Insurance,AIA Thailand,Fixed Deposit,SKT001,Completed,176471.45,POS,0
+TXN000094,CUS00015,2024-02-25,11:54:35,ATM Withdrawal,10676.3,THB,Insurance,AIA Thailand,Fixed Deposit,SKT001,Completed,403803.46,POS,0
+TXN000095,CUS00002,2024-11-07,21:53:44,ATM Withdrawal,30697.99,THB,E-commerce,Lazada TH,Current,CNX001,Completed,460847.22,ATM,0
+TXN000096,CUS00043,2024-07-24,02:09:47,Top-up,9111.21,THB,Retail,Central Department,Savings,PTN001,Completed,188721.01,Branch,0
+TXN000097,CUS00021,2024-10-17,19:05:56,Purchase,7912.59,THB,Entertainment,Major Cineplex,Current,SKT001,Completed,337310.39,ATM,0
+TXN000098,CUS00029,2024-07-31,08:13:48,Bill Payment,33113.84,THB,Education,Coursera,Fixed Deposit,HYI001,Completed,142339.99,POS,0
+TXN000099,CUS00015,2024-07-21,19:03:00,Transfer,26370.36,THB,Education,NSTDA,Current,BKK003,Completed,145434.12,Mobile Banking,0
+TXN000100,CUS00009,2024-07-13,17:45:14,Bill Payment,24894.4,THB,Retail,IKEA Thailand,Fixed Deposit,BKK002,Failed,431020.42,Mobile Banking,0
+TXN000101,CUS00021,2024-10-21,13:36:25,Top-up,986.14,THB,Utilities,AIS,Fixed Deposit,BKK002,Failed,11407.42,ATM,0
+TXN000102,CUS00024,2024-02-15,13:54:06,Transfer,40076.04,THB,Fuel,Esso Thailand,Credit,PTN001,Completed,198487.58,ATM,0
+TXN000103,CUS00005,2024-09-18,20:07:33,Bill Payment,11117.52,THB,Entertainment,Major Cineplex,Fixed Deposit,KKN001,Completed,118898.16,Internet Banking,0
+TXN000104,CUS00049,2024-12-01,02:11:49,Top-up,9903.73,THB,Travel,Bolt Thailand,Credit,SKT001,Reversed,340885.61,POS,0
+TXN000105,CUS00021,2024-03-18,14:04:30,Online Payment,16194.25,THB,E-commerce,JD Central,Fixed Deposit,SKT001,Completed,176619.17,Mobile Banking,0
+TXN000106,CUS00024,2024-05-26,02:41:55,Refund,23114.04,THB,Travel,Thai Airways,Credit,NBI001,Completed,225417.12,POS,0
+TXN000107,CUS00010,2024-02-01,14:06:51,Refund,16110.26,THB,Healthcare,Samitivej,Savings,PTN001,Completed,20531.92,Branch,0
+TXN000108,CUS00024,2024-07-09,09:24:26,Refund,26227.22,THB,Education,NSTDA,Savings,KKN001,Completed,165515.69,POS,0
+TXN000109,CUS00043,2024-11-04,04:21:05,Bill Payment,14243.14,THB,Utilities,MEA Bangkok,Fixed Deposit,CNX001,Failed,65346.88,Mobile Banking,0
+TXN000110,CUS00022,2024-03-06,21:44:53,Top-up,27968.16,THB,Travel,12Go Asia,Savings,HYI001,Pending,10097.04,ATM,0
+TXN000111,CUS00050,2024-09-05,06:14:08,Transfer,47560.91,THB,Fuel,PTT Station,Fixed Deposit,BKK002,Completed,331302.69,POS,1
+TXN000112,CUS00012,2024-12-20,19:51:57,Transfer,29882.46,THB,Fuel,Esso Thailand,Savings,HYI001,Pending,338505.1,Internet Banking,0
+TXN000113,CUS00029,2024-04-29,17:15:19,Refund,30549.24,THB,Education,Chula Extension,Current,KKN001,Reversed,231378.31,ATM,0
+TXN000114,CUS00011,2024-04-12,19:08:55,ATM Withdrawal,25170.19,THB,Utilities,PEA Thailand,Credit,KKN001,Completed,355989.09,POS,0
+TXN000115,CUS00018,2024-08-18,16:09:53,Online Payment,14288.9,THB,Food & Beverage,McDonald's TH,Current,NBI001,Pending,465305.49,Branch,0
+TXN000116,CUS00025,2024-02-11,11:14:01,ATM Withdrawal,19852.88,THB,Retail,Central Department,Fixed Deposit,BKK003,Completed,20113.29,Branch,0
+TXN000117,CUS00040,2024-01-03,02:01:16,Transfer,37954.12,THB,Fuel,Shell Thailand,Credit,BKK002,Completed,119582.47,Mobile Banking,0
+TXN000118,CUS00040,2024-08-22,02:07:53,Online Payment,11960.05,THB,Retail,IKEA Thailand,Savings,PTN001,Completed,359553.62,ATM,0
+TXN000119,CUS00037,2024-08-01,05:42:42,Purchase,128.14,THB,Utilities,DTAC,Fixed Deposit,BKK002,Completed,195836.41,Branch,0
+TXN000120,CUS00017,2024-01-09,11:50:04,ATM Withdrawal,31801.76,THB,Retail,The Mall,Savings,SKT001,Pending,67571.39,ATM,0
+TXN000121,CUS00050,2024-12-16,14:44:30,Top-up,16960.44,THB,Insurance,Muang Thai Life,Current,BKK002,Reversed,19454.91,Internet Banking,0
+TXN000122,CUS00021,2024-06-07,16:25:52,Bill Payment,39565.91,THB,Retail,HomePro,Fixed Deposit,BKK001,Completed,143769.34,Mobile Banking,0
+TXN000123,CUS00028,2024-07-23,23:28:57,Online Payment,13697.17,THB,Entertainment,True Visions,Current,NBI001,Reversed,184306.12,POS,0
+TXN000124,CUS00039,2024-04-02,17:18:20,Purchase,40067.35,THB,Travel,Thai Airways,Fixed Deposit,CNX001,Completed,223511.97,Branch,0
+TXN000125,CUS00003,2024-06-29,19:27:17,Top-up,34503.75,THB,Fuel,PTT Station,Savings,HYI001,Pending,257029.92,Internet Banking,0
+TXN000126,CUS00029,2024-01-18,04:04:15,Refund,7181.83,THB,Retail,Robinson,Fixed Deposit,HYI001,Completed,302942.32,Branch,0
+TXN000127,CUS00037,2024-03-11,16:23:25,ATM Withdrawal,18632.07,THB,Entertainment,True Visions,Current,BKK002,Completed,368101.75,Branch,0
+TXN000128,CUS00017,2024-05-13,22:28:13,Bill Payment,19380.02,THB,Insurance,Krungthai-AXA,Credit,CMI001,Completed,68728.48,Mobile Banking,0
+TXN000129,CUS00006,2024-12-15,10:42:22,Top-up,8674.19,THB,Education,Coursera,Fixed Deposit,CNX001,Completed,356192.74,Internet Banking,0
+TXN000130,CUS00013,2024-03-12,07:50:31,Purchase,25462.35,THB,Entertainment,True Visions,Fixed Deposit,NBI001,Completed,306362.23,Mobile Banking,0
+TXN000131,CUS00047,2024-09-02,16:26:49,Online Payment,15499.07,THB,Food & Beverage,KFC Thailand,Savings,BKK003,Pending,321526.96,Branch,0
+TXN000132,CUS00050,2024-10-09,20:37:11,Refund,34021.44,THB,Education,Udemy,Credit,PTN001,Completed,415864.01,POS,0
+TXN000133,CUS00046,2024-04-25,11:33:57,ATM Withdrawal,15241.02,THB,Fuel,PTT Station,Fixed Deposit,CMI001,Completed,63459.98,ATM,0
+TXN000134,CUS00011,2024-10-30,18:09:10,Top-up,26697.23,THB,E-commerce,Pantip Market,Fixed Deposit,SKT001,Completed,412792.9,Mobile Banking,0
+TXN000135,CUS00037,2024-05-15,20:13:49,Bill Payment,2320.82,THB,Food & Beverage,Oishi,Savings,NBI001,Completed,321311.74,ATM,0
+TXN000136,CUS00026,2024-06-01,14:04:44,Purchase,12281.65,THB,Education,Udemy,Credit,HYI001,Reversed,232756.64,ATM,0
+TXN000137,CUS00021,2024-06-25,12:08:48,ATM Withdrawal,7226.25,THB,E-commerce,Pantip Market,Savings,KKN001,Completed,233769.81,ATM,0
+TXN000138,CUS00019,2024-07-15,19:26:15,Refund,12433.55,THB,Education,Udemy,Fixed Deposit,SKT001,Pending,95727.22,Internet Banking,0
+TXN000139,CUS00032,2024-01-12,02:25:32,Online Payment,49798.67,THB,Education,Udemy,Current,SKT001,Pending,25280.41,ATM,0
+TXN000140,CUS00044,2024-08-28,09:34:00,Refund,29896.06,THB,Education,Coursera,Credit,BKK003,Completed,364026.52,Branch,0
+TXN000141,CUS00036,2024-04-09,11:35:18,Purchase,2309.86,THB,Entertainment,AIS Play,Credit,PTN001,Completed,412830.35,POS,0
+TXN000142,CUS00026,2024-07-10,10:35:23,Refund,5984.61,THB,E-commerce,Shopee TH,Current,SKT001,Failed,250538.87,Mobile Banking,0
+TXN000143,CUS00031,2024-09-22,14:09:38,Bill Payment,6894.97,THB,Retail,The Mall,Fixed Deposit,SKT001,Pending,82088.52,POS,0
+TXN000144,CUS00033,2024-09-29,15:45:36,ATM Withdrawal,29706.55,THB,Travel,Bolt Thailand,Savings,KKN001,Pending,337229.39,Branch,0
+TXN000145,CUS00045,2024-11-18,00:38:30,ATM Withdrawal,15418.51,THB,E-commerce,Pantip Market,Current,BKK001,Reversed,86085.52,POS,0
+TXN000146,CUS00003,2024-10-20,22:07:12,Purchase,7431.4,THB,Utilities,AIS,Fixed Deposit,HYI001,Completed,207067.09,Internet Banking,0
+TXN000147,CUS00031,2024-02-01,22:08:33,Transfer,25115.88,THB,Utilities,DTAC,Fixed Deposit,NBI001,Failed,157562.55,Internet Banking,0
+TXN000148,CUS00023,2024-12-12,23:43:41,Refund,45610.6,THB,Education,NSTDA,Credit,CMI001,Completed,140224.19,ATM,1
+TXN000149,CUS00046,2024-04-16,22:45:31,ATM Withdrawal,47077.2,THB,Healthcare,Pahon Polpayat Hospital,Fixed Deposit,PTN001,Completed,144606.9,POS,0
+TXN000150,CUS00023,2024-03-15,09:02:18,Top-up,19015.72,THB,Insurance,AIA Thailand,Fixed Deposit,NBI001,Completed,373921.91,Internet Banking,0
+TXN000151,CUS00036,2024-12-22,08:08:06,Bill Payment,41406.19,THB,Healthcare,Paolo Hospital,Current,CMI001,Completed,335247.15,POS,1
+TXN000152,CUS00027,2024-06-18,22:30:06,Top-up,31915.33,THB,Healthcare,Bumrungrad,Savings,PTN001,Completed,204046.82,Branch,0
+TXN000153,CUS00019,2024-06-13,09:41:03,Refund,32544.41,THB,Education,Coursera,Current,PTN001,Completed,456701.63,Internet Banking,0
+TXN000154,CUS00003,2024-07-22,15:11:59,Top-up,44118.14,THB,Utilities,True Move H,Savings,BKK001,Completed,284412.97,Mobile Banking,1
+TXN000155,CUS00035,2024-09-25,15:56:08,Refund,14263.85,THB,Entertainment,Netflix TH,Credit,CNX001,Completed,404598.13,ATM,0
+TXN000156,CUS00046,2024-04-05,00:47:21,Refund,36569.41,THB,Fuel,Caltex TH,Current,BKK003,Failed,413667.92,POS,0
+TXN000157,CUS00012,2024-03-12,15:20:59,Transfer,4382.55,THB,Entertainment,SF Cinema,Fixed Deposit,HYI001,Completed,223921.03,ATM,0
+TXN000158,CUS00001,2024-05-13,20:23:44,Transfer,15132.19,THB,Entertainment,SF Cinema,Savings,NBI001,Completed,80698.7,POS,0
+TXN000159,CUS00019,2024-07-07,19:14:14,Transfer,34530.0,THB,Travel,Bolt Thailand,Current,NBI001,Pending,208506.96,POS,0
+TXN000160,CUS00014,2024-05-06,21:48:38,Refund,37879.66,THB,Education,Coursera,Credit,PTN001,Pending,39973.26,POS,0
+TXN000161,CUS00033,2024-04-13,18:34:09,Transfer,3134.81,THB,Food & Beverage,MK Restaurant,Credit,BKK002,Completed,358742.07,Branch,0
+TXN000162,CUS00009,2024-09-19,13:29:36,Purchase,44949.52,THB,Food & Beverage,KFC Thailand,Credit,CNX001,Completed,198578.41,Mobile Banking,0
+TXN000163,CUS00023,2024-12-24,02:34:03,Purchase,28936.65,THB,Healthcare,Pahon Polpayat Hospital,Savings,CNX001,Failed,90810.68,Internet Banking,0
+TXN000164,CUS00029,2024-07-12,12:05:43,Top-up,18754.32,THB,Utilities,DTAC,Current,KKN001,Completed,90058.34,POS,0
+TXN000165,CUS00015,2024-01-02,00:19:29,Top-up,26465.68,THB,Utilities,DTAC,Credit,PTN001,Failed,411856.86,Internet Banking,0
+TXN000166,CUS00047,2024-02-27,01:51:42,Online Payment,17340.68,THB,Education,ABAC,Savings,CMI001,Completed,34578.16,POS,0
+TXN000167,CUS00004,2024-05-05,23:02:25,Online Payment,22349.73,THB,Retail,The Mall,Current,BKK001,Completed,252444.03,ATM,0
+TXN000168,CUS00039,2024-12-10,10:15:19,Transfer,40798.52,THB,Healthcare,Paolo Hospital,Current,HYI001,Completed,138301.81,POS,0
+TXN000169,CUS00028,2024-10-11,15:03:22,Top-up,43991.71,THB,E-commerce,Kaidee,Fixed Deposit,HYI001,Failed,75459.59,Branch,0
+TXN000170,CUS00015,2024-06-02,22:09:51,Online Payment,37733.08,THB,Fuel,PTT Station,Credit,HYI001,Completed,194821.11,ATM,0
+TXN000171,CUS00029,2024-07-08,02:34:46,Refund,16546.64,THB,Healthcare,Bumrungrad,Savings,CNX001,Failed,337162.29,POS,0
+TXN000172,CUS00049,2024-10-27,23:42:35,Transfer,43687.34,THB,Retail,HomePro,Current,KKN001,Completed,478552.86,Mobile Banking,1
+TXN000173,CUS00049,2024-09-02,07:44:38,Top-up,46861.13,THB,Healthcare,Bumrungrad,Credit,CMI001,Pending,387981.43,Branch,0
+TXN000174,CUS00017,2024-07-03,16:56:31,Online Payment,26705.82,THB,Education,Coursera,Credit,KKN001,Completed,185981.76,Branch,0
+TXN000175,CUS00010,2024-01-09,08:35:59,Bill Payment,28148.11,THB,Retail,IKEA Thailand,Credit,CNX001,Completed,98899.7,Internet Banking,0
+TXN000176,CUS00036,2024-12-01,21:21:16,Refund,28510.99,THB,Utilities,AIS,Credit,NBI001,Completed,366653.35,ATM,0
+TXN000177,CUS00012,2024-10-04,20:03:33,Purchase,7040.93,THB,Fuel,PTT Station,Savings,BKK001,Failed,69608.27,Internet Banking,0
+TXN000178,CUS00033,2024-08-21,11:03:39,Top-up,35373.12,THB,Food & Beverage,KFC Thailand,Credit,NBI001,Completed,4299.57,POS,1
+TXN000179,CUS00018,2024-10-01,09:01:32,Refund,641.96,THB,Utilities,AIS,Current,BKK002,Completed,262668.32,Internet Banking,0
+TXN000180,CUS00023,2024-05-16,12:05:23,Online Payment,31008.05,THB,Healthcare,Pahon Polpayat Hospital,Current,CMI001,Completed,342336.77,Mobile Banking,0
+TXN000181,CUS00036,2024-08-31,01:40:00,Top-up,4720.35,THB,Retail,The Mall,Savings,NBI001,Failed,322808.71,ATM,0
+TXN000182,CUS00003,2024-04-27,06:57:55,Top-up,48867.59,THB,E-commerce,Pantip Market,Credit,CNX001,Completed,462155.47,ATM,0
+TXN000183,CUS00021,2024-01-09,06:37:09,Refund,28197.32,THB,Insurance,Bangkok Life,Savings,CNX001,Completed,282415.14,POS,0
+TXN000184,CUS00025,2024-03-12,22:46:05,Bill Payment,33867.9,THB,Utilities,True Move H,Savings,BKK002,Failed,116839.86,Mobile Banking,0
+TXN000185,CUS00039,2024-07-22,10:01:40,ATM Withdrawal,30278.18,THB,Entertainment,AIS Play,Credit,CMI001,Pending,276965.82,Branch,0
+TXN000186,CUS00025,2024-02-13,19:18:51,Transfer,9327.61,THB,Utilities,PEA Thailand,Savings,CNX001,Completed,190620.0,Internet Banking,0
+TXN000187,CUS00001,2024-06-06,14:23:48,ATM Withdrawal,15868.08,THB,Utilities,PEA Thailand,Current,BKK002,Completed,216058.78,POS,0
+TXN000188,CUS00006,2024-06-30,17:05:38,Bill Payment,25646.42,THB,Insurance,Krungthai-AXA,Credit,BKK001,Completed,207491.22,Mobile Banking,0
+TXN000189,CUS00011,2024-12-16,12:10:08,ATM Withdrawal,45265.12,THB,Insurance,Krungthai-AXA,Fixed Deposit,NBI001,Completed,32570.31,Branch,0
+TXN000190,CUS00005,2024-07-03,08:15:46,Top-up,21084.06,THB,Travel,Bolt Thailand,Current,NBI001,Completed,68609.27,Mobile Banking,0
+TXN000191,CUS00022,2024-08-13,10:27:52,Refund,16644.25,THB,Utilities,DTAC,Current,CNX001,Pending,302002.42,Internet Banking,0
+TXN000192,CUS00021,2024-05-29,23:44:40,Online Payment,15743.45,THB,Education,ABAC,Current,KKN001,Failed,140869.77,Branch,0
+TXN000193,CUS00038,2024-10-06,05:43:49,Bill Payment,5738.7,THB,Entertainment,SF Cinema,Credit,CMI001,Reversed,399045.07,Mobile Banking,0
+TXN000194,CUS00020,2024-05-03,08:42:09,Top-up,33665.23,THB,Utilities,AIS,Credit,BKK002,Reversed,495359.61,Branch,0
+TXN000195,CUS00045,2024-08-02,17:02:50,ATM Withdrawal,20070.21,THB,E-commerce,Pantip Market,Savings,BKK002,Completed,329143.22,ATM,0
+TXN000196,CUS00042,2024-12-12,20:25:48,ATM Withdrawal,32367.64,THB,Fuel,Esso Thailand,Savings,BKK001,Completed,130110.45,POS,0
+TXN000197,CUS00015,2024-08-16,11:25:29,Refund,27921.77,THB,Insurance,TISCO Insurance,Current,KKN001,Completed,241902.77,ATM,0
+TXN000198,CUS00047,2024-03-13,11:19:21,Online Payment,46031.35,THB,Utilities,MEA Bangkok,Credit,KKN001,Reversed,49713.89,Branch,1
+TXN000199,CUS00046,2024-02-28,00:54:21,Top-up,3405.36,THB,Entertainment,SF Cinema,Current,CMI001,Completed,276403.23,ATM,0
+TXN000200,CUS00026,2024-11-18,05:11:40,Top-up,21347.15,THB,Insurance,Bangkok Life,Credit,BKK001,Completed,225337.93,Branch,0
+TXN000201,CUS00018,2024-12-26,02:36:06,Refund,272.28,THB,Utilities,DTAC,Current,KKN001,Pending,99340.06,Mobile Banking,0
+TXN000202,CUS00041,2024-06-09,19:24:39,Online Payment,33551.54,THB,Travel,12Go Asia,Savings,KKN001,Pending,422913.38,POS,0
+TXN000203,CUS00040,2024-10-29,02:43:08,ATM Withdrawal,40696.23,THB,Fuel,PTT Station,Current,CNX001,Completed,92339.21,Internet Banking,0
+TXN000204,CUS00037,2024-07-15,13:11:31,Top-up,19453.74,THB,Insurance,TISCO Insurance,Current,PTN001,Completed,245331.37,Internet Banking,0
+TXN000205,CUS00004,2024-07-02,00:31:08,Transfer,15763.27,THB,Fuel,Esso Thailand,Credit,HYI001,Reversed,208399.59,Branch,0
+TXN000206,CUS00049,2024-04-22,09:02:17,Transfer,8404.31,THB,Education,ABAC,Fixed Deposit,BKK003,Reversed,283259.58,Branch,0
+TXN000207,CUS00018,2024-10-05,11:34:52,Refund,25564.76,THB,Insurance,AIA Thailand,Credit,PTN001,Completed,494898.09,Mobile Banking,0
+TXN000208,CUS00029,2024-05-14,11:55:52,Purchase,14920.56,THB,Healthcare,Pahon Polpayat Hospital,Savings,CMI001,Completed,405540.66,POS,0
+TXN000209,CUS00040,2024-03-12,06:52:13,Refund,43059.38,THB,Entertainment,SF Cinema,Fixed Deposit,PTN001,Completed,298831.99,Internet Banking,0
+TXN000210,CUS00037,2024-05-16,16:57:43,Refund,48951.06,THB,Entertainment,SF Cinema,Current,HYI001,Completed,496250.63,Internet Banking,1
+TXN000211,CUS00016,2024-12-12,12:31:09,Bill Payment,12521.38,THB,Fuel,Caltex TH,Credit,HYI001,Reversed,38682.62,Mobile Banking,0
+TXN000212,CUS00024,2024-08-20,15:20:37,Purchase,25804.89,THB,Utilities,PEA Thailand,Credit,KKN001,Completed,398043.29,Branch,0
+TXN000213,CUS00021,2024-05-25,10:35:36,Transfer,48408.02,THB,Healthcare,Paolo Hospital,Credit,KKN001,Completed,23925.52,Branch,0
+TXN000214,CUS00029,2024-08-21,00:27:12,Top-up,6255.65,THB,Retail,The Mall,Fixed Deposit,BKK003,Completed,47576.65,ATM,0
+TXN000215,CUS00042,2024-03-25,01:25:40,ATM Withdrawal,4166.91,THB,Travel,AirAsia TH,Credit,BKK002,Completed,1542.07,Branch,0
+TXN000216,CUS00044,2024-08-15,00:00:44,ATM Withdrawal,6678.35,THB,Food & Beverage,McDonald's TH,Credit,BKK003,Reversed,36343.32,Branch,0
+TXN000217,CUS00021,2024-07-07,09:08:24,Refund,36551.63,THB,Food & Beverage,Starbucks TH,Current,BKK002,Completed,305549.3,Internet Banking,0
+TXN000218,CUS00048,2024-03-18,13:39:43,Online Payment,17591.83,THB,Education,Udemy,Savings,BKK002,Completed,376470.38,POS,0
+TXN000219,CUS00009,2024-05-06,08:41:05,Transfer,17609.21,THB,Utilities,DTAC,Fixed Deposit,BKK001,Completed,103517.41,POS,0
+TXN000220,CUS00042,2024-01-28,07:31:24,Purchase,9472.89,THB,Insurance,Muang Thai Life,Credit,SKT001,Completed,264614.96,Mobile Banking,0
+TXN000221,CUS00037,2024-08-03,11:34:43,Transfer,46699.52,THB,Entertainment,AIS Play,Savings,BKK001,Completed,7882.92,Internet Banking,1
+TXN000222,CUS00019,2024-11-17,22:32:49,Online Payment,46132.84,THB,Retail,HomePro,Credit,BKK002,Completed,139456.4,ATM,0
+TXN000223,CUS00010,2024-10-01,10:25:37,Top-up,25589.67,THB,Food & Beverage,McDonald's TH,Fixed Deposit,HYI001,Completed,29895.07,Mobile Banking,0
+TXN000224,CUS00004,2024-06-07,21:47:42,Top-up,5843.53,THB,Utilities,MEA Bangkok,Savings,BKK001,Completed,351048.31,Internet Banking,0
+TXN000225,CUS00047,2024-05-12,05:23:08,Top-up,47653.16,THB,Education,NSTDA,Savings,BKK001,Pending,403746.82,ATM,0
+TXN000226,CUS00037,2024-11-17,02:31:29,Bill Payment,3240.41,THB,Insurance,Krungthai-AXA,Savings,NBI001,Completed,184476.2,ATM,0
+TXN000227,CUS00048,2024-09-17,00:02:54,Refund,44718.71,THB,Food & Beverage,McDonald's TH,Current,BKK001,Reversed,182624.27,Internet Banking,0
+TXN000228,CUS00046,2024-12-01,13:14:20,Transfer,46561.45,THB,Fuel,Esso Thailand,Fixed Deposit,CNX001,Completed,286196.45,Mobile Banking,0
+TXN000229,CUS00015,2024-09-21,01:25:04,Online Payment,33682.62,THB,Insurance,Krungthai-AXA,Fixed Deposit,KKN001,Completed,276992.61,Mobile Banking,0
+TXN000230,CUS00020,2024-11-14,07:29:23,Bill Payment,10073.52,THB,Entertainment,AIS Play,Current,PTN001,Completed,76132.62,Branch,0
+TXN000231,CUS00045,2024-01-05,10:00:48,Top-up,11688.24,THB,Retail,HomePro,Fixed Deposit,BKK002,Completed,265377.43,Internet Banking,0
+TXN000232,CUS00010,2024-12-30,08:05:02,Transfer,24626.84,THB,Utilities,DTAC,Credit,KKN001,Reversed,487302.84,Mobile Banking,0
+TXN000233,CUS00026,2024-02-08,18:36:03,Online Payment,4824.07,THB,E-commerce,Shopee TH,Current,CNX001,Completed,425605.94,Branch,0
+TXN000234,CUS00005,2024-04-13,04:49:49,Bill Payment,15936.98,THB,Entertainment,SF Cinema,Current,BKK002,Completed,225333.81,ATM,0
+TXN000235,CUS00050,2024-04-16,14:19:29,ATM Withdrawal,6080.8,THB,Utilities,PEA Thailand,Savings,BKK003,Completed,413366.96,POS,0
+TXN000236,CUS00010,2024-02-16,22:15:22,Online Payment,10790.29,THB,Retail,IKEA Thailand,Savings,CNX001,Completed,410224.72,Internet Banking,0
+TXN000237,CUS00036,2024-05-07,03:29:06,Refund,47607.23,THB,Retail,The Mall,Savings,BKK001,Completed,415355.79,Internet Banking,0
+TXN000238,CUS00044,2024-11-18,20:05:37,Bill Payment,9946.75,THB,Fuel,Caltex TH,Savings,BKK001,Completed,99677.42,Branch,0
+TXN000239,CUS00022,2024-03-03,01:29:03,Transfer,4644.33,THB,Fuel,Bangchak,Credit,HYI001,Reversed,15711.66,Branch,0
+TXN000240,CUS00018,2024-05-23,14:56:09,Purchase,17729.47,THB,Fuel,Bangchak,Current,CNX001,Reversed,206584.11,POS,0
+TXN000241,CUS00009,2024-08-02,06:41:56,Refund,3095.9,THB,Education,ABAC,Current,PTN001,Completed,494712.4,ATM,0
+TXN000242,CUS00037,2024-09-14,10:24:17,Transfer,27248.66,THB,Education,Coursera,Fixed Deposit,SKT001,Completed,15622.43,ATM,0
+TXN000243,CUS00038,2024-04-29,05:06:15,Top-up,40442.26,THB,Retail,The Mall,Fixed Deposit,PTN001,Completed,382260.81,Internet Banking,0
+TXN000244,CUS00012,2024-03-31,07:37:20,Refund,42332.93,THB,E-commerce,JD Central,Savings,KKN001,Completed,281991.34,Internet Banking,0
+TXN000245,CUS00003,2024-02-16,01:14:38,Transfer,27129.12,THB,Education,Coursera,Credit,BKK001,Pending,459030.2,Internet Banking,0
+TXN000246,CUS00021,2024-01-31,00:09:37,Top-up,17070.91,THB,Fuel,Shell Thailand,Savings,PTN001,Pending,480318.82,ATM,0
+TXN000247,CUS00021,2024-03-10,05:46:27,Refund,29321.53,THB,Utilities,AIS,Fixed Deposit,BKK003,Pending,112395.37,POS,0
+TXN000248,CUS00019,2024-03-06,05:46:00,Top-up,18950.29,THB,Fuel,Bangchak,Credit,SKT001,Completed,91858.8,ATM,0
+TXN000249,CUS00032,2024-03-13,10:47:04,Transfer,11083.72,THB,E-commerce,JD Central,Fixed Deposit,BKK003,Completed,411009.24,ATM,0
+TXN000250,CUS00045,2024-02-04,11:16:50,Purchase,619.21,THB,Education,Coursera,Savings,HYI001,Reversed,366559.66,Internet Banking,0
+TXN000251,CUS00035,2024-07-11,03:53:30,Refund,24679.45,THB,Utilities,DTAC,Current,BKK003,Reversed,37780.99,Mobile Banking,0
+TXN000252,CUS00007,2024-02-07,10:10:56,Online Payment,1052.9,THB,Travel,AirAsia TH,Savings,PTN001,Completed,169637.34,POS,0
+TXN000253,CUS00042,2024-03-25,19:56:27,Transfer,35240.01,THB,Education,Coursera,Savings,KKN001,Completed,487224.81,Branch,0
+TXN000254,CUS00017,2024-12-04,09:19:15,Purchase,36115.8,THB,Insurance,AIA Thailand,Credit,SKT001,Reversed,77641.38,ATM,0
+TXN000255,CUS00043,2024-11-16,19:30:12,Purchase,21408.92,THB,Retail,Central Department,Current,BKK003,Completed,488551.79,Branch,0
+TXN000256,CUS00032,2024-12-04,08:05:41,Bill Payment,15452.25,THB,Food & Beverage,Oishi,Current,KKN001,Failed,185331.43,Branch,0
+TXN000257,CUS00015,2024-05-17,18:03:09,Refund,13201.63,THB,Retail,Central Department,Savings,KKN001,Failed,485382.06,POS,0
+TXN000258,CUS00034,2024-08-02,17:43:55,Online Payment,27702.42,THB,Healthcare,Paolo Hospital,Current,NBI001,Completed,40398.57,Mobile Banking,0
+TXN000259,CUS00037,2024-12-12,19:09:07,Refund,28582.44,THB,Insurance,Bangkok Life,Current,BKK003,Completed,404421.9,Internet Banking,0
+TXN000260,CUS00028,2024-04-13,20:09:53,Bill Payment,21197.58,THB,Retail,Robinson,Fixed Deposit,BKK002,Completed,194661.48,Branch,0
+TXN000261,CUS00030,2024-01-07,22:39:37,Bill Payment,16340.03,THB,Insurance,Bangkok Life,Savings,HYI001,Completed,74951.67,POS,0
+TXN000262,CUS00007,2024-10-15,03:50:18,Refund,37930.95,THB,E-commerce,Pantip Market,Fixed Deposit,HYI001,Completed,192138.69,Branch,0
+TXN000263,CUS00018,2024-07-25,04:39:38,Top-up,30467.66,THB,E-commerce,Kaidee,Savings,HYI001,Pending,345566.36,Mobile Banking,0
+TXN000264,CUS00020,2024-06-08,08:53:31,Refund,46045.71,THB,Education,Coursera,Current,BKK003,Completed,487135.49,Branch,1
+TXN000265,CUS00042,2024-02-15,06:28:13,Refund,13507.53,THB,Entertainment,AIS Play,Credit,PTN001,Pending,410687.68,POS,0
+TXN000266,CUS00026,2024-03-10,16:56:36,Purchase,3327.57,THB,Fuel,Shell Thailand,Current,CMI001,Completed,125495.64,Branch,0
+TXN000267,CUS00030,2024-09-15,12:40:59,Purchase,45905.65,THB,Retail,Central Department,Current,KKN001,Reversed,297427.75,Internet Banking,0
+TXN000268,CUS00011,2024-05-12,23:53:44,Purchase,29364.67,THB,Education,NSTDA,Savings,HYI001,Completed,82290.8,POS,0
+TXN000269,CUS00018,2024-11-29,13:32:01,Refund,42862.7,THB,Healthcare,Bangkok Hospital,Credit,BKK003,Completed,300969.83,Mobile Banking,0
+TXN000270,CUS00020,2024-12-30,22:41:17,Online Payment,12656.9,THB,Healthcare,Pahon Polpayat Hospital,Fixed Deposit,NBI001,Completed,109886.32,ATM,0
+TXN000271,CUS00007,2024-01-04,16:42:53,Refund,41224.33,THB,Insurance,Krungthai-AXA,Fixed Deposit,CNX001,Completed,241387.47,ATM,1
+TXN000272,CUS00017,2024-12-01,22:57:41,ATM Withdrawal,32047.71,THB,Travel,AirAsia TH,Current,PTN001,Completed,449943.84,POS,0
+TXN000273,CUS00047,2024-01-14,20:31:18,ATM Withdrawal,33043.49,THB,Utilities,AIS,Credit,HYI001,Completed,291928.83,POS,0
+TXN000274,CUS00044,2024-09-30,20:50:30,Top-up,17191.19,THB,Healthcare,Samitivej,Fixed Deposit,BKK003,Completed,147598.24,Branch,0
+TXN000275,CUS00036,2024-04-03,21:57:21,Top-up,37058.9,THB,Fuel,PTT Station,Current,KKN001,Completed,372360.75,ATM,0
+TXN000276,CUS00017,2024-10-26,09:29:54,Purchase,39415.12,THB,Utilities,AIS,Savings,SKT001,Completed,236637.62,Internet Banking,0
+TXN000277,CUS00034,2024-06-01,13:03:55,Refund,6034.81,THB,Insurance,Muang Thai Life,Current,CMI001,Pending,205186.73,POS,0
+TXN000278,CUS00012,2024-02-11,15:21:40,Transfer,7204.05,THB,Education,NSTDA,Savings,BKK001,Reversed,137490.4,Internet Banking,0
+TXN000279,CUS00049,2024-02-15,04:39:27,Top-up,38235.96,THB,E-commerce,Kaidee,Credit,HYI001,Reversed,192274.89,Mobile Banking,0
+TXN000280,CUS00001,2024-06-13,16:12:01,Top-up,10010.74,THB,Insurance,AIA Thailand,Current,CMI001,Pending,156734.04,Mobile Banking,0
+TXN000281,CUS00005,2024-01-24,09:18:29,Top-up,25191.66,THB,Utilities,DTAC,Fixed Deposit,HYI001,Completed,172023.69,Branch,0
+TXN000282,CUS00026,2024-01-10,07:14:46,Transfer,37518.27,THB,Entertainment,Major Cineplex,Savings,SKT001,Completed,62457.83,Mobile Banking,0
+TXN000283,CUS00035,2024-11-15,01:38:03,Top-up,43833.38,THB,Utilities,PEA Thailand,Savings,BKK001,Completed,208971.01,Branch,1
+TXN000284,CUS00010,2024-04-15,22:43:40,Purchase,27386.76,THB,Food & Beverage,MK Restaurant,Credit,BKK002,Completed,311776.09,Internet Banking,0
+TXN000285,CUS00047,2024-11-12,03:18:07,Refund,41541.1,THB,Utilities,PEA Thailand,Credit,CMI001,Completed,389201.5,POS,1
+TXN000286,CUS00011,2024-01-21,17:31:58,Transfer,17928.2,THB,Healthcare,Pahon Polpayat Hospital,Fixed Deposit,CMI001,Completed,7361.95,Mobile Banking,0
+TXN000287,CUS00006,2024-09-18,02:46:46,Purchase,41769.85,THB,Food & Beverage,MK Restaurant,Current,NBI001,Completed,132798.39,Mobile Banking,0
+TXN000288,CUS00024,2024-12-12,10:27:47,Purchase,40668.26,THB,Food & Beverage,McDonald's TH,Savings,BKK001,Completed,332014.16,Internet Banking,0
+TXN000289,CUS00040,2024-05-17,23:05:23,Refund,17908.49,THB,Entertainment,True Visions,Current,BKK002,Failed,200724.86,Branch,0
+TXN000290,CUS00027,2024-11-28,05:07:08,Top-up,41793.63,THB,Travel,Thai Airways,Current,BKK002,Failed,455702.15,Branch,0
+TXN000291,CUS00025,2024-07-02,19:01:55,Top-up,33935.74,THB,E-commerce,Shopee TH,Credit,NBI001,Completed,443909.37,Branch,0
+TXN000292,CUS00001,2024-12-26,21:33:49,Top-up,3213.64,THB,Retail,IKEA Thailand,Current,KKN001,Completed,216991.11,Internet Banking,0
+TXN000293,CUS00025,2024-03-17,17:57:39,Purchase,17320.19,THB,Education,Coursera,Current,PTN001,Reversed,426083.7,Internet Banking,0
+TXN000294,CUS00022,2024-05-22,01:32:14,Bill Payment,37583.93,THB,Food & Beverage,Oishi,Credit,CMI001,Completed,230088.2,POS,0
+TXN000295,CUS00021,2024-03-01,15:47:41,Purchase,4446.59,THB,Education,Coursera,Credit,HYI001,Completed,279008.37,Mobile Banking,0
+TXN000296,CUS00041,2024-06-04,16:35:13,Top-up,39599.58,THB,Food & Beverage,Oishi,Fixed Deposit,KKN001,Completed,408477.75,Branch,0
+TXN000297,CUS00031,2024-12-02,11:45:28,Purchase,28029.53,THB,Entertainment,SF Cinema,Current,BKK001,Pending,178214.35,ATM,0
+TXN000298,CUS00003,2024-03-25,15:08:52,Top-up,26123.16,THB,Insurance,Bangkok Life,Savings,CNX001,Completed,94584.16,Branch,0
+TXN000299,CUS00046,2024-06-22,03:48:26,Purchase,22879.45,THB,Healthcare,Paolo Hospital,Savings,NBI001,Reversed,329569.89,POS,0
+TXN000300,CUS00048,2024-01-25,17:59:27,Refund,48194.55,THB,Fuel,Bangchak,Credit,PTN001,Completed,346217.04,Internet Banking,1
+TXN000301,CUS00039,2024-06-13,16:56:24,Online Payment,5222.52,THB,Fuel,Bangchak,Current,CNX001,Failed,481833.18,ATM,0
+TXN000302,CUS00039,2024-12-24,23:32:19,Refund,40249.6,THB,Education,ABAC,Fixed Deposit,PTN001,Completed,101243.65,POS,1
+TXN000303,CUS00009,2024-12-29,20:11:32,Bill Payment,34346.23,THB,Travel,Grab Thailand,Savings,KKN001,Reversed,291820.33,Branch,0
+TXN000304,CUS00001,2024-09-24,03:01:24,Transfer,14332.1,THB,Insurance,AIA Thailand,Savings,CMI001,Completed,375342.32,Internet Banking,0
+TXN000305,CUS00004,2024-12-19,09:13:48,Bill Payment,34185.35,THB,Travel,Thai Airways,Fixed Deposit,NBI001,Completed,308438.31,POS,0
+TXN000306,CUS00016,2024-09-18,22:18:44,Top-up,37133.52,THB,Healthcare,Bangkok Hospital,Credit,HYI001,Failed,478394.28,ATM,0
+TXN000307,CUS00013,2024-11-13,14:53:14,Top-up,2737.42,THB,Insurance,Krungthai-AXA,Current,CMI001,Completed,224958.65,Mobile Banking,0
+TXN000308,CUS00003,2024-08-07,08:35:16,Transfer,48125.64,THB,Fuel,Shell Thailand,Fixed Deposit,BKK001,Pending,233699.34,Internet Banking,0
+TXN000309,CUS00004,2024-11-16,19:53:42,ATM Withdrawal,7727.48,THB,Retail,HomePro,Fixed Deposit,BKK002,Pending,263172.14,Internet Banking,0
+TXN000310,CUS00027,2024-10-05,17:25:05,ATM Withdrawal,3455.41,THB,Insurance,Muang Thai Life,Current,KKN001,Pending,181038.11,Internet Banking,0
+TXN000311,CUS00049,2024-11-28,00:07:42,ATM Withdrawal,26548.42,THB,E-commerce,Kaidee,Current,SKT001,Completed,479489.51,ATM,0
+TXN000312,CUS00035,2024-05-24,00:58:33,Refund,45800.82,THB,Utilities,True Move H,Credit,NBI001,Completed,148920.55,Internet Banking,0
+TXN000313,CUS00011,2024-10-02,17:00:40,Purchase,25719.04,THB,Entertainment,Major Cineplex,Current,HYI001,Completed,103584.2,Branch,0
+TXN000314,CUS00030,2024-06-18,01:05:04,Purchase,37357.2,THB,Food & Beverage,Starbucks TH,Fixed Deposit,PTN001,Completed,287906.18,Internet Banking,0
+TXN000315,CUS00026,2024-08-09,10:01:24,Top-up,20411.26,THB,Travel,Thai Airways,Savings,SKT001,Completed,378224.34,POS,0
+TXN000316,CUS00033,2024-02-24,09:50:43,ATM Withdrawal,35059.06,THB,Retail,IKEA Thailand,Savings,CNX001,Reversed,191325.37,Mobile Banking,0
+TXN000317,CUS00048,2024-07-19,17:18:40,Transfer,7858.36,THB,Education,NSTDA,Fixed Deposit,BKK001,Completed,62494.34,Mobile Banking,0
+TXN000318,CUS00006,2024-06-05,06:47:47,Top-up,29852.91,THB,E-commerce,JD Central,Current,HYI001,Completed,81316.22,Internet Banking,0
+TXN000319,CUS00012,2024-12-09,18:54:03,Refund,41745.68,THB,E-commerce,Pantip Market,Credit,PTN001,Completed,146035.68,Mobile Banking,1
+TXN000320,CUS00032,2024-06-18,11:08:42,Top-up,4955.21,THB,Travel,AirAsia TH,Savings,CNX001,Completed,450159.18,ATM,0
+TXN000321,CUS00020,2024-12-21,18:09:36,Bill Payment,22559.77,THB,Education,NSTDA,Fixed Deposit,HYI001,Completed,3411.11,Internet Banking,0
+TXN000322,CUS00018,2024-07-03,04:43:46,ATM Withdrawal,35624.35,THB,Healthcare,Pahon Polpayat Hospital,Credit,NBI001,Pending,387608.71,Branch,0
+TXN000323,CUS00006,2024-05-23,04:57:34,Transfer,5486.19,THB,Insurance,Krungthai-AXA,Savings,BKK002,Completed,424944.05,Mobile Banking,0
+TXN000324,CUS00014,2024-01-19,17:16:34,Bill Payment,28966.09,THB,E-commerce,Kaidee,Current,KKN001,Failed,112430.02,POS,0
+TXN000325,CUS00006,2024-07-22,11:32:00,Top-up,6737.37,THB,Travel,AirAsia TH,Current,PTN001,Completed,223664.0,Internet Banking,0
+TXN000326,CUS00048,2024-09-04,11:02:14,Refund,47438.16,THB,E-commerce,Kaidee,Current,BKK002,Completed,185348.16,Mobile Banking,0
+TXN000327,CUS00025,2024-08-28,14:56:02,Purchase,25918.37,THB,Healthcare,Samitivej,Savings,PTN001,Completed,417601.26,ATM,0
+TXN000328,CUS00042,2024-07-12,11:37:41,Refund,27240.29,THB,E-commerce,Lazada TH,Fixed Deposit,HYI001,Completed,258669.52,ATM,0
+TXN000329,CUS00039,2024-01-04,16:56:08,Online Payment,24368.74,THB,Entertainment,Major Cineplex,Current,BKK002,Completed,106547.03,Internet Banking,0
+TXN000330,CUS00008,2024-12-04,07:26:51,ATM Withdrawal,18143.04,THB,Fuel,PTT Station,Credit,NBI001,Reversed,106141.27,Internet Banking,0
+TXN000331,CUS00037,2024-10-30,05:08:40,Bill Payment,1171.18,THB,Utilities,PEA Thailand,Current,BKK001,Completed,129871.56,Internet Banking,0
+TXN000332,CUS00002,2024-12-04,09:05:13,Online Payment,47914.0,THB,Insurance,TISCO Insurance,Credit,NBI001,Completed,110462.54,Branch,0
+TXN000333,CUS00050,2024-04-03,19:42:32,ATM Withdrawal,7178.47,THB,E-commerce,Shopee TH,Fixed Deposit,NBI001,Completed,115677.08,Branch,0
+TXN000334,CUS00033,2024-12-16,13:52:09,Bill Payment,5473.08,THB,Fuel,PTT Station,Current,NBI001,Completed,438998.57,POS,0
+TXN000335,CUS00043,2024-03-07,19:34:52,Purchase,37631.54,THB,Insurance,Bangkok Life,Credit,KKN001,Completed,349123.76,Branch,0
+TXN000336,CUS00023,2024-10-28,23:58:48,Refund,46924.16,THB,Healthcare,Paolo Hospital,Savings,HYI001,Completed,128004.5,Internet Banking,0
+TXN000337,CUS00027,2024-05-11,06:00:45,Top-up,14199.17,THB,Food & Beverage,McDonald's TH,Savings,PTN001,Completed,188139.91,Internet Banking,0
+TXN000338,CUS00028,2024-11-29,18:16:16,Refund,20471.81,THB,Entertainment,Netflix TH,Credit,SKT001,Pending,306328.46,Branch,0
+TXN000339,CUS00031,2024-04-01,11:35:35,Online Payment,20690.75,THB,Healthcare,Samitivej,Fixed Deposit,SKT001,Pending,387323.05,Branch,0
+TXN000340,CUS00029,2024-12-24,05:06:13,Bill Payment,42757.2,THB,Fuel,Esso Thailand,Fixed Deposit,PTN001,Completed,81208.27,Mobile Banking,0
+TXN000341,CUS00006,2024-02-02,08:14:23,Purchase,41171.61,THB,Food & Beverage,KFC Thailand,Savings,HYI001,Failed,307368.83,POS,0
+TXN000342,CUS00050,2024-03-30,20:31:28,Purchase,35594.71,THB,Travel,AirAsia TH,Fixed Deposit,CMI001,Completed,392195.76,POS,0
+TXN000343,CUS00044,2024-01-19,11:15:41,Purchase,34937.56,THB,Insurance,Muang Thai Life,Savings,CNX001,Failed,177210.7,Branch,0
+TXN000344,CUS00048,2024-12-26,02:58:05,Bill Payment,29324.7,THB,Utilities,True Move H,Fixed Deposit,KKN001,Completed,113921.46,Internet Banking,0
+TXN000345,CUS00027,2024-09-16,03:35:04,Bill Payment,46489.21,THB,Education,NSTDA,Fixed Deposit,BKK002,Completed,438180.41,POS,0
+TXN000346,CUS00037,2024-09-04,07:48:21,Refund,34724.88,THB,Travel,Bolt Thailand,Credit,SKT001,Completed,241503.11,ATM,0
+TXN000347,CUS00015,2024-12-12,22:14:51,ATM Withdrawal,19164.53,THB,Food & Beverage,Oishi,Fixed Deposit,PTN001,Completed,350708.46,ATM,0
+TXN000348,CUS00048,2024-06-24,02:35:59,Transfer,14400.11,THB,Healthcare,Pahon Polpayat Hospital,Fixed Deposit,KKN001,Completed,447263.81,ATM,0
+TXN000349,CUS00032,2024-04-12,07:47:15,Refund,47358.55,THB,Fuel,Caltex TH,Current,CMI001,Completed,417635.3,POS,0
+TXN000350,CUS00006,2024-12-12,21:31:39,Purchase,7841.98,THB,Entertainment,Netflix TH,Savings,NBI001,Pending,310713.07,Branch,0

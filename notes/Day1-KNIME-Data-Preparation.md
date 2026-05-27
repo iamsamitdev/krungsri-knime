@@ -998,7 +998,7 @@ CSV Reader ──▶ Data Type Caster ──▶ String to Date&Time
 
 ---
 
-### 🧪 Lab 6: Workshop สรุป Day 1 — สร้าง Audit Dashboard Workflow
+### 🧪 Lab 7: Workshop สรุป Day 1 — สร้าง Audit Dashboard Workflow
 
 **วัตถุประสงค์:** สร้าง workflow ครบกระบวนการสำหรับรายงาน Audit
 
