@@ -1919,6 +1919,11 @@ Normalizer ─┬─────────────────────
 
 ---
 
+### ตัวอย่าง ทำนายผลลูกค้า (Churn API)
+https://knimeml-production.up.railway.app/
+
+---
+
 *เอกสารนี้จัดทำโดย อาจารย์สามิตร โกยม | IT Genius Engineering Co., Ltd.*
 *สำหรับการฝึกอบรม Machine Learning and Deep Learning with KNIME — กลุ่มงานตรวจสอบภายใน ธนาคารกรุงศรีอยุธยา*
 *วันที่ 19 พฤษภาคม 2569*
