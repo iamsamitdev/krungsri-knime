@@ -466,7 +466,7 @@ output_network = model
 Keras Network Learner:
 • เลือก Target column และ Feature columns
 • Epochs: 50, Batch Size: 32
-Execute → สังเกต Loss ลดลงทุก Epoch
+Execute → สังเกต Loss ลดล      งทุก Epoch
 ```
 
 **ขั้นตอนที่ 3:** ประเมินผล

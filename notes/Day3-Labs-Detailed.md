@@ -45,6 +45,7 @@
 | KNIME Image Processing - Deep Learning Extension | Lab 3 (Demo) |
 
 
+> &nbsp;
 > **การตั้งค่า Python Environment สำหรับ Deep Learning:**
 >
 > 
@@ -57,6 +58,7 @@
 > 
 >
 > เมื่อเลือก **TensorFlow 2** โหนดตระกูล `DL Python` จะใช้ TensorFlow 2 library — โค้ดทุก Lab ในเอกสารนี้เขียนแบบ `from tensorflow import keras` ซึ่งทำงานกับ TensorFlow 2 ได้โดยตรง หากหน้า Preferences แสดงข้อความสีส้มเตือนเรื่องเวอร์ชัน Keras นั่นเป็นคำเตือนของ Keras integration รุ่นเก่าที่ไม่ได้ใช้ในชุด Lab นี้ จึงไม่กระทบการทำงาน
+> &nbsp;
 
 ---
 
@@ -184,7 +186,7 @@ CSV Reader → Column Filter →  One to Many  → Partitioning → Normalizer
 | ช่อง | ค่าที่ตั้ง | คำอธิบาย |
 |------|-----------|----------|
 | **Read from** | `Local File System` (dropdown) | อ่านจากไฟล์ในเครื่อง |
-| **Mode** | ● **File** ○ Files in folder | อ่านทีละ 1 ไฟล์ |
+| **Mode** | **File** ○ Files in folder | อ่านทีละ 1 ไฟล์ |
 | **File** | `C:\KNIME_MASTER\datasets\Mockup Resources\loan_default.csv` | คลิก **Browse...** เพื่อเลือกไฟล์ |
 
 **ส่วน Reader options / Format:**
@@ -193,7 +195,7 @@ CSV Reader → Column Filter →  One to Many  → Partitioning → Normalizer
 |------|-----------|----------|
 | **Autodetect format** | คลิกปุ่มนี้ก่อน | KNIME จะตรวจจับ delimiter และ format อัตโนมัติ |
 | **Column delimiter** | `,` (comma) | ตัวคั่นข้อมูลแต่ละ column |
-| **Row delimiter** | ● **Line break** ○ Custom | ตัวคั่นแต่ละแถว |
+| **Row delimiter** | **Line break** ○ Custom | ตัวคั่นแต่ละแถว |
 | **Quote char** | `"` (double quote) | อักขระ quote |
 | **Quote escape char** | `"` (double quote) | อักขระ escape สำหรับ quote ภายใน quote |
 | **Comment char** | `#` | บรรทัดที่ขึ้นต้นด้วย # จะถูกข้ามไป |
@@ -344,12 +346,16 @@ Toggle ด้านบน: **Manual** | Wildcard | Regex | Type → เลือ
 
 **จุดประสงค์:** แบ่งข้อมูลเป็น Training Set (80%) และ Test Set (20%) แบบสุ่ม (seed คงที่) — ได้ผลลัพธ์ reproducible เหมือนเดิมทุกครั้ง
 
+> &nbsp;
 > 💡 **ทำไม Partitioning ต้องอยู่ก่อน Normalizer? (Best Practice — ป้องกัน Data Leakage)**
 > ถ้าทำ Normalizer ก่อน Partitioning, Normalizer จะ "เห็น" ทั้ง Training และ Test data รวมกัน → ค่า Min/Max ที่คำนวณได้จะ "รั่ว" ข้อมูลของ Test set เข้าไปใน Training — ทำให้ผลการประเมินโมเดลสูงเกินจริง
 > **หลักการ:** Normalizer ควร fit บน Training data เท่านั้น
+> &nbsp;
 
+> &nbsp;
 > ⚠️ **ข้อจำกัดของ KNIME Partitioning node:** Stratified sampling ใช้ได้เฉพาะ **Nominal (String)** column เท่านั้น — หลังจาก One to Many ทุก column กลายเป็น Numeric จึงไม่มี String column เหลือและ Stratified sampling จะ grayed out เลือกไม่ได้
 > **แนวทางแก้ไข:** ใช้ **Draw randomly + seed 42** แทน — dataset 400 rows ขนาดเล็กผลแทบไม่ต่างกัน และ seed คงที่ทำให้ผลลัพธ์ reproducible
+> &nbsp;
 
 **เชื่อมต่อ:** Output ของ One to Many → Input ของ Partitioning
 
@@ -374,10 +380,12 @@ Toggle ด้านบน: **Manual** | Wildcard | Regex | Type → เลือ
 | ● **Draw randomly** | ✅ เลือก | สุ่มแบบ random — ใช้ร่วมกับ seed เพื่อให้ผลซ้ำได้ |
 | ○ Stratified sampling | ❌ (grayed out) | ต้องการ Nominal/String column — ไม่สามารถใช้ได้หลัง One to Many |
 
+> &nbsp;
 > 💡 **ทำไม Stratified sampling เลือกไม่ได้?**
 > KNIME Partitioning node กำหนดให้ Stratified sampling ทำงานได้เฉพาะเมื่อมี **Nominal (String) column** ในตาราง
 > หลังผ่าน One to Many (Node 3) แล้ว String columns ทั้ง 6 ตัว (gender, marital_status, education ฯลฯ) ถูกแปลงเป็น Integer (One-Hot) ทั้งหมด → ไม่มี String column เหลือ → Stratified grayed out
 > **Draw randomly + seed 42** ให้ผลที่ acceptable สำหรับ dataset 400 rows
+> &nbsp;
 
 **Use random seed:** ☑ ติ๊ก → ใส่ค่า `42`
 
@@ -511,14 +519,18 @@ DL Python Network Creator → DL Python Network Learner ←───────
         │       (Accuracy/F1)           (AUC)
 ```
 
+> &nbsp;
 > **หมายเหตุสำคัญ — Port Type Compatibility:**
 > ใน KNIME 5.3 โหนดตระกูล **DL Python** (Creator / Learner / Executor) ใช้ port type เดียวกัน (`TF2NetworkPortObjectSpec`) จึงเชื่อมต่อกันได้โดยตรง
 > **Keras Network Learner** และ **Keras Network Executor** ต้องการ port type `DLKerasNetworkPortObjectSpecBase` ซึ่งไม่ compatible กับ TF2Network — ใช้ไม่ได้กับ workflow นี้
+> &nbsp;
 
+> &nbsp;
 > **หมายเหตุ — Lab1_Data_Preparation Metanode:**
 > Metanode นี้ส่งออก 3 ports: Training data (normalized), Test data (normalized), Normalization Model
 > ทั้ง Training และ Test data ผ่าน Normalizer แล้วภายใน metanode — Test data ใช้ **Normalize Model** จาก Training Normalizer (Apply mode) ป้องกัน Data Leakage
 > ⚠️ ใน Normalizer ของ Lab 1 ต้อง **exclude `default` column ออกจากการ normalize** เพราะ `default` เป็น target variable ไม่ใช่ feature — ถ้า normalize แล้วจะกลายเป็น Double (0.0/1.0) ทำให้ Scorer เห็นเป็น 4 classes แทนที่จะเป็น 2 classes
+> &nbsp;
 
 ---
 
@@ -532,8 +544,10 @@ DL Python Network Creator → DL Python Network Learner ←───────
 
 **การเชื่อมต่อ:**
 
+> &nbsp;
 > 💡 **DL Python Network Creator ไม่มี Input port** — เป็น node ที่สร้าง Network Architecture จาก Python code ล้วนๆ ไม่ต้องการ input data ใดๆ
 > Output port เดียวของ node นี้ (สีส้ม) = **TF2 Network** → ต่อไปยัง DL Python Network Learner Port 1
+> &nbsp;
 
 | Port | ทิศทาง | ต่อกับ |
 |------|--------|--------|
@@ -570,9 +584,12 @@ model.compile(
 output_network = model
 ```
 
+> &nbsp;
 > 💡 **ทำไม n_features = 43?**
 > Lab 1 ผลิต 44 columns (13 Numeric + 31 One-Hot) — ลบ `default` (target) ออก 1 column = **43 input features**
+> &nbsp;
 
+> &nbsp;
 > **คำอธิบาย Architecture — ทำไมถึงเลือก Simple Architecture:**
 > - **Dense(16, relu)**: Hidden Layer 1 — 16 neurons รับรู้ patterns จาก 43 features
 > - **Dense(8, relu)**: Hidden Layer 2 — สรุป patterns ก่อน output
@@ -580,6 +597,7 @@ output_network = model
 >
 > ⚠️ **เหตุผลที่ไม่ใช้ Dropout:** Dataset นี้มีเพียง 320 training rows — Dropout ทำให้โมเดล "ลืม" ข้อมูลมากเกินไป เหมาะสมกับ dataset ขนาดใหญ่ (10,000+ rows) เท่านั้น
 > ⚠️ **เหตุผลที่ไม่ใช้ architecture ใหญ่ (64→32→16):** Overfitting risk สูงมากบน dataset เล็ก — โมเดลใหญ่ต้องการข้อมูลมากกว่านี้หลายเท่า
+> &nbsp;
 
 **Tab: Flow Variables** (ไม่ต้องตั้งค่า)
 
@@ -646,17 +664,23 @@ history = model.fit(
 output_network = input_network
 ```
 
+> &nbsp;
 > 💡 **คำอธิบายตัวแปร:**
 > - `input_network` — Keras Sequential model ที่รับจาก DL Python Network Creator (Node 1)
 > - `input_table` — pandas DataFrame ของ Training data 320 rows จาก Partitioning
 > - `output_network` — trained model ที่จะส่งต่อไปยัง DL Python Network Executor
 > - ต้องเขียน `output_network = input_network` เสมอ หรือ KNIME จะ error เพราะ output variable ไม่ถูก set
+> &nbsp;
 
+> &nbsp;
 > ⚠️ **สำคัญ:** `model = input_network` (ไม่ใช่ `input_network.model`)
 > ใน DL Python Network Learner `input_network` คือ Keras model โดยตรง ไม่ใช่ KNIME wrapper
+> &nbsp;
 
+> &nbsp;
 > ⚠️ **Y_train ต้องเป็น 1D:** ใช้ `input_table[target_col]` (ไม่ใช่ `input_table[[target_col]]`)
 > การใช้ double bracket `[[]]` ให้ 2D array shape (N,1) ซึ่งทำให้ `class_weight` ทำงานผิดพลาด
+> &nbsp;
 
 **Tab: Options** (ไม่ต้องแก้ไข — ใช้ค่า Default)
 
@@ -674,6 +698,7 @@ output_network = input_network
 
 กด **OK** แล้ว **Execute**
 
+> &nbsp;
 > **ระหว่าง Execute:** KNIME Console จะแสดง training log ทุก epoch เช่น:
 > ```
 > Epoch 1/200 — loss: 0.6234 — accuracy: 0.6094
@@ -682,6 +707,7 @@ output_network = input_network
 > Epoch 200/200 — loss: 0.4823 — accuracy: 0.7188
 > ```
 > Loss ควรค่อยๆ ลดลง accuracy ค่อยๆ เพิ่มขึ้น — ถ้า loss ไม่ลดเลยตลอด 200 epoch ให้ตรวจสอบว่า feature columns และ target column แยกถูกต้อง
+> &nbsp;
 
 **Output port:**
 - Port 1: Trained TF2 Network → ต่อไปยัง DL Python Network Executor (Node 3)
@@ -694,8 +720,10 @@ output_network = input_network
 **Node Path:** `Analytics → Integrations → Deep Learning → DL Python Network Executor`
 **วัตถุประสงค์:** ใช้ Model ที่ Train แล้วทำนายผลบน Test set ด้วย Python script
 
+> &nbsp;
 > **ทำไมไม่ใช้ Keras Network Executor?**
 > เช่นเดียวกับ Learner — port type ไม่ compatible กัน ต้องใช้โหนดตระกูล **DL Python** ให้ตรงกันตลอด workflow
+> &nbsp;
 
 **การเชื่อมต่อ:**
 - **Input port 1 (Network):** ต่อจาก DL Python Network Learner (Node 2)
@@ -743,7 +771,9 @@ output_table['DL_Prediction_0'] = predictions.flatten()
 **Node Path:** `Manipulation → Column → Convert & Replace → Rule Engine`
 **วัตถุประสงค์:** แปลง Output probability (0.0-1.0) จาก DL model เป็น Class label (0 หรือ 1) สำหรับ Scorer
 
+> &nbsp;
 > **หมายเหตุ:** ผลลัพธ์จาก DL Python Network Executor ออกมาเป็นตารางปกติอยู่แล้ว เพียงแปลงคอลัมน์ probability เป็น 0/1 ด้วย Rule Engine หรือ Math Formula
+> &nbsp;
 
 **การเชื่อมต่อ:**
 - Input port: ต่อจาก DL Python Network Executor (Node 3)
@@ -795,10 +825,12 @@ Output column: `DL_Class_Prediction`
 | **Second column** | `DL_Class_Prediction` | **ค่าทำนาย (Predicted)** — ผลจาก Rule Engine ที่แปลง probability → 0/1 |
 | Sorting strategy | **Insertion order** | เรียงตามลำดับที่พบในข้อมูล |
 
+> &nbsp;
 > ⚠️ **ข้อผิดพลาดที่พบบ่อย:** First Column และ Second Column **ต้องต่างกัน**
 > - **First Column = `default`** (ค่าจริงจากข้อมูล)
 > - **Second Column = `DL_Class_Prediction`** (ค่าที่โมเดลทำนาย)
 > - ถ้าตั้งทั้งสอง column เป็น `DL_Class_Prediction` เหมือนกัน Scorer จะได้ Accuracy = 100% ซึ่งผิดพลาด
+> &nbsp;
 
 กด **OK** แล้ว **Execute**
 
@@ -1378,7 +1410,7 @@ C:\TrainingDocument\Machine Learning and Deep Learning with KNIME - Krungsri\cnn
 > เลือกเฉพาะ `date` เข้า Include — `day_of_week` อยู่ Exclude เพราะเป็น String ที่ไม่ต้องแปลงเป็น Date
 
 **Replace/Append Selection:**
-- ● **Replace selected columns** (แทนที่ column `date` เดิมด้วย Date type ใหม่)
+- **Replace selected columns** (แทนที่ column `date` เดิมด้วย Date type ใหม่)
 
 **Type and Format Selection:**
 
@@ -1914,41 +1946,40 @@ output_table['next_day_total_amount'] = predictions.flatten()
 [CSV Reader]──→[Column Filter_1]──→[Missing Value]──→[One to Many]──→[Normalizer]
    (Node 1)        (Node 2)            (Node 3)          (Node 4)       (Node 5)
                  ตัด 3 columns      Impute missing     One-Hot Encode  Min-Max [0,1]
-                                                                           │
-                    ┌──────────────────────────────────────────────────────┤
-                    │                                                      │
-             [Row Filter]         (ทุก 30,000 rows → ใช้ตอน Evaluate)     │
-              (Node 6)                                                     │
-         กรอง isFraud=0                                                    │
-         28,950 rows                                                       │
-                    │                                                      │
-         [Column Filter_2]                                                 │
-              (Node 7)                                                     │
-           ตัด isFraud ออก                                                 │
-                    │                                                      │
-     [DL Python Network Creator]                                           │
-              (Node 8)                                                     │
-         สร้าง Autoencoder                                                 │
-                    │                                                      │
-   [DL Python Network Learner]──────────────→[DL Python Network Executor]
-              (Node 9)                                (Node 10)
-           Train โมเดล                     รัน ทุก 30,000 rows
-                                                       │
-                                           [Python Script]
-                                              (Node 11)
-                                        คำนวณ Reconstruction Error (MSE)
-                                                       │
-                                           [Rule Engine]
-                                              (Node 12)
-                                        Flag: Anomaly / Normal
-                                                       │
-                                             [Joiner]
-                                             (Node 13)
-                                        รวมกับ isFraud จริง
-                                                       │
-                                             [Scorer]
-                                             (Node 14)
-                                        วัด Precision / Recall
+                                                                        │        │
+                    ┌───────────────────────────────────────────────────┘        │
+                    │                                               (ALL 30,000)  │
+             [Row Filter]                                                         │
+              (Node 6)                                                            │
+         กรอง isFraud=0                                                           │
+         28,950 rows                                                               │
+                    │                                                              │
+         [Column Filter_2]                                                         │
+              (Node 7)                                                             │
+           ตัด isFraud ออก                                                         │
+                    │                                                              ▼
+     [DL Python Network Creator]                                [DL Python Network Executor]
+              (Node 8)                                                   (Node 10)
+         สร้าง Autoencoder                                   รัน ALL 30,000 rows
+                    │                                        (script exclude isFraud เอง)
+   [DL Python Network Learner]──(network)──────────────────►         │
+              (Node 9)                                                 │
+           Train โมเดล                                     [Python Script (Node 11)]
+                                                       คำนวณ reconstruction_error (MSE)
+                                                                       │
+                                                          [Rule Engine (Node 12)]
+                                                     $reconstruction_error$ > 0.036
+                                                     => "Fraud" / "Normal"
+                                                                       │
+                                      ┌────────────────────────────────┤ (Top port)
+                                      │                                │
+                    [CSV Reader]      │                             [Joiner]
+                    → Rule Engine     │                             (Node 13)
+                    (Bottom path)─────┘ (Bottom port)    รวม predicted_fraud + isFraud
+                    $isFraud$ > 0                                      │
+                    => "Fraud"                                     [Scorer]
+                    TRUE => "Normal"                               (Node 14)
+                                                         Confusion Matrix / Precision / Recall
 ```
 
 ---
@@ -2194,12 +2225,11 @@ output_network = input_network
 
 **เชื่อมต่อ:**
 - **Port 1 (Network):** Output ของ DL Python Network Learner (Node 9)
-- **Port 2 (Table):** Output ของ Normalizer (Node 5) **ผ่าน Column Filter (Node 10a)** ที่ตัด `isFraud` ออก
+- **Port 2 (Table):** Output ของ **Normalizer (Node 5) โดยตรง** — ทุก 30,000 rows รวม Fraud
 
-> ⚠️ **ต้องเพิ่ม Column Filter (Node 10a)** ระหว่าง Normalizer และ DL Python Network Executor:
-> - ต่อ Output ของ Normalizer (Node 5) เข้า Column Filter ใหม่ (Node 10a)
-> - ใน Column Filter: ย้าย `isFraud` ไปที่ Excludes
-> - Output (29 features, 30,000 rows) → DL Python Network Executor
+> 💡 **ทำไมต่อจาก Normalizer โดยตรง (ไม่ผ่าน Row Filter)?**
+> เราต้องการ reconstruct **ทุก transactions** ทั้ง Normal และ Fraud เพื่อคำนวณ reconstruction_error
+> Row Filter ใช้เฉพาะสำหรับ Training (Node 9) เท่านั้น — Executor ต้องเห็นทุก row
 
 **Tab: Script** — ลบ code เดิมออก แล้วพิมพ์โค้ดต่อไปนี้:
 
@@ -2207,15 +2237,21 @@ output_network = input_network
 import numpy as np
 import pandas as pd
 
-# ─── Reconstruct ทุก 30,000 rows ────────────────────────────────────
-X_all = input_table.values.astype(np.float32)
+# ─── กรอง isFraud ออก (model ถูก train โดยไม่มี column นี้) ──────────
+# input_table มาจาก Normalizer ซึ่งยังมี isFraud อยู่ → ต้องตัดออกก่อน predict
+exclude_cols = ['isFraud']
+feature_cols = [c for c in input_table.columns if c not in exclude_cols]
+
+# ─── Reconstruct ทุก 30,000 rows ─────────────────────────────────────
+X_all = input_table[feature_cols].values.astype(np.float32)
 
 model = input_network
 X_reconstructed = model.predict(X_all, verbose=0)
 
 # ─── สร้างตารางผลลัพธ์ ────────────────────────────────────────────────
 # เพิ่ม reconstructed columns ต่อท้าย original columns
-recon_cols = [c + '_recon' for c in input_table.columns]
+# recon_cols อ้างอิง feature_cols ไม่ใช่ input_table.columns ทั้งหมด
+recon_cols = [c + '_recon' for c in feature_cols]
 df_recon = pd.DataFrame(X_reconstructed, columns=recon_cols,
                         index=input_table.index)
 
@@ -2225,8 +2261,10 @@ output_table = pd.concat([input_table, df_recon], axis=1)
 กด **OK** แล้ว **Execute**
 
 **ผลลัพธ์:** ตาราง 30,000 rows ที่มีทั้ง:
-- 29 columns ต้นฉบับ (ค่า normalized เดิม เช่น `V1`, `V2`, ...)
-- 29 columns ที่ reconstruct (ชื่อ `V1_recon`, `V2_recon`, ...)
+- 30 columns ต้นฉบับ (29 features + `isFraud`)
+- 29 columns ที่ reconstruct (ชื่อลงท้าย `_recon` เช่น `TransactionAmt_recon`, `D1_recon`, ...)
+
+> ⚠️ **สาเหตุที่แยก feature_cols:** model ถูก train ด้วย 29 features (ไม่มี isFraud) → input ต้องมีขนาดเท่ากัน (29) มิฉะนั้นจะ error "Input shape mismatch"
 
 ---
 
@@ -2239,37 +2277,48 @@ output_table = pd.concat([input_table, df_recon], axis=1)
 **ดับเบิ้ลคลิก** เพื่อเปิด Python Script Editor:
 
 ```python
+import knime.scripting.io as knio  # ← ต้องใช้ knio สำหรับ Python Script node ใน KNIME 5.3
 import numpy as np
 import pandas as pd
 
-# รับข้อมูลจาก KNIME
-df = input_table.copy()
+# ─── รับข้อมูลจาก KNIME ────────────────────────────────────────────────
+# Python Script node ใช้ knio ไม่ใช่ input_table
+# (input_table ใช้ได้เฉพาะใน DL Python nodes เท่านั้น)
+df = knio.input_tables[0].to_pandas()
 
-# แยก columns input (ค่าเดิม) กับ output (ค่าที่ reconstruct)
-# DL Python Network Executor เพิ่ม columns ชื่อ V1_recon, V2_recon, ...
+# ─── แยก original columns กับ reconstructed columns ────────────────────
+# DL Python Network Executor (Node 10) สร้าง columns ลงท้าย _recon
+# เช่น V1 → V1_recon, TransactionAmt → TransactionAmt_recon
 all_cols = list(df.columns)
 
-# Input columns = 29 features เดิม (ไม่มี _recon suffix)
-# Output columns = columns ที่ลงท้ายด้วย _recon
 input_cols  = [c for c in all_cols if not c.endswith('_recon')]
-output_cols = [c for c in all_cols if c.endswith('_recon')]
+output_cols = [c for c in all_cols if     c.endswith('_recon')]
 
-# คำนวณ Reconstruction Error (MSE) ต่อ row
+# ─── คำนวณ Reconstruction Error (MSE) ต่อ row ─────────────────────────
 input_vals  = df[input_cols].values.astype(float)
 output_vals = df[output_cols].values.astype(float)
 
 mse_per_row = np.mean((input_vals - output_vals) ** 2, axis=1)
 
-# เพิ่มคอลัมน์ reconstruction_error
+# ─── เพิ่ม column reconstruction_error ───────────────────────────────
 df['reconstruction_error'] = mse_per_row
 
-output_table = df
+# ─── ส่ง output กลับ KNIME ────────────────────────────────────────────
+knio.output_tables[0] = knio.Table.from_pandas(df)
 ```
 
 กด **Execute**
 
-> 💡 **Reconstruction Error = MSE ต่อ row** = ค่าเฉลี่ยของ (input - output)² ทุก feature
-> ธุรกรรม Fraud คาดว่าจะมีค่านี้สูงกว่าธุรกรรมปกติ
+> ⚠️ **สาเหตุที่ต้องใช้ `knio` ไม่ใช่ `input_table`:**
+> ใน KNIME 5.3 มี Python node 2 ประเภท — ต้องใช้ตัวแปรต่างกัน:
+>
+> | Node | ตัวแปร Input | ตัวแปร Output |
+> |------|-------------|--------------|
+> | **DL Python** (Creator/Learner/Executor) | `input_table`, `input_network` | `output_table`, `output_network` |
+> | **Python Script** (node ปกติ) | `knio.input_tables[0].to_pandas()` | `knio.output_tables[0] = knio.Table.from_pandas(df)` |
+
+> 💡 **Reconstruction Error = MSE ต่อ row** = ค่าเฉลี่ยของ (input − output)² ทุก feature
+> ธุรกรรม Fraud มี pattern แตกต่างจากปกติ → Autoencoder reconstruct ไม่ได้ดี → ค่าสูงกว่า
 
 ---
 
@@ -2281,20 +2330,27 @@ output_table = df
 
 **ดับเบิ้ลคลิก** เพื่อเปิด Dialog:
 
-**กำหนด Threshold:** ก่อนตั้งค่า Rule Engine ให้ดูค่า Reconstruction Error ก่อน:
-- คลิกขวาที่ Python Script node → **Interactive View** หรือ **Statistics**
-- ดูค่า mean และ std ของ `reconstruction_error`
-- **Threshold แนะนำ = mean + 2 × std** (ครอบคลุม 97.7% ของข้อมูลปกติ)
-- หรือเริ่มต้นจาก threshold = `0.01` แล้วปรับตามผล
+**กำหนด Threshold จาก Statistics จริง:**
+- คลิกขวาที่ Python Script node → **Open first output port** → คลิก **Statistics**
+- ดูแถว `reconstruction_error`:
+
+| Metric | ค่าตัวอย่าง |
+|--------|------------|
+| Mean | 0.014 |
+| Std Dev | 0.011 |
+| 75th percentile | 0.014 |
+
+- **Threshold แนะนำ = Mean + 2 × Std = 0.014 + 2×0.011 = 0.036**
+- ค่านี้ครอบคลุม ~97.7% ของธุรกรรมปกติ → ค่าที่เกิน threshold = "น่าสงสัย"
 
 **กฎที่ต้องใส่ใน Rule Engine:**
 
 ```
-$reconstruction_error$ > 0.01 => "Fraud"
+$reconstruction_error$ > 0.036 => "Fraud"
 TRUE => "Normal"
 ```
 
-> 📝 **ปรับค่า 0.01 ตามที่สังเกตจากข้อมูลจริง** — ค่านี้เป็นเพียงจุดเริ่มต้น
+> 📝 **ปรับ 0.036 ตาม Mean+2×Std จากข้อมูลจริงของท่าน** — ถ้าต้องการ Recall สูงขึ้น ให้ลด threshold ลง (เช่น 0.025) แต่ Precision จะลดลงด้วย
 
 | ช่อง | ค่าที่ตั้ง |
 |------|-----------|
@@ -2305,26 +2361,56 @@ TRUE => "Normal"
 
 ---
 
+### Rule Engine (Bottom Path) — แปลง isFraud เป็น String
+
+**ค้นหาใน Node Repository:** `Manipulation → Column → Convert & Replace → Rule Engine`
+
+**วัตถุประสงค์:** Scorer ต้องการ type เดียวกันทั้งสอง column (`predicted_fraud` เป็น String) ดังนั้นต้องแปลง `isFraud` จาก Integer (0/1) เป็น String ("Normal"/"Fraud")
+
+**เชื่อมต่อ:**
+- **Input:** Output ของ CSV Reader (Node 1) — มี `isFraud` เป็น Integer 0/1
+
+**ดับเบิ้ลคลิก** เพื่อเปิด Dialog:
+
+**กฎที่ต้องใส่:**
+
+```
+$isFraud$ > 0 => "Fraud"
+TRUE => "Normal"
+```
+
+> ⚠️ **ใช้ `> 0` ไม่ใช่ `= 1`** — เพราะ `isFraud` ใน CSV อาจเป็น Double (0.0/1.0) ทำให้ `= 1` ไม่ match แต่ `> 0` ครอบคลุมทั้ง Integer และ Double
+
+| ช่อง | ค่าที่ตั้ง |
+|------|-----------|
+| **Replace Column** | ✅ เลือก |
+| **Column** | `isFraud` |
+
+กด **Ok and Execute**
+
+---
+
 ### Node 13: Joiner — รวมกับ isFraud จริง
 
 **ค้นหาใน Node Repository:** `Manipulation → Column → Join → Joiner`
 
 **เชื่อมต่อ:**
-- **Port บน (Left):** Output ของ Rule Engine (30,000 rows + reconstruction_error + predicted_fraud)
-- **Port ล่าง (Right):** Output ของ Normalizer Node 5 (ที่มีทั้ง features + `isFraud`)
+- **Port บน (Top):** Output ของ Rule Engine (Node 12) — มี `predicted_fraud` + `reconstruction_error`
+- **Port ล่าง (Bottom):** Output ของ Rule Engine (Bottom path) — มี `isFraud` เป็น "Normal"/"Fraud"
 
 **ดับเบิ้ลคลิก** เพื่อเปิด Dialog — แท็บ **Joiner settings:**
 
 | ช่อง | ค่าที่ตั้ง |
 |------|-----------|
-| **Join column(s)** | ไม่ต้องตั้ง Row Key join (ใช้ Row index อัตโนมัติ) |
-| **Join mode** | `Inner Join` |
+| **Top join column** | `Row ID` |
+| **Bottom join column** | `Row ID` |
+| **Join mode** | `Left Outer Join` |
+
+> 💡 **ทำไมใช้ Row ID?** Row ID ไม่เปลี่ยนตลอด pipeline ตั้งแต่ CSV Reader → ทำให้ match ได้ถูกต้อง 100%
 
 **แท็บ Column Selection:**
-- Left table: เลือก `reconstruction_error`, `predicted_fraud`
-- Right table: เลือก `isFraud`
-
-> 💡 หรืออาจใช้วิธีง่ายกว่า: ใน Python Script (Node 11) ให้เก็บ `isFraud` ไว้ตั้งแต่ต้นโดยผ่านข้อมูล Normalizer ที่ยังมี `isFraud` เข้า Python Script โดยตรง แล้วไม่ต้องใช้ Joiner
+- **Top input:** เลือกทุก column (ค่า default)
+- **Bottom input:** เลือกเฉพาะ **`isFraud`** เท่านั้น (unchecked columns อื่นออกหมด เพื่อไม่ให้ duplicate)
 
 กด **Ok and Execute**
 
@@ -2340,12 +2426,20 @@ TRUE => "Normal"
 
 | ช่อง | ค่าที่ตั้ง |
 |------|-----------|
-| **First column** | `predicted_fraud` ("Fraud" / "Normal") |
-| **Second column** | `isFraud` (0 / 1) |
+| **First column** | `predicted_fraud` (String: "Fraud" / "Normal") |
+| **Second column** | `isFraud` (String: "Fraud" / "Normal" — หลัง Rule Engine bottom แปลงแล้ว) |
 
-> ⚠️ **หมายเหตุ:** Scorer ต้องการ type เดียวกัน — ถ้า `isFraud` เป็น Integer (0/1) แต่ `predicted_fraud` เป็น String ให้เพิ่ม Rule Engine แปลง `isFraud` เป็น "1" / "0" ก่อน หรือใช้ **Node: Number To String** แปลงก่อน Scorer
+> 💡 **ทั้งสอง column เป็น String "Fraud"/"Normal" เหมือนกัน** เพราะ Rule Engine (bottom path) แปลง `isFraud` จาก Integer 0/1 มาแล้ว — Scorer จึงสามารถ compare ได้ถูกต้อง
 
 กด **Ok and Execute**
+
+**Confusion Matrix ที่คาดหวัง:**
+
+```
+                  Predicted: Normal   Predicted: Fraud
+Actual: Normal         TN                   FP
+Actual: Fraud          FN                   TP   ← ต้องการให้ค่านี้สูง
+```
 
 ---
 
@@ -2394,15 +2488,15 @@ TRUE => "Normal"
 | 4 | One to Many | One-Hot: ProductCD + card4 + card6 (→ 13 One-Hot cols) |
 | 5 | Normalizer | Min-Max [0,1] ทุก feature ยกเว้น isFraud |
 | 6 | Row Filter | กรองเฉพาะ isFraud=0 → Training (28,950 rows) |
-| 7 | Column Filter | ตัด isFraud ออกจาก Training data |
+| 7 | Column Filter | ตัด isFraud ออกจาก Training data (29 features) |
 | 8 | DL Python Network Creator | สร้าง Autoencoder: 29→16→8→4→8→16→29 |
-| 9 | DL Python Network Learner | Train: Loss=MSE, Adam, Epoch=50, Batch=256 (Python script) |
-| 10a | Column Filter | ตัด isFraud จาก full dataset สำหรับ Executor |
-| 10 | DL Python Network Executor | Reconstruct ทั้ง 30,000 rows (Python script) |
-| 11 | Python Script | คำนวณ Reconstruction Error (MSE per row) |
-| 12 | Rule Engine | Flag: reconstruction_error > threshold → "Fraud" |
-| 13 | Joiner | รวมผลทำนายกับ isFraud จริง |
-| 14 | Scorer | วัด Precision / Recall / Confusion Matrix |
+| 9 | DL Python Network Learner | Train บน Normal only: Loss=MSE, Adam, Epoch=50, Batch=256 |
+| 10 | DL Python Network Executor | Reconstruct ALL 30,000 rows จาก Normalizer (script exclude isFraud เอง) |
+| 11 | Python Script (knio) | คำนวณ reconstruction_error (MSE per row) ใช้ knio API |
+| 12 | Rule Engine (main) | Flag: `$reconstruction_error$ > 0.036` → "Fraud" / "Normal" → column `predicted_fraud` |
+| — | Rule Engine (bottom) | แปลง CSV `isFraud` Integer → "Fraud"/"Normal" String (ใช้ `> 0`) |
+| 13 | Joiner | Join ด้วย Row ID (Left Outer): รวม predicted_fraud กับ isFraud จาก bottom path |
+| 14 | Scorer | First: `predicted_fraud`, Second: `isFraud` → Confusion Matrix / Precision / Recall |
 
 ---
 
@@ -2602,52 +2696,4 @@ How do I install KNIME Analytics Platform?
 > **ตัวอย่าง Prompt สำหรับงาน Internal Audit:**
 > ```
 > Summarize the following transaction anomaly in 2 sentences for an audit report: 
-> Date 2024-11-15, Amount 8,500,000 THB, Z-score 4.2, flagged as unusual.
-> ```
-
-กด **OK**
-
----
-
-### ผลลัพธ์ที่ได้
-
-หลัง Execute ทั้ง Workflow — Output table จาก LLM Prompter มี 2 columns:
-
-| Column | ตัวอย่างข้อมูล |
-|--------|--------------|
-| `Prompt` | `How do I install KNIME Analytics Platform?` |
-| `Response` | `To install KNIME Analytics Platform, visit knime.com/downloads, select your OS, download the installer, and follow the installation wizard...` |
-
----
-
-### การประยุกต์ใช้ในงาน Internal Audit
-
-| Use Case | ตัวอย่าง Prompt |
-|----------|---------------|
-| **Summarize anomaly** | `"วันที่ 2024-11-15 มียอดธุรกรรม 8.5 ล้านบาท สูงกว่าค่าเฉลี่ย 4.2 เท่า สรุปความเสี่ยงสำหรับ Audit Report ใน 2 ประโยค"` |
-| **Explain ML result** | `"LSTM ทำนาย next day = 45 ล้านบาท แต่ actual = 92 ล้านบาท อธิบายสาเหตุที่เป็นไปได้"` |
-| **Generate report** | `"จาก fraud_summary นี้ เขียน Executive Summary สำหรับผู้บริหาร ความยาว 1 ย่อหน้า"` |
-| **Translate finding** | `"แปลผลการตรวจสอบต่อไปนี้เป็นภาษาอังกฤษสำหรับ International Audit Report"` |
-
-> 💡 **เทคนิค Dynamic Prompt:** ใช้ **String Manipulation** node ประกอบ Prompt แบบ dynamic จากข้อมูลในตาราง เช่น รวม `date`, `amount`, `flag_reason` เข้ากับ template ก่อนส่งเข้า LLM Prompter ทุก row จะได้ Prompt เฉพาะของตัวเอง
-
----
-
-### สรุป Lab 6 — KNIME with Gen AI
-
-| Node | ชื่อ | หน้าที่ |
-|------|------|---------|
-| 1 | Credentials Configuration | เก็บ API Key ใน Password field, variable name = `credentials` |
-| 2 | OpenAI Authenticator | รับ `credentials` → ยืนยันตัวตนกับ OpenAI |
-| 3 | OpenAI Chat Model Connector | `gpt-4o-mini`, Temperature=0.2, Max tokens=800 |
-| 4 | OpenAI LLM Connector | `gpt-3.5-turbo-instruct`, Temperature=0.2, Max tokens=200 |
-| 5 | LLM Prompter | Prompt column=`Prompt`, Response column=`Response` |
-| 6 | Table Creator | column `Prompt` (String), Row0 = คำถาม/คำสั่งสำหรับ LLM |
-
-> **หลักการ:** Authenticate → Select Model → Create Prompt Table → LLM Prompter → Response
-> ทุกอย่างอยู่ใน KNIME Workflow — ไม่ต้องเขียน Python หรือ API code เพิ่มเติม
-
----
-
-*จบเอกสาร Day 3 Labs — Machine Learning and Deep Learning with KNIME*
-*อาจารย์สามิตร โกยม | IT Genius Engineering Co., Ltd.*
+> Date 2024-11-15, Amount 8,500,000 THB, Z-score 4.2, flagged a
